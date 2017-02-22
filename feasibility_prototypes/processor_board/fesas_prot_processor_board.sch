@@ -62,7 +62,7 @@ U 1 1 58A45214
 P 8450 1050
 F 0 "P4" H 8450 1400 50  0000 C CNN
 F 1 "CONN_01X06" V 8550 1050 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x06_Pitch2.54mm" H 8450 1050 50  0001 C CNN
+F 2 "med_conn_prototype_footprints:Sullins_SMD_pin_header_1x6_GBC36SABN-M30" H 8450 1050 50  0001 C CNN
 F 3 "" H 8450 1050 50  0000 C CNN
 	1    8450 1050
 	0    1    -1   0   
@@ -73,16 +73,14 @@ U 1 1 58A456BD
 P 6550 1050
 F 0 "P3" H 6550 1200 50  0000 C CNN
 F 1 "CONN_01X02" V 6650 1050 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x02_Pitch2.54mm" H 6550 1050 50  0001 C CNN
+F 2 "med_conn_prototype_footprints:Sullins_SMD_pin_header_1x2_GBC36SABN-M30" H 6550 1050 50  0001 C CNN
 F 3 "" H 6550 1050 50  0000 C CNN
 	1    6550 1050
 	0    -1   -1   0   
 $EndComp
 Text Label 5900 3750 2    60   ~ 0
 MCLR/Vpp
-Text Label 2000 4450 0    60   ~ 0
-PGD(ICSPDAT)
-Text Label 2000 4350 0    60   ~ 0
+Text Label 3900 5750 2    60   ~ 0
 PGC(ICSPCLK)
 $Comp
 L VDD #PWR01
@@ -156,7 +154,7 @@ U 1 1 58A47D21
 P 1550 3200
 F 0 "P1" H 1550 3650 50  0000 C CNN
 F 1 "CONN_01X08" V 1550 2500 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x08_Pitch2.54mm" H 1550 3200 50  0001 C CNN
+F 2 "med_conn_prototype_footprints:Sullins_SMD_pin_header_1x8_GBC36SABN-M30" H 1550 3200 50  0001 C CNN
 F 3 "" H 1550 3200 50  0000 C CNN
 	1    1550 3200
 	-1   0    0    1   
@@ -167,7 +165,7 @@ U 1 1 58A4937C
 P 1550 4100
 F 0 "P2" H 1550 4550 50  0000 C CNN
 F 1 "CONN_01X08" V 1550 4850 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x08_Pitch2.54mm" H 1550 4100 50  0001 C CNN
+F 2 "med_conn_prototype_footprints:Sullins_SMD_pin_header_1x8_GBC36SABN-M30" H 1550 4100 50  0001 C CNN
 F 3 "" H 1550 4100 50  0000 C CNN
 	1    1550 4100
 	-1   0    0    1   
@@ -180,7 +178,7 @@ U 1 1 58A49E94
 P 6700 3200
 F 0 "P5" H 6700 3650 50  0000 C CNN
 F 1 "CONN_01X08" V 6700 2550 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x08_Pitch2.54mm" H 6700 3200 50  0001 C CNN
+F 2 "med_conn_prototype_footprints:Sullins_SMD_pin_header_1x8_GBC36SABN-M30" H 6700 3200 50  0001 C CNN
 F 3 "" H 6700 3200 50  0000 C CNN
 	1    6700 3200
 	1    0    0    -1  
@@ -199,7 +197,7 @@ U 1 1 58A4C63C
 P 7100 3200
 F 0 "P8" H 7100 3650 50  0000 C CNN
 F 1 "CONN_01X08" V 7100 2550 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x08_Pitch2.54mm" H 7100 3200 50  0001 C CNN
+F 2 "med_conn_prototype_footprints:wire_solder_pad_2.54mm_1x8" H 7100 3200 50  0001 C CNN
 F 3 "" H 7100 3200 50  0000 C CNN
 	1    7100 3200
 	1    0    0    -1  
@@ -212,7 +210,7 @@ U 1 1 58A4CB71
 P 1150 3200
 F 0 "P6" H 1150 3650 50  0000 C CNN
 F 1 "CONN_01X08" V 1150 2500 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x08_Pitch2.54mm" H 1150 3200 50  0001 C CNN
+F 2 "med_conn_prototype_footprints:wire_solder_pad_2.54mm_1x8" H 1150 3200 50  0001 C CNN
 F 3 "" H 1150 3200 50  0000 C CNN
 	1    1150 3200
 	-1   0    0    1   
@@ -223,7 +221,7 @@ U 1 1 58A4D11D
 P 1150 4100
 F 0 "P7" H 1150 4550 50  0000 C CNN
 F 1 "CONN_01X08" V 1150 4850 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x08_Pitch2.54mm" H 1150 4100 50  0001 C CNN
+F 2 "med_conn_prototype_footprints:wire_solder_pad_2.54mm_1x8" H 1150 4100 50  0001 C CNN
 F 3 "" H 1150 4100 50  0000 C CNN
 	1    1150 4100
 	-1   0    0    1   
@@ -299,12 +297,12 @@ $EndComp
 $Comp
 L GND #PWR05
 U 1 1 58A597DF
-P 3900 5150
-F 0 "#PWR05" H 3900 4900 50  0001 C CNN
-F 1 "GND" H 3900 5000 50  0000 C CNN
-F 2 "" H 3900 5150 50  0000 C CNN
-F 3 "" H 3900 5150 50  0000 C CNN
-	1    3900 5150
+P 3900 4900
+F 0 "#PWR05" H 3900 4650 50  0001 C CNN
+F 1 "GND" H 3900 4750 50  0000 C CNN
+F 2 "" H 3900 4900 50  0000 C CNN
+F 3 "" H 3900 4900 50  0000 C CNN
+	1    3900 4900
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -346,7 +344,7 @@ U 1 1 58A5AFE3
 P 6950 1650
 F 0 "P9" H 6950 1500 50  0000 C CNN
 F 1 "CONN_01X02" V 7050 1650 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x02_Pitch2.54mm" H 6950 1650 50  0001 C CNN
+F 2 "med_conn_prototype_footprints:Sullins_SMD_pin_header_1x2_GBC36SABN-M30" H 6950 1650 50  0001 C CNN
 F 3 "" H 6950 1650 50  0000 C CNN
 	1    6950 1650
 	1    0    0    -1  
@@ -357,7 +355,7 @@ U 1 1 58A5B05F
 P 7350 1650
 F 0 "P10" H 7350 1800 50  0000 C CNN
 F 1 "CONN_01X02" V 7450 1650 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x02_Pitch2.54mm" H 7350 1650 50  0001 C CNN
+F 2 "med_conn_prototype_footprints:Sullins_SMD_pin_header_1x2_GBC36SABN-M30" H 7350 1650 50  0001 C CNN
 F 3 "" H 7350 1650 50  0000 C CNN
 	1    7350 1650
 	-1   0    0    1   
@@ -415,17 +413,7 @@ CAP_SENSOR
 Wire Wire Line
 	4900 3750 5900 3750
 Wire Wire Line
-	2000 4350 2900 4350
-Wire Wire Line
-	2900 4450 2000 4450
-Wire Wire Line
 	3900 2450 3900 1850
-Wire Wire Line
-	3900 4850 3900 5150
-Wire Wire Line
-	3900 5150 4000 5150
-Wire Wire Line
-	4000 5150 4000 4850
 Wire Wire Line
 	6600 1250 6600 1350
 Wire Wire Line
@@ -589,4 +577,80 @@ Wire Wire Line
 	5050 1550 5050 1650
 NoConn ~ 5600 2350
 NoConn ~ 5100 2350
+Wire Wire Line
+	3900 4900 3900 4850
+Wire Wire Line
+	3900 4900 4000 4900
+Wire Wire Line
+	4000 4900 4000 4850
+Wire Wire Line
+	2900 4450 2200 4450
+Wire Wire Line
+	2200 4450 2200 5300
+Wire Wire Line
+	2200 5300 2450 5300
+Wire Wire Line
+	2900 4350 2100 4350
+Wire Wire Line
+	2100 4350 2100 5650
+Wire Wire Line
+	2100 5650 2450 5650
+Wire Wire Line
+	3250 5400 3900 5400
+Wire Wire Line
+	3250 5750 3900 5750
+$Comp
+L NKKswitches_G3T22AP SW1
+U 1 1 58AD9EC0
+P 2850 5050
+F 0 "SW1" H 2850 4250 60  0000 C CNN
+F 1 "NKKswitches_G3T22AP" H 2850 5050 60  0000 C CNN
+F 2 "med_conn_prototype_footprints:NKKSwitches_G3T22AP" H 2850 5050 60  0001 C CNN
+F 3 "" H 2850 5050 60  0001 C CNN
+	1    2850 5050
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R6
+U 1 1 58ADA5F0
+P 4250 5550
+F 0 "R6" V 4330 5550 50  0000 C CNN
+F 1 "R" V 4250 5550 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 4180 5550 50  0001 C CNN
+F 3 "" H 4250 5550 50  0000 C CNN
+	1    4250 5550
+	1    0    0    1   
+$EndComp
+Text Label 3900 5400 2    60   ~ 0
+PGD(ICSPDAT)
+$Comp
+L R R5
+U 1 1 58ADB679
+P 4250 5150
+F 0 "R5" V 4330 5150 50  0000 C CNN
+F 1 "R" V 4250 5150 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 4180 5150 50  0001 C CNN
+F 3 "" H 4250 5150 50  0000 C CNN
+	1    4250 5150
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	3250 5200 4100 5200
+Wire Wire Line
+	4100 5200 4100 5000
+Wire Wire Line
+	4100 5000 4250 5000
+Wire Wire Line
+	3250 5550 4100 5550
+Wire Wire Line
+	4100 5550 4100 5700
+Wire Wire Line
+	4100 5700 4250 5700
+Wire Wire Line
+	4250 5400 4250 5300
+Wire Wire Line
+	4250 5350 4850 5350
+Connection ~ 4250 5350
+Text Label 4850 5350 2    60   ~ 0
+Guard_trace
 $EndSCHEMATC

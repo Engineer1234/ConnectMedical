@@ -1,4 +1,4 @@
-update=16-02-2017 14:44:43
+update=22-02-2017 16:05:00
 version=1
 last_client=kicad
 [pcbnew]
@@ -23,8 +23,6 @@ ModuleOutlineThickness=0.150000000000
 [cvpcb]
 version=1
 NetIExt=net
-[general]
-version=1
 [eeschema]
 version=1
 LibDir=../../libraries
@@ -60,3 +58,5 @@ LibName28=contrib
 LibName29=valves
 LibName30=microchip_pic16mcu
 LibName31=C:/Users/EdLi.HOTSWAP/Documents/SHL/InsulCheck/git/Connect-Med-Hardware/libraries/med_conn_prot
+[general]
+version=1
