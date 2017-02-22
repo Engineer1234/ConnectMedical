@@ -1,0 +1,83 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#
+# Abracon_ABS25
+#
+DEF Abracon_ABS25 Y 0 40 Y Y 1 F N
+F0 "Y" 0 -650 60 H V C CNN
+F1 "Abracon_ABS25" 0 0 60 H V C CNN
+F2 "" 0 0 60 H I C CNN
+F3 "" 0 0 60 H I C CNN
+DRAW
+S -300 -500 250 -500 0 1 0 N
+S -300 -200 -300 -500 0 1 0 N
+S -250 -400 -50 -300 0 1 0 N
+S -250 -300 -250 -400 0 1 0 N
+S -200 -250 -100 -250 0 1 0 N
+S -150 -500 -150 -450 0 1 0 N
+S -150 -200 -300 -200 0 1 0 N
+S -150 -200 -150 -250 0 1 0 N
+S -100 -450 -200 -450 0 1 0 N
+S 150 -500 150 -200 0 1 0 N
+S 250 -500 300 -500 0 1 0 N
+S 300 -500 300 -200 0 1 0 N
+S 300 -200 -150 -200 0 1 0 N
+X ~ 1 -150 -600 100 U 50 50 1 1 B
+X ~ 2 150 -600 100 U 50 50 1 1 P
+X ~ 3 150 -100 100 D 50 50 1 1 P
+X ~ 4 -150 -100 100 D 50 50 1 1 B
+ENDDRAW
+ENDDEF
+#
+# NKKswitches_G3T22AP
+#
+DEF NKKswitches_G3T22AP SW 0 40 Y Y 1 F N
+F0 "SW" 0 -800 60 H V C CNN
+F1 "NKKswitches_G3T22AP" 0 0 60 H V C CNN
+F2 "" 0 0 60 H I C CNN
+F3 "" 0 0 60 H I C CNN
+DRAW
+C -150 -600 50 0 1 0 N
+C -150 -250 50 0 1 0 N
+C 150 -700 50 0 1 0 N
+C 150 -500 50 0 1 0 N
+C 150 -350 50 0 1 0 N
+C 150 -150 50 0 1 0 N
+P 2 0 1 0 -100 -600 50 -450 N
+P 2 0 1 0 -100 -250 50 -100 N
+P 2 0 1 0 0 -500 0 -150 N
+X ~ 1 400 -500 200 L 50 50 1 1 P
+X ~ 2 -400 -600 200 R 50 50 1 1 P
+X ~ 3 400 -700 200 L 50 50 1 1 P
+X ~ 4 400 -150 200 L 50 50 1 1 P
+X ~ 5 -400 -250 200 R 50 50 1 1 P
+X ~ 6 400 -350 200 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# cap_sense_pad
+#
+DEF cap_sense_pad C 0 40 Y Y 1 F N
+F0 "C" 0 -500 60 H V C CNN
+F1 "cap_sense_pad" 0 0 60 H V C CNN
+F2 "" 0 0 60 H I C CNN
+F3 "" 0 0 60 H I C CNN
+DRAW
+S -350 -100 150 -400 0 1 0 N
+X Cap_Sense 1 350 -250 200 L 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# med_conn_prot_cap_sense_pad
+#
+DEF med_conn_prot_cap_sense_pad C 0 40 Y Y 1 F N
+F0 "C" 0 -550 60 H V C CNN
+F1 "med_conn_prot_cap_sense_pad" 0 0 60 H V C CNN
+F2 "" 0 0 60 H I C CNN
+F3 "" 0 0 60 H I C CNN
+DRAW
+X Cap_Sense 1 250 -250 200 L 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+#End Library
