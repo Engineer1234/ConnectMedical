@@ -1,0 +1,268 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:med_conn_prot
+LIBS:feas_prot_ir_board-cache
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L LED D1
+U 1 1 58ADBE6E
+P 4000 3050
+F 0 "D1" V 4100 3200 50  0000 C CNN
+F 1 "APT1608F3C" V 3900 3400 50  0000 C CNN
+F 2 "IC_trial_footprints:LED_APT1608F3C" H 4000 3050 50  0001 C CNN
+F 3 "" H 4000 3050 50  0000 C CNN
+	1    4000 3050
+	0    -1   -1   0   
+$EndComp
+$Comp
+L C C1
+U 1 1 58ADC072
+P 4400 3350
+F 0 "C1" H 4425 3450 50  0000 L CNN
+F 1 "1uF" H 4425 3250 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0805_HandSoldering" H 4438 3200 50  0001 C CNN
+F 3 "" H 4400 3350 50  0000 C CNN
+	1    4400 3350
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C2
+U 1 1 58ADC0E3
+P 5300 3650
+F 0 "C2" H 5325 3750 50  0000 L CNN
+F 1 "1nF" H 5325 3550 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0805_HandSoldering" H 5338 3500 50  0001 C CNN
+F 3 "" H 5300 3650 50  0000 C CNN
+	1    5300 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R2
+U 1 1 58ADC12A
+P 4750 3650
+F 0 "R2" V 4830 3650 50  0000 C CNN
+F 1 "10k" V 4750 3650 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 4680 3650 50  0001 C CNN
+F 3 "" H 4750 3650 50  0000 C CNN
+	1    4750 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R1
+U 1 1 58ADC1A1
+P 4000 3650
+F 0 "R1" V 4080 3650 50  0000 C CNN
+F 1 "100" V 4000 3650 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 3930 3650 50  0001 C CNN
+F 3 "" H 4000 3650 50  0000 C CNN
+	1    4000 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR01
+U 1 1 58ADC222
+P 4000 4000
+F 0 "#PWR01" H 4000 3750 50  0001 C CNN
+F 1 "GND" H 4000 3850 50  0000 C CNN
+F 2 "" H 4000 4000 50  0000 C CNN
+F 3 "" H 4000 4000 50  0000 C CNN
+	1    4000 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR02
+U 1 1 58ADC242
+P 4750 4000
+F 0 "#PWR02" H 4750 3750 50  0001 C CNN
+F 1 "GND" H 4750 3850 50  0000 C CNN
+F 2 "" H 4750 4000 50  0000 C CNN
+F 3 "" H 4750 4000 50  0000 C CNN
+	1    4750 4000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4000 4000 4000 3800
+Wire Wire Line
+	4000 3500 4000 3250
+Wire Wire Line
+	4000 2600 4000 2850
+Wire Wire Line
+	4400 2800 4750 2800
+Wire Wire Line
+	4400 3200 4400 2800
+Wire Wire Line
+	5300 2600 5300 3500
+Connection ~ 5300 3450
+Wire Wire Line
+	5300 3850 5300 3800
+Wire Wire Line
+	4400 3850 5300 3850
+Wire Wire Line
+	4400 3850 4400 3500
+$Comp
+L CONN_02X08 P3
+U 1 1 58AE9134
+P 3550 2100
+F 0 "P3" H 3550 2550 50  0000 C CNN
+F 1 "CONN_02X08" V 3550 2100 50  0000 C CNN
+F 2 "med_conn_prototype_footprints:Sullins_SMD_2x08_NPTC082KFMS-RC" H 3550 900 50  0001 C CNN
+F 3 "" H 3550 900 50  0000 C CNN
+	1    3550 2100
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_02X08 P4
+U 1 1 58AE9264
+P 5750 2100
+F 0 "P4" H 5750 2550 50  0000 C CNN
+F 1 "CONN_02X08" V 5750 2100 50  0000 C CNN
+F 2 "med_conn_prototype_footprints:Sullins_SMD_2x08_NPTC082KFMS-RC" H 5750 900 50  0001 C CNN
+F 3 "" H 5750 900 50  0000 C CNN
+	1    5750 2100
+	1    0    0    -1  
+$EndComp
+NoConn ~ 6000 1750
+NoConn ~ 6000 1850
+NoConn ~ 6000 1950
+NoConn ~ 6000 2050
+NoConn ~ 6000 2150
+NoConn ~ 6000 2250
+NoConn ~ 6000 2350
+NoConn ~ 6000 2450
+NoConn ~ 5500 2450
+NoConn ~ 5500 2350
+NoConn ~ 5500 2250
+NoConn ~ 5500 2150
+NoConn ~ 5500 2050
+NoConn ~ 5500 1950
+NoConn ~ 5500 1850
+NoConn ~ 5500 1750
+NoConn ~ 3800 2450
+NoConn ~ 3800 2350
+NoConn ~ 3800 2250
+NoConn ~ 3800 2150
+NoConn ~ 3800 2050
+NoConn ~ 3800 1950
+NoConn ~ 3800 1850
+NoConn ~ 3800 1750
+NoConn ~ 3300 1750
+NoConn ~ 3300 1850
+NoConn ~ 3300 1950
+NoConn ~ 3300 2050
+NoConn ~ 3300 2150
+NoConn ~ 3300 2250
+NoConn ~ 3300 2350
+NoConn ~ 3300 2450
+$Comp
+L Phototransistor_APT2012P3BT Q1
+U 1 1 58AEA21D
+P 4650 3050
+F 0 "Q1" H 4800 3100 50  0000 L CNN
+F 1 "APT2012P3BT" H 4800 2950 50  0000 L CNN
+F 2 "IC_trial_footprints:Phototransistor_APT2012P3BT" H 4650 3050 50  0001 C CNN
+F 3 "" H 4650 3050 50  0000 C CNN
+	1    4650 3050
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_01X04 P2
+U 1 1 58AEAEFA
+P 4700 1600
+F 0 "P2" H 4700 1850 50  0000 C CNN
+F 1 "CONN_01X04" H 4750 1350 50  0000 C CNN
+F 2 "med_conn_prototype_footprints:wire_solder_pad_2.54mm_1x4" H 4700 1600 50  0001 C CNN
+F 3 "" H 4700 1600 50  0000 C CNN
+	1    4700 1600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L CONN_01X04 P1
+U 1 1 58AEAF78
+P 4700 1950
+F 0 "P1" H 4700 2200 50  0000 C CNN
+F 1 "CONN_01X04" H 4550 1700 50  0000 C CNN
+F 2 "med_conn_prototype_footprints:Sullins_SMD_pin_header_1x4_GBC36SABN-M30" H 4700 1950 50  0001 C CNN
+F 3 "" H 4700 1950 50  0000 C CNN
+	1    4700 1950
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4650 2600 4000 2600
+Wire Wire Line
+	4850 1800 4850 2600
+Wire Wire Line
+	4850 2600 5300 2600
+Wire Wire Line
+	4650 1800 4650 2600
+Wire Wire Line
+	4550 1800 4550 2400
+Wire Wire Line
+	4550 2400 4450 2400
+$Comp
+L GND #PWR03
+U 1 1 58AEB5B1
+P 4450 2400
+F 0 "#PWR03" H 4450 2150 50  0001 C CNN
+F 1 "GND" H 4450 2250 50  0000 C CNN
+F 2 "" H 4450 2400 50  0000 C CNN
+F 3 "" H 4450 2400 50  0000 C CNN
+	1    4450 2400
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4750 1800 4750 2850
+Connection ~ 4750 2800
+Wire Wire Line
+	4750 3250 4750 3500
+Wire Wire Line
+	5300 3450 4750 3450
+Connection ~ 4750 3450
+Wire Wire Line
+	4750 3800 4750 4000
+Connection ~ 4750 3850
+Connection ~ 4550 2150
+Connection ~ 4650 2150
+Connection ~ 4750 2150
+Connection ~ 4850 2150
+$EndSCHEMATC

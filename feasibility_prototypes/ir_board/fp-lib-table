@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name IC_trial_footprints)(type KiCad)(uri ${KIPRJMOD}/../../libraries/ic_trial_footprints.pretty)(options "")(descr ""))
+  (lib (name med_conn_prototype_footprints)(type KiCad)(uri ${KIPRJMOD}/../../libraries/prototype_footprints.pretty)(options "")(descr ""))
+)
