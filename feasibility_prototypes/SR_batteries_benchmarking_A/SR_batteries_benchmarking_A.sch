@@ -36,11 +36,11 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title "Silver-Oxide Batteries Benchmarking/Testing"
-Date ""
+Date "2017-02-28"
 Rev "A"
 Comp "HotSwap Norden AB"
-Comment1 ""
-Comment2 ""
+Comment1 "Designed by: Khurram"
+Comment2 "Reviewed by: Rickard"
 Comment3 ""
 Comment4 ""
 $EndDescr
@@ -513,14 +513,10 @@ Wire Notes Line
 	475  5100 3700 5100
 Text Notes 1625 4525 0    98   Italic 0
 VIN Setup
-Text Notes 1125 6975 0    98   Italic 0
-Single or Dual coin cells
+Text Notes 975  6975 0    98   Italic 0
+Single or Dual button cells
 Text Notes 1600 7150 0    79   ~ 0
 (11.6 mm dia)
-Wire Notes Line
-	3700 3525 11225 3525
-Wire Notes Line
-	7425 3525 7425 475 
 $Comp
 L R R5
 U 1 1 58B54310
@@ -1090,8 +1086,12 @@ Wire Wire Line
 	2975 3750 3300 3750
 Wire Wire Line
 	3300 3750 3300 3650
-Text Notes 7100 6725 0    110  Italic 22
+Text Notes 7100 6275 0    110  Italic 22
 DO NOT COPY components from this schematic
-Text Notes 7225 6825 0    51   ~ 0
+Text Notes 7250 6400 0    51   ~ 0
 Some components have been updated in the libraries so add components directly from there
+Wire Notes Line
+	3700 3350 11225 3350
+Wire Notes Line
+	7425 3350 7425 500 
 $EndSCHEMATC
