@@ -1,4 +1,4 @@
-update=23/02/2017 14:53:43
+update=28/02/2017 13:03:52
 version=1
 last_client=kicad
 [pcbnew]
@@ -58,4 +58,4 @@ LibName26=opto
 LibName27=atmel
 LibName28=contrib
 LibName29=valves
-LibName30=battery_products
+LibName30=custom_battery_products
