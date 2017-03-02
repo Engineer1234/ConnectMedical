@@ -1,4 +1,4 @@
-update=28/02/2017 19:08:51
+update=01/03/2017 11:00:30
 version=1
 last_client=kicad
 [pcbnew]
@@ -23,11 +23,9 @@ ModuleOutlineThickness=0.150000000000
 [cvpcb]
 version=1
 NetIExt=net
-[general]
-version=1
 [eeschema]
 version=1
-LibDir=C:/MyHotSwap/OneDrive - HotSwap Norden AB/PROJECTS/InsulCheck_Connect/git/Connect-Med-Hardware/libraries/custom_components
+LibDir=
 [eeschema/libraries]
 LibName1=power
 LibName2=device
@@ -58,14 +56,5 @@ LibName26=opto
 LibName27=atmel
 LibName28=contrib
 LibName29=valves
-LibName30=custom_battery_products
-[schematic_editor]
+[general]
 version=1
-PageLayoutDescrFile=
-PlotDirectoryName=
-SubpartIdSeparator=0
-SubpartFirstId=65
-NetFmtName=
-SpiceForceRefPrefix=0
-SpiceUseNetNumbers=0
-LabSize=60

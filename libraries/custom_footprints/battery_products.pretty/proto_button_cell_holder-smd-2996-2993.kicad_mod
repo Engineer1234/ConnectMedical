@@ -1,4 +1,4 @@
-(module proto_sm_button_cell_holder-2996-2993 (layer F.Cu) (tedit 58AFE169)
+(module proto_button_cell_holder-smd-2996-2993 (layer F.Cu) (tedit 58AFE169)
   (descr "Holder for 11.6 mm coin cell comprising Retainer (2996) and negative contact (2993)")
   (tags BATT)
   (fp_text reference REF** (at 5.8 8.4) (layer F.SilkS)

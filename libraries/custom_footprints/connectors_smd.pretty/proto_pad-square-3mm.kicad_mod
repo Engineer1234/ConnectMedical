@@ -1,4 +1,4 @@
-(module proto_smd_pad-sq.-3mm (layer F.Cu) (tedit 58B01219)
+(module proto_pad-square-3mm (layer F.Cu) (tedit 58B01219)
   (descr "3 mm square SMD Pad e.g. for soldering wires ")
   (tags CONN)
   (fp_text reference REF** (at 0.5 -2.3) (layer F.SilkS)

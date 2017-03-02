@@ -1,4 +1,4 @@
-(module proto_smd_pot-model_84w (layer F.Cu) (tedit 58B051F1)
+(module proto_pot-model_84w (layer F.Cu) (tedit 58B051F1)
   (descr "3-pin SMD multi-turn trimmer, Model 84W, 12 turns")
   (tags POT)
   (fp_text reference REF** (at -4.45 -0.6 90) (layer F.SilkS)

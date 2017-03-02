@@ -14,12 +14,13 @@
 
   (page A4)
   (title_block
-    (title "Silver-Oxide Batteries Benchmarking/Testing")
-    (rev A)
+    (title "Silver-Oxide Button Cells Benchmarking/Testing")
+    (date 2017-03-01)
+    (rev 1)
     (company "HotSwap Norden AB")
-    (comment 1 "Short title: SR BATT B/T")
-    (comment 2 "Designed by: Khurram")
-    (comment 3 "Reviewed by: Rickard")
+    (comment 1 "Short title: SR CELL B/T")
+    (comment 2 "Designed by: khyo")
+    (comment 3 "Reviewed by: rigu")
   )
 
   (layers
@@ -46,7 +47,7 @@
   )
 
   (setup
-    (last_trace_width 0.6)
+    (last_trace_width 0.4)
     (user_trace_width 0.2)
     (user_trace_width 0.3)
     (user_trace_width 0.4)
@@ -1760,17 +1761,17 @@
     )
   )
 
+  (gr_text 2017-03-01 (at 52.75 69) (layer F.Cu)
+    (effects (font (size 2.5 1.5) (thickness 0.3)))
+  )
   (gr_line (start 33 74) (end 33 27) (angle 90) (layer Edge.Cuts) (width 0.1))
   (gr_line (start 121.5 74) (end 33 74) (angle 90) (layer Edge.Cuts) (width 0.1))
   (gr_line (start 121.5 27) (end 121.5 74) (angle 90) (layer Edge.Cuts) (width 0.1))
   (gr_line (start 33 27) (end 121.5 27) (angle 90) (layer Edge.Cuts) (width 0.1))
-  (gr_text 2017-02-28 (at 52.75 69) (layer F.Cu)
+  (gr_text "Rev. 1" (at 48.75 65.75) (layer F.Cu)
     (effects (font (size 2.5 1.5) (thickness 0.3)))
   )
-  (gr_text "Rev. A" (at 48.75 65.75) (layer F.Cu)
-    (effects (font (size 2.5 1.5) (thickness 0.3)))
-  )
-  (gr_text "SR BATT B/T" (at 54.75 62.25) (layer F.Cu)
+  (gr_text "SR CELL B/T" (at 54.75 62.25) (layer F.Cu)
     (effects (font (size 3 2) (thickness 0.4)))
   )
   (gr_text 2 (at 73.5 30.75) (layer F.Cu)
@@ -1780,7 +1781,7 @@
     (effects (font (size 3 3) (thickness 0.4)))
   )
 
-  (segment (start 47.15 56.25) (end 43 56.25) (width 0.6) (layer F.Cu) (net 1) (status 400000))
+  (segment (start 47.15 56.25) (end 43 56.25) (width 0.6) (layer F.Cu) (net 1))
   (segment (start 58.06 49.73) (end 55.48 49.73) (width 0.6) (layer F.Cu) (net 1))
   (segment (start 55.48 49.73) (end 52.5 46.75) (width 0.6) (layer F.Cu) (net 1) (tstamp 58B57F58))
   (segment (start 36.5 38.5) (end 36.5 49.25) (width 0.6) (layer F.Cu) (net 1))
@@ -1946,10 +1947,10 @@
   (segment (start 84.7 63.6) (end 82 60.9) (width 0.4) (layer F.Cu) (net 17) (tstamp 58B5A1AC))
   (segment (start 109.15 66.75) (end 109.15 66.45) (width 0.4) (layer F.Cu) (net 18))
   (segment (start 109.15 66.45) (end 111.85 63.75) (width 0.4) (layer F.Cu) (net 18) (tstamp 58B59FDE))
-  (segment (start 49.85 56.25) (end 49.85 55.36) (width 0.6) (layer F.Cu) (net 19) (status 400000))
-  (segment (start 49.85 55.36) (end 52.94 52.27) (width 0.6) (layer F.Cu) (net 19) (tstamp 58B6924D) (status 800000))
-  (segment (start 54 57) (end 54 53.33) (width 0.6) (layer F.Cu) (net 19) (status 400000))
-  (segment (start 54 53.33) (end 52.94 52.27) (width 0.6) (layer F.Cu) (net 19) (tstamp 58B69246) (status 800000))
+  (segment (start 49.85 56.25) (end 49.85 55.36) (width 0.6) (layer F.Cu) (net 19))
+  (segment (start 49.85 55.36) (end 52.94 52.27) (width 0.6) (layer F.Cu) (net 19) (tstamp 58B6924D))
+  (segment (start 54 57) (end 54 53.33) (width 0.6) (layer F.Cu) (net 19))
+  (segment (start 54 53.33) (end 52.94 52.27) (width 0.6) (layer F.Cu) (net 19) (tstamp 58B69246))
   (segment (start 101.48 61.19) (end 103.31 61.19) (width 0.6) (layer F.Cu) (net 19))
   (segment (start 107.75 49.96) (end 109.94 47.77) (width 0.6) (layer F.Cu) (net 19) (tstamp 58B5A26B))
   (segment (start 107.75 56.75) (end 107.75 49.96) (width 0.6) (layer F.Cu) (net 19) (tstamp 58B5A263))
@@ -2258,6 +2259,37 @@
         (xy 97.5 38.5) (xy 96.62132 38.5) (xy 96.204488 38.083168) (xy 96.204488 35.74) (xy 96.117327 35.276778)
         (xy 96.115853 35.274488) (xy 96.75 35.274488) (xy 97.213222 35.187327) (xy 97.638663 34.913563) (xy 97.924076 34.495847)
         (xy 98.024488 34) (xy 98.024488 33.751874) (xy 98.31066 33.56066) (xy 98.640685 33.230635)
+      )
+    )
+  )
+  (zone (net 0) (net_name "") (layer F.Cu) (tstamp 58B6950F) (hatch edge 0.508)
+    (connect_pads (clearance 0.5))
+    (min_thickness 1.5)
+    (fill yes (arc_segments 16) (thermal_gap 0.4) (thermal_bridge_width 1.6) (smoothing chamfer) (radius 0.3))
+    (polygon
+      (pts
+        (xy 70 72.5) (xy 70 60.25) (xy 64.75 55) (xy 56.25 55) (xy 56.25 59.25)
+        (xy 51.75 59.25) (xy 51.75 57.75) (xy 43.5 57.75) (xy 40.25 61) (xy 34.5 61)
+        (xy 34.5 72.5) (xy 36.5 72.5)
+      )
+    )
+    (filled_polygon
+      (pts
+        (xy 43.833332 66.1) (xy 43.928573 66.1) (xy 43.928573 71.75) (xy 35.25 71.75) (xy 35.25 61.950544)
+        (xy 35.75 62.050001) (xy 35.750005 62.05) (xy 39.999995 62.05) (xy 40 62.050001) (xy 40.593159 61.932013)
+        (xy 41.096016 61.596016) (xy 43.596013 59.096018) (xy 43.596016 59.096016) (xy 43.833332 58.740846)
+      )
+    )
+    (filled_polygon
+      (pts
+        (xy 64.313027 55.755059) (xy 69.244941 60.686972) (xy 69.25 60.699186) (xy 69.25 71.75) (xy 61.571427 71.75)
+        (xy 61.571427 66.1) (xy 65.666668 66.1) (xy 65.666668 58.7) (xy 57 58.7) (xy 57 55.75)
+        (xy 64.300814 55.75)
+      )
+    )
+    (filled_polygon
+      (pts
+        (xy 51 58.7) (xy 43.860624 58.7) (xy 43.932013 58.593159) (xy 43.950544 58.5) (xy 51 58.5)
       )
     )
   )

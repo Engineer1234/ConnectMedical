@@ -1,5 +1,5 @@
-(module proto_smd_header-1x2-2.54mm-G_C__SABN_M30 (layer F.Cu) (tedit 58B0587B)
-  (descr "1x2 pin SMD header, G_C_ _SABN-M30, Male, Unshrouded, Pitch = 2.54 mm, Pad WxH = 1.4x6.4mm")
+(module proto_header-vt-1x2-2.54mm-G_C__SABN_M30 (layer F.Cu) (tedit 58B0587B)
+  (descr "1x2 pin SMD header, G_C_ _SABN-M30, Male, Vertical, Unshrouded, Pitch = 2.54 mm, Pad WxH = 1.4x6.4mm")
   (tags CONN)
   (fp_text reference REF** (at -3.72 1.2 90) (layer F.SilkS)
     (effects (font (size 1.5 1.5) (thickness 0.15)))
