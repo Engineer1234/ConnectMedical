@@ -1,0 +1,210 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:custom_dc_dc_converters
+LIBS:custom_battery_products
+LIBS:custom_connectors_smd
+LIBS:tps61220_based_2V_regulator-cache
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title "TPS61220 based 2V Step-Up Regulator Module"
+Date ""
+Rev "1"
+Comp "HotSwap Norden Ab"
+Comment1 "Designed by: edli & khyo"
+Comment2 "Reviewed by: rigu"
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L L L?
+U 1 1 58E9408C
+P 5450 2100
+F 0 "L?" V 5390 2100 50  0000 C CNN
+F 1 "10u" V 5522 2100 50  0000 C CNN
+F 2 "" H 5450 2100 50  0000 C CNN
+F 3 "" H 5450 2100 50  0000 C CNN
+	1    5450 2100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L DC_DC_CONVERTER/BOOST/TPS61220 U?
+U 1 1 58E940B7
+P 6250 2350
+F 0 "U?" H 6000 2800 60  0000 C CNN
+F 1 "TPS61220" H 6150 1900 60  0000 C CNN
+F 2 "" H 6250 2250 60  0001 C CNN
+F 3 "" H 6250 2250 60  0001 C CNN
+	1    6250 2350
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_01X01 J?
+U 1 1 58E940CE
+P 4000 2050
+F 0 "J?" V 4100 2050 50  0000 C CNN
+F 1 "From Battery" H 4050 2150 50  0000 C CNN
+F 2 "Custom SMD Connectors:proto_pad-square-3mm" H 4000 2050 50  0001 C CNN
+F 3 "" H 4000 2050 50  0000 C CNN
+	1    4000 2050
+	0    -1   -1   0   
+$EndComp
+$Comp
+L C C?
+U 1 1 58E94198
+P 4750 2650
+F 0 "C?" H 4775 2750 50  0000 L CNN
+F 1 "10u" H 4775 2550 50  0000 L CNN
+F 2 "" H 4788 2500 50  0000 C CNN
+F 3 "" H 4750 2650 50  0000 C CNN
+	1    4750 2650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Jumper_NO_Small J?
+U 1 1 58E94268
+P 4550 2300
+F 0 "J?" H 4550 2380 50  0000 C CNN
+F 1 "Jumper" H 4560 2240 50  0000 C CNN
+F 2 "" H 4550 2300 50  0000 C CNN
+F 3 "" H 4550 2300 50  0000 C CNN
+	1    4550 2300
+	1    0    0    -1  
+$EndComp
+Text Notes 5205 1980 0    47   ~ 0
+Can also test:\n15u and 4.7u
+$Comp
+L R R?
+U 1 1 58E945C6
+P 5450 2400
+F 0 "R?" V 5530 2400 50  0000 C CNN
+F 1 "0" V 5450 2400 50  0000 C CNN
+F 2 "" V 5380 2400 50  0000 C CNN
+F 3 "" H 5450 2400 50  0000 C CNN
+	1    5450 2400
+	0    1    1    0   
+$EndComp
+$Comp
+L CONN_01X01 J?
+U 1 1 58E94CDF
+P 4350 2050
+F 0 "J?" V 4450 2050 50  0000 C CNN
+F 1 "From Battery" H 4400 2150 50  0001 C CNN
+F 2 "Custom SMD Connectors:proto_pad-square-3mm" H 4350 2050 50  0001 C CNN
+F 3 "" H 4350 2050 50  0000 C CNN
+	1    4350 2050
+	0    -1   -1   0   
+$EndComp
+$Comp
+L CONN_01X01 J?
+U 1 1 58E94D65
+P 4750 2050
+F 0 "J?" V 4850 2050 50  0000 C CNN
+F 1 "From Battery" H 4800 2150 50  0001 C CNN
+F 2 "Custom SMD Connectors:proto_pad-square-3mm" H 4750 2050 50  0001 C CNN
+F 3 "" H 4750 2050 50  0000 C CNN
+	1    4750 2050
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4000 2250 4000 2300
+Wire Wire Line
+	4000 2300 4450 2300
+Wire Wire Line
+	4350 2250 4350 2300
+Connection ~ 4350 2300
+Wire Wire Line
+	4650 2300 5750 2300
+Wire Wire Line
+	4750 2250 4750 2500
+Connection ~ 4750 2300
+Wire Wire Line
+	5750 2100 5600 2100
+Wire Wire Line
+	5300 2100 5150 2100
+Wire Wire Line
+	5150 2100 5150 2400
+Connection ~ 5150 2300
+Wire Wire Line
+	5750 2400 5600 2400
+Wire Wire Line
+	5150 2400 5300 2400
+$Comp
+L CONN_01X01 J?
+U 1 1 58E958B0
+P 5600 2850
+F 0 "J?" V 5700 2850 50  0000 C CNN
+F 1 "GND" H 5600 2950 50  0000 C CNN
+F 2 "Custom SMD Connectors:proto_pad-square-3mm" H 5600 2850 50  0001 C CNN
+F 3 "" H 5600 2850 50  0000 C CNN
+	1    5600 2850
+	0    1    1    0   
+$EndComp
+$Comp
+L CONN_01X01 J?
+U 1 1 58E959A1
+P 5450 2850
+F 0 "J?" V 5550 2850 50  0000 C CNN
+F 1 "From Battery" H 5500 2950 50  0001 C CNN
+F 2 "Custom SMD Connectors:proto_pad-square-3mm" H 5450 2850 50  0001 C CNN
+F 3 "" H 5450 2850 50  0000 C CNN
+	1    5450 2850
+	0    1    1    0   
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 58E96E80
+P 5250 3000
+F 0 "#PWR?" H 5250 2750 50  0001 C CNN
+F 1 "GND" H 5250 2850 50  0000 C CNN
+F 2 "" H 5250 3000 50  0000 C CNN
+F 3 "" H 5250 3000 50  0000 C CNN
+	1    5250 3000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5750 2600 5250 2600
+Wire Wire Line
+	5250 2600 5250 3000
+Wire Wire Line
+	5450 2650 5450 2600
+Connection ~ 5450 2600
+Wire Wire Line
+	5600 2650 5600 2600
+Connection ~ 5600 2600
+Wire Wire Line
+	4750 2800 4750 2850
+Wire Wire Line
+	4750 2850 5250 2850
+Connection ~ 5250 2850
+$EndSCHEMATC
