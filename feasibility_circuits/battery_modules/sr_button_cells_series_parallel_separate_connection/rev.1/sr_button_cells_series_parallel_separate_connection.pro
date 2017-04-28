@@ -1,4 +1,4 @@
-update=28/04/2017 09:15:15
+update=28-04-2017 10:46:49
 version=1
 last_client=kicad
 [pcbnew]
@@ -27,7 +27,7 @@ NetIExt=net
 version=1
 [eeschema]
 version=1
-LibDir=
+LibDir=../../../../libraries/custom_components
 [eeschema/libraries]
 LibName1=power
 LibName2=device
@@ -58,5 +58,5 @@ LibName26=opto
 LibName27=atmel
 LibName28=contrib
 LibName29=valves
-LibName30=C:/Users/khyo/OneDrive - HotSwap Norden AB/PROJECTS/InsulCheck_Connect/git/Connect-Med-Hardware/libraries/custom_components/custom_battery_products
-LibName31=C:/Users/khyo/OneDrive - HotSwap Norden AB/PROJECTS/InsulCheck_Connect/git/Connect-Med-Hardware/libraries/custom_components/custom_connectors_smd
+LibName30=custom_battery_products
+LibName31=custom_connectors_smd
