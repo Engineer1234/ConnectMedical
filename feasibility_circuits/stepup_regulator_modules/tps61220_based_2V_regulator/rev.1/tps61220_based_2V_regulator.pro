@@ -1,4 +1,4 @@
-update=08/04/2017 21:15:56
+update=25-04-2017 16:07:32
 version=1
 last_client=kicad
 [pcbnew]
@@ -61,3 +61,13 @@ LibName29=valves
 LibName30=custom_dc_dc_converters
 LibName31=custom_battery_products
 LibName32=custom_connectors_smd
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=
+SpiceForceRefPrefix=0
+SpiceUseNetNumbers=0
+LabSize=60

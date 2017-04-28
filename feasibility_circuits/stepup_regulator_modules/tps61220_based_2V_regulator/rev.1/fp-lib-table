@@ -1,3 +1,5 @@
 (fp_lib_table
-  (lib (name "Custom SMD Connectors")(type KiCad)(uri "C:\\Users\\khyo\\OneDrive - HotSwap Norden AB\\PROJECTS\\InsulCheck_Connect\\git\\Connect-Med-Hardware\\libraries\\custom_footprints\\connectors_smd.pretty")(options "")(descr ""))
+  (lib (name "Custom SMD Connectors")(type KiCad)(uri ${KIPRJMOD}\..\..\..\..\libraries\custom_footprints\connectors_smd.pretty)(options "")(descr ""))
+  (lib (name "Custom SMD Amplifiers")(type KiCad)(uri ${KIPRJMOD}\..\..\..\..\libraries\custom_footprints\amplifiers_smd.pretty)(options "")(descr ""))
+  (lib (name "Custom SMD Inductors")(type KiCad)(uri ${KIPRJMOD}\..\..\..\..\libraries\custom_footprints\inductors_smd.pretty)(options "")(descr ""))
 )
