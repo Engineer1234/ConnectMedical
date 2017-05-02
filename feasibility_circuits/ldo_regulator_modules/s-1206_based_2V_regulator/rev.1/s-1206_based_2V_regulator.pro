@@ -1,4 +1,4 @@
-update=02-05-2017 11:07:48
+update=02-05-2017 13:00:39
 version=1
 last_client=kicad
 [pcbnew]
@@ -59,3 +59,4 @@ LibName27=atmel
 LibName28=contrib
 LibName29=valves
 LibName30=custom_dc_dc_converters
+LibName31=custom_connectors_smd
