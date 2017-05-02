@@ -36,10 +36,10 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
-Title ""
+Title "SII S-1206 LDO Prototype Board"
 Date ""
-Rev ""
-Comp ""
+Rev "A"
+Comp "Innovation Zed/Hotswap Norden AB"
 Comment1 ""
 Comment2 ""
 Comment3 ""
@@ -51,7 +51,7 @@ U 1 1 590863C4
 P 5500 4600
 F 0 "U2" H 5250 5050 60  0000 C CNN
 F 1 "S-1206-SNT" H 5500 4150 60  0000 C CNN
-F 2 "" H 5500 4500 60  0001 C CNN
+F 2 "custom_amplifiers_smd:proto_amp-sii_s_1206_SNT_6A" H 5500 4500 60  0001 C CNN
 F 3 "" H 5500 4500 60  0001 C CNN
 	1    5500 4600
 	1    0    0    -1  
@@ -62,7 +62,7 @@ U 1 1 590863FF
 P 5500 2900
 F 0 "U1" H 5250 3350 60  0000 C CNN
 F 1 "S-1206-SOT" H 5500 2450 60  0000 C CNN
-F 2 "" H 5500 2800 60  0001 C CNN
+F 2 "custom_amplifiers_smd:proto_amp-sii_s_1206_SOT_23" H 5500 2800 60  0001 C CNN
 F 3 "" H 5500 2800 60  0001 C CNN
 	1    5500 2900
 	1    0    0    -1  
@@ -287,87 +287,11 @@ F 3 "" H 6750 4600 50  0000 C CNN
 	1    6750 4600
 	0    1    1    0   
 $EndComp
-Wire Wire Line
-	2900 3700 2900 3750
-Wire Wire Line
-	2650 3750 3400 3750
-Wire Wire Line
-	3150 3700 3150 3750
-Connection ~ 3150 3750
-Wire Wire Line
-	3800 3750 3950 3750
-Wire Wire Line
-	3950 4350 4950 4350
-Connection ~ 3950 3750
-Wire Wire Line
-	4950 4350 4950 4600
-Wire Wire Line
-	4950 4600 5000 4600
-Connection ~ 4950 4350
-Connection ~ 4700 4350
-Connection ~ 4450 4350
-Wire Wire Line
-	4450 4400 4450 4350
-Wire Wire Line
-	4700 4400 4700 4350
-Wire Wire Line
-	4700 4700 4700 4950
-Wire Wire Line
-	4700 4850 5000 4850
-Connection ~ 4700 4850
-Wire Wire Line
-	7100 3750 7400 3750
-Wire Wire Line
-	7350 3500 7350 4000
-Wire Wire Line
-	7350 3500 7400 3500
-Connection ~ 7350 3750
-Wire Wire Line
-	7350 4000 7400 4000
-Wire Wire Line
-	7900 3800 7900 3750
-Connection ~ 7900 3750
-Wire Wire Line
-	7650 4000 7600 4000
-Wire Wire Line
-	7650 3500 7650 4000
-Connection ~ 7650 3750
-Wire Wire Line
-	7600 3500 7650 3500
-Wire Wire Line
-	7900 4100 7900 4200
-Wire Wire Line
-	9050 3750 9800 3750
-Wire Wire Line
-	9800 3750 9800 3700
-Wire Wire Line
-	9550 3700 9550 3750
-Connection ~ 9550 3750
-Wire Wire Line
-	9300 3700 9300 3750
-Connection ~ 9300 3750
-Wire Wire Line
-	6350 2350 6350 2250
-Connection ~ 7100 3750
-Wire Wire Line
-	6350 4400 6350 4350
-Connection ~ 6350 4350
-Wire Wire Line
-	6750 4350 6750 4400
-Connection ~ 6750 4350
-Wire Wire Line
-	6000 4600 6100 4600
-Wire Wire Line
-	6100 4600 6100 4850
-Wire Wire Line
-	6350 4700 6350 4950
-Connection ~ 6350 4850
-Connection ~ 6100 4850
 $Comp
-L GND #PWR5
+L GND #PWR01
 U 1 1 5908D6B8
 P 6350 4950
-F 0 "#PWR5" H 6350 4700 50  0001 C CNN
+F 0 "#PWR01" H 6350 4700 50  0001 C CNN
 F 1 "GND" H 6350 4800 50  0000 C CNN
 F 2 "" H 6350 4950 50  0000 C CNN
 F 3 "" H 6350 4950 50  0000 C CNN
@@ -375,10 +299,10 @@ F 3 "" H 6350 4950 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR1
+L GND #PWR02
 U 1 1 5908D764
 P 4700 4950
-F 0 "#PWR1" H 4700 4700 50  0001 C CNN
+F 0 "#PWR02" H 4700 4700 50  0001 C CNN
 F 1 "GND" H 4700 4800 50  0000 C CNN
 F 2 "" H 4700 4950 50  0000 C CNN
 F 3 "" H 4700 4950 50  0000 C CNN
@@ -386,10 +310,10 @@ F 3 "" H 4700 4950 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR3
+L GND #PWR03
 U 1 1 5908D861
 P 6200 3200
-F 0 "#PWR3" H 6200 2950 50  0001 C CNN
+F 0 "#PWR03" H 6200 2950 50  0001 C CNN
 F 1 "GND" H 6200 3050 50  0000 C CNN
 F 2 "" H 6200 3200 50  0000 C CNN
 F 3 "" H 6200 3200 50  0000 C CNN
@@ -397,10 +321,10 @@ F 3 "" H 6200 3200 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR6
+L GND #PWR04
 U 1 1 5908D8AE
 P 7900 4200
-F 0 "#PWR6" H 7900 3950 50  0001 C CNN
+F 0 "#PWR04" H 7900 3950 50  0001 C CNN
 F 1 "GND" H 7900 4050 50  0000 C CNN
 F 2 "" H 7900 4200 50  0000 C CNN
 F 3 "" H 7900 4200 50  0000 C CNN
@@ -408,18 +332,16 @@ F 3 "" H 7900 4200 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR2
+L GND #PWR05
 U 1 1 5908DAB3
 P 4750 2450
-F 0 "#PWR2" H 4750 2200 50  0001 C CNN
+F 0 "#PWR05" H 4750 2200 50  0001 C CNN
 F 1 "GND" H 4750 2300 50  0000 C CNN
 F 2 "" H 4750 2450 50  0000 C CNN
 F 3 "" H 4750 2450 50  0000 C CNN
 	1    4750 2450
 	-1   0    0    1   
 $EndComp
-Wire Wire Line
-	4750 2550 4750 2450
 $Comp
 L TEST J1
 U 1 1 5908EC5E
@@ -464,31 +386,21 @@ F 3 "" H 7100 3450 50  0000 C CNN
 	1    7100 3450
 	0    -1   -1   0   
 $EndComp
-Wire Wire Line
-	3950 3650 3950 3850
-Wire Wire Line
-	3950 3250 3950 2900
-Wire Wire Line
-	7100 3650 7100 3850
-Wire Wire Line
-	7100 2700 7100 3250
-Text Notes 4950 3850 0    60   ~ 0
+Text Notes 4600 3850 0    60   ~ 0
 Only one of the J1-J3 and J2-J4 pairs \nshould be connected at any one time.
 Text Notes 7350 3250 0    60   ~ 0
 Only one of L1, L2, and L3 should be mounted \nat any one time, if filtering is not wanted \nC5 can be left unmounted and L2 replaced by \na 0 Ohm resistor.
 $Comp
-L GND #PWR4
+L GND #PWR06
 U 1 1 590916B3
 P 6350 2250
-F 0 "#PWR4" H 6350 2000 50  0001 C CNN
+F 0 "#PWR06" H 6350 2000 50  0001 C CNN
 F 1 "GND" H 6350 2100 50  0000 C CNN
 F 2 "" H 6350 2250 50  0000 C CNN
 F 3 "" H 6350 2250 50  0000 C CNN
 	1    6350 2250
 	-1   0    0    1   
 $EndComp
-Wire Wire Line
-	6000 4850 6350 4850
 $Comp
 L CONN_01X01 P4
 U 1 1 590938B3
@@ -533,6 +445,109 @@ F 3 "" H 7000 4600 50  0000 C CNN
 	1    7000 4600
 	0    1    1    0   
 $EndComp
+$Comp
+L CONN_01X01 P13
+U 1 1 59095F34
+P 8450 4000
+F 0 "P13" H 8450 4100 50  0000 C CNN
+F 1 "TEST_VOUT_3" H 8750 4000 50  0000 C CNN
+F 2 "custom_connectors_smd:proto_pad-square-3mm" H 8450 4000 50  0001 C CNN
+F 3 "" H 8450 4000 50  0000 C CNN
+	1    8450 4000
+	0    1    1    0   
+$EndComp
+$Comp
+L CONN_01X01 P1
+U 1 1 59097612
+P 2650 3500
+F 0 "P1" H 2650 3600 50  0000 C CNN
+F 1 "VIN" V 2750 3500 50  0000 C CNN
+F 2 "custom_connectors_smd:proto_pad-square-3mm" H 2650 3500 50  0001 C CNN
+F 3 "" H 2650 3500 50  0000 C CNN
+	1    2650 3500
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2900 3700 2900 3750
+Wire Wire Line
+	2650 3750 3400 3750
+Wire Wire Line
+	3150 3700 3150 3750
+Connection ~ 3150 3750
+Wire Wire Line
+	3800 3750 3950 3750
+Wire Wire Line
+	3950 4350 5000 4350
+Connection ~ 3950 3750
+Wire Wire Line
+	4950 4350 4950 4600
+Wire Wire Line
+	4950 4600 5000 4600
+Connection ~ 4950 4350
+Connection ~ 4700 4350
+Connection ~ 4450 4350
+Wire Wire Line
+	4450 4400 4450 4350
+Wire Wire Line
+	4700 4400 4700 4350
+Wire Wire Line
+	4700 4700 4700 4950
+Connection ~ 4700 4850
+Wire Wire Line
+	7100 3750 7400 3750
+Wire Wire Line
+	7350 3500 7350 4000
+Wire Wire Line
+	7350 3500 7400 3500
+Connection ~ 7350 3750
+Wire Wire Line
+	7350 4000 7400 4000
+Wire Wire Line
+	7900 3800 7900 3750
+Connection ~ 7900 3750
+Wire Wire Line
+	7650 4000 7600 4000
+Wire Wire Line
+	7650 3500 7650 4000
+Connection ~ 7650 3750
+Wire Wire Line
+	7600 3500 7650 3500
+Wire Wire Line
+	7900 4100 7900 4200
+Wire Wire Line
+	9050 3750 9800 3750
+Wire Wire Line
+	9800 3750 9800 3700
+Wire Wire Line
+	9550 3700 9550 3750
+Connection ~ 9550 3750
+Wire Wire Line
+	9300 3700 9300 3750
+Connection ~ 9300 3750
+Wire Wire Line
+	6350 2350 6350 2250
+Connection ~ 7100 3750
+Wire Wire Line
+	6350 4400 6350 4350
+Connection ~ 6350 4350
+Wire Wire Line
+	6750 4350 6750 4400
+Connection ~ 6750 4350
+Wire Wire Line
+	6000 4600 6100 4600
+Wire Wire Line
+	6350 4700 6350 4950
+Connection ~ 6350 4850
+Wire Wire Line
+	4750 2550 4750 2450
+Wire Wire Line
+	3950 3650 3950 3850
+Wire Wire Line
+	3950 3250 3950 2900
+Wire Wire Line
+	7100 3650 7100 3850
+Wire Wire Line
+	7100 2700 7100 3250
 Wire Wire Line
 	6000 4350 7100 4350
 Wire Wire Line
@@ -568,17 +583,6 @@ Connection ~ 6750 2700
 Wire Wire Line
 	7000 2650 7000 2700
 Connection ~ 7000 2700
-$Comp
-L CONN_01X01 P13
-U 1 1 59095F34
-P 8450 4000
-F 0 "P13" H 8450 4100 50  0000 C CNN
-F 1 "TEST_VOUT_3" H 8750 4000 50  0000 C CNN
-F 2 "custom_connectors_smd:proto_pad-square-3mm" H 8450 4000 50  0001 C CNN
-F 3 "" H 8450 4000 50  0000 C CNN
-	1    8450 4000
-	0    1    1    0   
-$EndComp
 Wire Wire Line
 	7600 3750 8650 3750
 Wire Wire Line
@@ -587,18 +591,17 @@ Connection ~ 8200 3750
 Wire Wire Line
 	8450 3800 8450 3750
 Connection ~ 8450 3750
-$Comp
-L CONN_01X01 P1
-U 1 1 59097612
-P 2650 3500
-F 0 "P1" H 2650 3600 50  0000 C CNN
-F 1 "VIN" V 2750 3500 50  0000 C CNN
-F 2 "custom_connectors_smd:proto_pad-square-3mm" H 2650 3500 50  0001 C CNN
-F 3 "" H 2650 3500 50  0000 C CNN
-	1    2650 3500
-	0    -1   -1   0   
-$EndComp
 Wire Wire Line
 	2650 3700 2650 3750
 Connection ~ 2900 3750
+Wire Wire Line
+	4750 2850 4750 2900
+Connection ~ 4750 2900
+Wire Wire Line
+	6000 4850 6350 4850
+Wire Wire Line
+	4700 4850 5000 4850
+Wire Wire Line
+	6100 4600 6100 4850
+Connection ~ 6100 4850
 $EndSCHEMATC
