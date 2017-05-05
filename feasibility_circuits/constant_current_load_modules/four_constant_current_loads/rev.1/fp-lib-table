@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name potentiometers_smd)(type KiCad)(uri ${KIPRJMOD}/../../../../libraries/custom_footprints/potentiometers_smd.pretty)(options "")(descr ""))
+  (lib (name connectors_smd)(type KiCad)(uri ${KIPRJMOD}/../../../../libraries/custom_footprints/connectors_smd.pretty)(options "")(descr ""))
+)
