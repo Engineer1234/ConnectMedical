@@ -15,4 +15,9 @@ D DC-DC Boost Converter, Input voltage = 0.7 to 5.5V, Output voltage = 1.8 to 6 
 K DC-DC Converter
 $ENDCMP
 #
+$CMP DC_DC_CONVERTER/STEP-DOWN/TPS627431
+D DC-DC Boost Converter, Input voltage = 0.7 to 5.5V, Output voltage = 1.8 to 6 V, SC-70 (6-pin), High efficiency, Low quiescent current
+K DC-DC Converter
+$ENDCMP
+#
 #End Doc Library
