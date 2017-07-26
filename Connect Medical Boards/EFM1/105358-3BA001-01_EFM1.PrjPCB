@@ -276,7 +276,7 @@ Value=EFM 1
 
 [Parameter7]
 Name=PrjVersionControl_RevNumber
-Value='A'
+Value=' A '
 
 [Configuration1]
 Name=Sources
