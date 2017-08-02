@@ -1,0 +1,30 @@
+Bill of Material for 
+On 8/2/2017 at 10:40:58 PM
+
+ Comment             Pattern     Quantity  Components
+------------------------------------------------------------------------------
+ 0781710002          PAD 0781710002    1    CON2                         1.20MM WTB HEADER VERT 2POS 
+ 1µF                 0402C-GENERIC    3    C1, C11, C12                 1µF ±10% 6.3V X5R Ceramic Capacitor 0402 
+ 1µF                 0603C-GENERIC    1    C2                           1µF ±10% 10V X7R Ceramic Capacitor 0603 
+ 10µF                0603C-GENERIC    3    C4, C5, C6                   10µF ±10% 4V X6S Ceramic Capacitor 0603 
+ 100                 0402R-GENERIC    1    R7                           RES SMD 100OHM 1% 1/16W 0402 
+ 10K                 0402R-GENERIC    3    R3, R4, R8                   RES SMD 10kOHM 1% 1/16W 0402 
+ 120220-0314         PAD 1.0x1.95mm    1    J1                           MICRO UNIVERSAL CONTACT Z 3.5MM 
+ 15µH                0805L_Wide Band    1    L1                           FIXED IND 15UH 350MA 0.6 OHM SMD 
+ 2.2µH               0805L_Wide Band    1    L2                           FIXED IND 2.2UH 600MA 0.2OHM SMD 
+ 2.2nF               0402C-GENERIC    1    C13                          2.2nF ±10% 50V X5R Ceramic Capacitor 0402 
+ 2K                  0402R-GENERIC    1    R5                           RES SMD 2kOHM 1% 1/16W 0402 
+ 390K                0402R-GENERIC    1    R6                           RES SMD 390kOHM 1% 1/16W 0402 
+ 4.7µF               0402C-GENERIC    5    C3, C7, C8, C9, C10          4.7µF ±10% 6.3V X5R Ceramic Capacitor 0402 
+ 820K                0402R-GENERIC    1    R1                           RES SMD 820kOHM 1% 1/16W 0402 
+ 82K                 0402R-GENERIC    1    R?                           RES SMD 82kOHM 1% 1/16W 0402 
+ APT1608F3C          APT1608F3C       1    D1                           0603 INFRARED DIODE  
+ APT2012P3BT         APT2012P3BT      1    Q1                           0805 PHOTOTRANSISTOR 
+ BLM21PG331SN1D      0805L_High Speed - Hybrid 0402    1    L3                           0805 Ferrite Bead 330Ohm@100MHz 
+ CYBLE-214009-00     CYBLE-014008-00    1    MOD1                         BLE PSoC Module 4.1  
+ DX4R005JJ7R1500     DX4R005JJ7R1500    1    CON1                         USB Micro B          
+ MCP73831-2ACI/MC    MCP73831         1    U4                           IC Li-Ion Charger Controller 
+ RM25C128C-LMAI-T    RM25C128C-LMAI-T    1    U5                           EEPROM Non-volatile Serial SPI bus 
+ TPD4S014DSQR        TPD4S014DSQR     1    U3                           USB Charger Port Protection 
+ TPS61046YFFR        TPS61046YFFR     1    U1                           Boost converter 28V  
+ TPS627431YFPR       TPS627431YFPR    1    U2                           Buck Converter       
