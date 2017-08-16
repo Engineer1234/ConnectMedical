@@ -250,10 +250,14 @@ DocumentPath=Project Outputs for 105358-3BA001-01_EFM1\105358-3BA001-02_EFM1_BOM
 DItemRevisionGUID=
 
 [GeneratedDocument3]
-DocumentPath=Project Outputs for 105358-3BA001-01_EFM1\Reports\105358-3SC001-01-A_CONN.BOM
+DocumentPath=Project Outputs for 105358-3BA001-01_EFM1\105358-3BA001-03_EFM1_BOM.xlsx
 DItemRevisionGUID=
 
 [GeneratedDocument4]
+DocumentPath=Project Outputs for 105358-3BA001-01_EFM1\Reports\105358-3SC001-01-A_CONN.BOM
+DItemRevisionGUID=
+
+[GeneratedDocument5]
 DocumentPath=Project Outputs for 105358-3BA001-01_EFM1\Reports\105358-3SC001-01-A_CONN.CSV
 DItemRevisionGUID=
 
