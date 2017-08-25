@@ -225,26 +225,10 @@ GenerateClassCluster=0
 DocumentUniqueId=ONAWTYXT
 
 [GeneratedDocument1]
-DocumentPath=Project Outputs for 105358-3BA001-01_EFM1\105358-3BA001-01_EFM1_BOM.xlsx
-DItemRevisionGUID=
-
-[GeneratedDocument2]
-DocumentPath=Project Outputs for 105358-3BA001-01_EFM1\105358-3BA001-02_EFM1_BOM.xlsx
-DItemRevisionGUID=
-
-[GeneratedDocument3]
-DocumentPath=Project Outputs for 105358-3BA001-01_EFM1\105358-3BA001-03_EFM1_BOM.xlsx
-DItemRevisionGUID=
-
-[GeneratedDocument4]
-DocumentPath=Project Outputs for 105358-3BA001-01_EFM1\105358-3BA001-04_EFM1_BOM.xlsx
-DItemRevisionGUID=
-
-[GeneratedDocument5]
 DocumentPath=Project Outputs for 105358-3BA001-01_EFM1\Reports\105358-3SC001-01-A_CONN.BOM
 DItemRevisionGUID=
 
-[GeneratedDocument6]
+[GeneratedDocument2]
 DocumentPath=Project Outputs for 105358-3BA001-01_EFM1\Reports\105358-3SC001-01-A_CONN.CSV
 DItemRevisionGUID=
 
