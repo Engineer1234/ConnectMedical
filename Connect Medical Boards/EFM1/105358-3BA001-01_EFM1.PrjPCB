@@ -260,6 +260,10 @@ DItemRevisionGUID=
 DocumentPath=Project Outputs for 105358-3BA001-01_EFM1\Reports\105358-3SC001-01-B_CPU_BRD.CSV
 DItemRevisionGUID=
 
+[GeneratedDocument10]
+DocumentPath=Project Outputs for 105358-3BA001-01_EFM1\Design Rule Check - 105358-3LA001-01_EFM1.html
+DItemRevisionGUID=
+
 [DeviceSheetFolder1]
 Path=C:\Users\kaka\Documents\Altium\Projects\Aerocrine\Altium templates 160204\
 IncludeSubFolders=1
