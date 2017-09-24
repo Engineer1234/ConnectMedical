@@ -241,175 +241,200 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
+[Document13]
+DocumentPath=CAMtastic_170922_2.Cam
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=
+
 [GeneratedDocument1]
-DocumentPath=Project Outputs for 105358-3BA001-01_EFM1\105358-3BA001-01_EFM1_BOM_For Costs.xlsx
+DocumentPath=Project Outputs for 105358-3BA001-01_EFM1\105358-3BA001-01_EFM1_BOM_FOR_QUOTE_170922.xlsx
 DItemRevisionGUID=
 
 [GeneratedDocument2]
-DocumentPath=Project Outputs for 105358-3BA001-01_EFM1\Gerber Output\105358-3LA001-01_EFM1.EXTREP
+DocumentPath=Project Outputs for 105358-3BA001-01_EFM1\105358-3BA001-01_EFM1_BOM_For Costs.xlsx
 DItemRevisionGUID=
 
 [GeneratedDocument3]
-DocumentPath=Project Outputs for 105358-3BA001-01_EFM1\Gerber Output\105358-3LA001-01_EFM1.REP
+DocumentPath=Project Outputs for 105358-3BA001-01_EFM1\Gerber Output\105358-3LA001-01_EFM1.EXTREP
 DItemRevisionGUID=
 
 [GeneratedDocument4]
-DocumentPath=Project Outputs for 105358-3BA001-01_EFM1\Gerber Output\105358-3LA001-01_EFM1.RUL
+DocumentPath=Project Outputs for 105358-3BA001-01_EFM1\Gerber Output\105358-3LA001-01_EFM1.REP
 DItemRevisionGUID=
 
 [GeneratedDocument5]
-DocumentPath=Project Outputs for 105358-3BA001-01_EFM1\Gerber Output\105358-3LA001-01_EFM1_Copper_Plane_1.gbr
+DocumentPath=Project Outputs for 105358-3BA001-01_EFM1\Gerber Output\105358-3LA001-01_EFM1.RUL
 DItemRevisionGUID=
 
 [GeneratedDocument6]
-DocumentPath=Project Outputs for 105358-3BA001-01_EFM1\Gerber Output\105358-3LA001-01_EFM1_Copper_Plane_2.gbr
+DocumentPath=Project Outputs for 105358-3BA001-01_EFM1\Reports\105358-3LA001-01_EFM1.xls
 DItemRevisionGUID=
 
 [GeneratedDocument7]
-DocumentPath=Project Outputs for 105358-3BA001-01_EFM1\Gerber Output\105358-3LA001-01_EFM1_Copper_Signal_1.gbr
+DocumentPath=Project Outputs for 105358-3BA001-01_EFM1\Gerber Output\105358-3LA001-01_EFM1_Copper_Plane_1.gbr
 DItemRevisionGUID=
 
 [GeneratedDocument8]
-DocumentPath=Project Outputs for 105358-3BA001-01_EFM1\Gerber Output\105358-3LA001-01_EFM1_Copper_Signal_2.gbr
+DocumentPath=Project Outputs for 105358-3BA001-01_EFM1\Gerber Output\105358-3LA001-01_EFM1_Copper_Plane_2.gbr
 DItemRevisionGUID=
 
 [GeneratedDocument9]
-DocumentPath=Project Outputs for 105358-3BA001-01_EFM1\Gerber Output\105358-3LA001-01_EFM1_Copper_Signal_Bot.gbr
+DocumentPath=Project Outputs for 105358-3BA001-01_EFM1\Gerber Output\105358-3LA001-01_EFM1_Copper_Signal_1.gbr
 DItemRevisionGUID=
 
 [GeneratedDocument10]
-DocumentPath=Project Outputs for 105358-3BA001-01_EFM1\Gerber Output\105358-3LA001-01_EFM1_Copper_Signal_Top.gbr
+DocumentPath=Project Outputs for 105358-3BA001-01_EFM1\Gerber Output\105358-3LA001-01_EFM1_Copper_Signal_2.gbr
 DItemRevisionGUID=
 
 [GeneratedDocument11]
-DocumentPath=Project Outputs for 105358-3BA001-01_EFM1\Gerber Output\105358-3LA001-01_EFM1_Drawing_1.gbr
+DocumentPath=Project Outputs for 105358-3BA001-01_EFM1\Gerber Output\105358-3LA001-01_EFM1_Copper_Signal_Bot.gbr
 DItemRevisionGUID=
 
 [GeneratedDocument12]
-DocumentPath=Project Outputs for 105358-3BA001-01_EFM1\Gerber Output\105358-3LA001-01_EFM1_Drawing_2.gbr
+DocumentPath=Project Outputs for 105358-3BA001-01_EFM1\Gerber Output\105358-3LA001-01_EFM1_Copper_Signal_Top.gbr
 DItemRevisionGUID=
 
 [GeneratedDocument13]
-DocumentPath=Project Outputs for 105358-3BA001-01_EFM1\Gerber Output\105358-3LA001-01_EFM1_Drawing_3.gbr
+DocumentPath=Project Outputs for 105358-3BA001-01_EFM1\Gerber Output\105358-3LA001-01_EFM1_Drawing_1.gbr
 DItemRevisionGUID=
 
 [GeneratedDocument14]
-DocumentPath=Project Outputs for 105358-3BA001-01_EFM1\Gerber Output\105358-3LA001-01_EFM1_Drawing_4.gbr
+DocumentPath=Project Outputs for 105358-3BA001-01_EFM1\Gerber Output\105358-3LA001-01_EFM1_Drawing_2.gbr
 DItemRevisionGUID=
 
 [GeneratedDocument15]
-DocumentPath=Project Outputs for 105358-3BA001-01_EFM1\Gerber Output\105358-3LA001-01_EFM1_Drillmap_1.gbr
+DocumentPath=Project Outputs for 105358-3BA001-01_EFM1\Gerber Output\105358-3LA001-01_EFM1_Drawing_3.gbr
 DItemRevisionGUID=
 
 [GeneratedDocument16]
-DocumentPath=Project Outputs for 105358-3BA001-01_EFM1\Gerber Output\105358-3LA001-01_EFM1_Drillmap_2.gbr
+DocumentPath=Project Outputs for 105358-3BA001-01_EFM1\Gerber Output\105358-3LA001-01_EFM1_Drawing_4.gbr
 DItemRevisionGUID=
 
 [GeneratedDocument17]
-DocumentPath=Project Outputs for 105358-3BA001-01_EFM1\Gerber Output\105358-3LA001-01_EFM1_Drillmap_3.gbr
+DocumentPath=Project Outputs for 105358-3BA001-01_EFM1\Gerber Output\105358-3LA001-01_EFM1_Drillmap_1.gbr
 DItemRevisionGUID=
 
 [GeneratedDocument18]
-DocumentPath=Project Outputs for 105358-3BA001-01_EFM1\Gerber Output\105358-3LA001-01_EFM1_Drillmap_4.gbr
+DocumentPath=Project Outputs for 105358-3BA001-01_EFM1\Gerber Output\105358-3LA001-01_EFM1_Drillmap_2.gbr
 DItemRevisionGUID=
 
 [GeneratedDocument19]
-DocumentPath=Project Outputs for 105358-3BA001-01_EFM1\Gerber Output\105358-3LA001-01_EFM1_Legend_Bot.gbr
+DocumentPath=Project Outputs for 105358-3BA001-01_EFM1\Gerber Output\105358-3LA001-01_EFM1_Drillmap_3.gbr
 DItemRevisionGUID=
 
 [GeneratedDocument20]
-DocumentPath=Project Outputs for 105358-3BA001-01_EFM1\Gerber Output\105358-3LA001-01_EFM1_Legend_Top.gbr
+DocumentPath=Project Outputs for 105358-3BA001-01_EFM1\Gerber Output\105358-3LA001-01_EFM1_Drillmap_4.gbr
 DItemRevisionGUID=
 
 [GeneratedDocument21]
-DocumentPath=Project Outputs for 105358-3BA001-01_EFM1\Gerber Output\105358-3LA001-01_EFM1_Mechanical_1.gbr
+DocumentPath=Project Outputs for 105358-3BA001-01_EFM1\Gerber Output\105358-3LA001-01_EFM1_Legend_Bot.gbr
 DItemRevisionGUID=
 
 [GeneratedDocument22]
-DocumentPath=Project Outputs for 105358-3BA001-01_EFM1\Gerber Output\105358-3LA001-01_EFM1_Mechanical_11.gbr
+DocumentPath=Project Outputs for 105358-3BA001-01_EFM1\Gerber Output\105358-3LA001-01_EFM1_Legend_Top.gbr
 DItemRevisionGUID=
 
 [GeneratedDocument23]
-DocumentPath=Project Outputs for 105358-3BA001-01_EFM1\Gerber Output\105358-3LA001-01_EFM1_Mechanical_16.gbr
+DocumentPath=Project Outputs for 105358-3BA001-01_EFM1\Gerber Output\105358-3LA001-01_EFM1_Mechanical_1.gbr
 DItemRevisionGUID=
 
 [GeneratedDocument24]
-DocumentPath=Project Outputs for 105358-3BA001-01_EFM1\Gerber Output\105358-3LA001-01_EFM1_Mechanical_20.gbr
+DocumentPath=Project Outputs for 105358-3BA001-01_EFM1\Gerber Output\105358-3LA001-01_EFM1_Mechanical_11.gbr
 DItemRevisionGUID=
 
 [GeneratedDocument25]
-DocumentPath=Project Outputs for 105358-3BA001-01_EFM1\Gerber Output\105358-3LA001-01_EFM1_NPTH_Drill.gbr
+DocumentPath=Project Outputs for 105358-3BA001-01_EFM1\Gerber Output\105358-3LA001-01_EFM1_Mechanical_16.gbr
 DItemRevisionGUID=
 
 [GeneratedDocument26]
-DocumentPath=Project Outputs for 105358-3BA001-01_EFM1\Gerber Output\105358-3LA001-01_EFM1_Paste_Bot.gbr
+DocumentPath=Project Outputs for 105358-3BA001-01_EFM1\Gerber Output\105358-3LA001-01_EFM1_Mechanical_20.gbr
 DItemRevisionGUID=
 
 [GeneratedDocument27]
-DocumentPath=Project Outputs for 105358-3BA001-01_EFM1\Gerber Output\105358-3LA001-01_EFM1_Paste_Top.gbr
+DocumentPath=Project Outputs for 105358-3BA001-01_EFM1\Gerber Output\105358-3LA001-01_EFM1_NPTH_Drill.gbr
 DItemRevisionGUID=
 
 [GeneratedDocument28]
-DocumentPath=Project Outputs for 105358-3BA001-01_EFM1\Gerber Output\105358-3LA001-01_EFM1_Plated_Drill_1_2.gbr
+DocumentPath=Project Outputs for 105358-3BA001-01_EFM1\Gerber Output\105358-3LA001-01_EFM1_Paste_Bot.gbr
 DItemRevisionGUID=
 
 [GeneratedDocument29]
-DocumentPath=Project Outputs for 105358-3BA001-01_EFM1\Gerber Output\105358-3LA001-01_EFM1_Plated_Drill_2_5.gbr
+DocumentPath=Project Outputs for 105358-3BA001-01_EFM1\Gerber Output\105358-3LA001-01_EFM1_Paste_Top.gbr
 DItemRevisionGUID=
 
 [GeneratedDocument30]
-DocumentPath=Project Outputs for 105358-3BA001-01_EFM1\Gerber Output\105358-3LA001-01_EFM1_Plated_Drill_5_6.gbr
+DocumentPath=Project Outputs for 105358-3BA001-01_EFM1\Gerber Output\105358-3LA001-01_EFM1_Plated_Drill_1_2.gbr
 DItemRevisionGUID=
 
 [GeneratedDocument31]
-DocumentPath=Project Outputs for 105358-3BA001-01_EFM1\Gerber Output\105358-3LA001-01_EFM1_Profile.gbr
+DocumentPath=Project Outputs for 105358-3BA001-01_EFM1\Gerber Output\105358-3LA001-01_EFM1_Plated_Drill_2_5.gbr
 DItemRevisionGUID=
 
 [GeneratedDocument32]
-DocumentPath=Project Outputs for 105358-3BA001-01_EFM1\Gerber Output\105358-3LA001-01_EFM1_PTH_Drill.gbr
+DocumentPath=Project Outputs for 105358-3BA001-01_EFM1\Gerber Output\105358-3LA001-01_EFM1_Plated_Drill_5_6.gbr
 DItemRevisionGUID=
 
 [GeneratedDocument33]
-DocumentPath=Project Outputs for 105358-3BA001-01_EFM1\Gerber Output\105358-3LA001-01_EFM1_Soldermask_Bot.gbr
+DocumentPath=Project Outputs for 105358-3BA001-01_EFM1\Gerber Output\105358-3LA001-01_EFM1_Profile.gbr
 DItemRevisionGUID=
 
 [GeneratedDocument34]
-DocumentPath=Project Outputs for 105358-3BA001-01_EFM1\Gerber Output\105358-3LA001-01_EFM1_Soldermask_Top.gbr
+DocumentPath=Project Outputs for 105358-3BA001-01_EFM1\Gerber Output\105358-3LA001-01_EFM1_PTH_Drill.gbr
 DItemRevisionGUID=
 
 [GeneratedDocument35]
-DocumentPath=Project Outputs for 105358-3BA001-01_EFM1\Reports\105358-3SC001-01-A_BlockDiagram.BOM
+DocumentPath=Project Outputs for 105358-3BA001-01_EFM1\Gerber Output\105358-3LA001-01_EFM1_Soldermask_Bot.gbr
 DItemRevisionGUID=
 
 [GeneratedDocument36]
-DocumentPath=Project Outputs for 105358-3BA001-01_EFM1\Reports\105358-3SC001-01-A_BlockDiagram.CSV
+DocumentPath=Project Outputs for 105358-3BA001-01_EFM1\Gerber Output\105358-3LA001-01_EFM1_Soldermask_Top.gbr
 DItemRevisionGUID=
 
 [GeneratedDocument37]
-DocumentPath=Project Outputs for 105358-3BA001-01_EFM1\Reports\105358-3SC001-01-A_CONN.BOM
+DocumentPath=Project Outputs for 105358-3BA001-01_EFM1\Reports\105358-3SC001-01-A_BlockDiagram.BOM
 DItemRevisionGUID=
 
 [GeneratedDocument38]
-DocumentPath=Project Outputs for 105358-3BA001-01_EFM1\Reports\105358-3SC001-01-A_CONN.CSV
+DocumentPath=Project Outputs for 105358-3BA001-01_EFM1\Reports\105358-3SC001-01-A_BlockDiagram.CSV
 DItemRevisionGUID=
 
 [GeneratedDocument39]
-DocumentPath=Project Outputs for 105358-3BA001-01_EFM1\Reports\105358-3SC001-01-B_BlockDiagram.BOM
+DocumentPath=Project Outputs for 105358-3BA001-01_EFM1\Reports\105358-3SC001-01-A_CONN.BOM
 DItemRevisionGUID=
 
 [GeneratedDocument40]
-DocumentPath=Project Outputs for 105358-3BA001-01_EFM1\Reports\105358-3SC001-01-B_BlockDiagram.CSV
+DocumentPath=Project Outputs for 105358-3BA001-01_EFM1\Reports\105358-3SC001-01-A_CONN.CSV
 DItemRevisionGUID=
 
 [GeneratedDocument41]
-DocumentPath=Project Outputs for 105358-3BA001-01_EFM1\Reports\105358-3SC001-01-B_CPU_BRD.BOM
+DocumentPath=Project Outputs for 105358-3BA001-01_EFM1\Reports\105358-3SC001-01-B_BlockDiagram.BOM
 DItemRevisionGUID=
 
 [GeneratedDocument42]
-DocumentPath=Project Outputs for 105358-3BA001-01_EFM1\Reports\105358-3SC001-01-B_CPU_BRD.CSV
+DocumentPath=Project Outputs for 105358-3BA001-01_EFM1\Reports\105358-3SC001-01-B_BlockDiagram.CSV
 DItemRevisionGUID=
 
 [GeneratedDocument43]
+DocumentPath=Project Outputs for 105358-3BA001-01_EFM1\Reports\105358-3SC001-01-B_CPU_BRD.BOM
+DItemRevisionGUID=
+
+[GeneratedDocument44]
+DocumentPath=Project Outputs for 105358-3BA001-01_EFM1\Reports\105358-3SC001-01-B_CPU_BRD.CSV
+DItemRevisionGUID=
+
+[GeneratedDocument45]
 DocumentPath=Project Outputs for 105358-3BA001-01_EFM1\Design Rule Check - 105358-3LA001-01_EFM1.html
 DItemRevisionGUID=
 
