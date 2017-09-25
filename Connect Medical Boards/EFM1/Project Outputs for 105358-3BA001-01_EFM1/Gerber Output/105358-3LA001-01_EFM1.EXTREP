@@ -1,0 +1,39 @@
+------------------------------------------------------------------------------------------
+Gerber File Extension Report For: 105358-3LA001-01_EFM1.GBR   25-09-2017  11:31:05
+------------------------------------------------------------------------------------------
+
+
+------------------------------------------------------------------------------------------
+Layer Extension     Layer Description                      
+------------------------------------------------------------------------------------------
+.gbr                Component Side                          
+.gbr                Inner Layer 1                           
+.gbr                Ground Plane (GND)                      
+.gbr                Power Plane (VCC)                       
+.gbr                Inner Layer 2                           
+.gbr                Solder Side                             
+.gbr                Top Paste                               
+.gbr                Bottom Overlay                          
+.gbr                Bottom Paste                            
+.gbr                Bottom Solder                           
+.gbr                Top Solder                              
+.gbr                Top Overlay                             
+.gbr                Mechanical 20                           
+.gbr                BRD_Outline                             
+.gbr                Dimensions                              
+.gbr                Mechanical 1                            
+.gbr                Profile                                 
+.gbr                Non-plated through-hole drill file      
+.gbr                Plated through-hole drill file          
+.gbr                Blind or buried via drill file for drill pairs
+.gbr                Blind or buried via drill file for drill pairs
+.gbr                Blind or buried via drill file for drill pairs
+.gbr                Drill Drawing                           
+.gbr                Drill Drawing                           
+.gbr                Drill Drawing                           
+.gbr                Drill Drawing                           
+.gbr                Drill Guide                             
+.gbr                Drill Guide                             
+.gbr                Drill Guide                             
+.gbr                Drill Guide                             
+------------------------------------------------------------------------------------------

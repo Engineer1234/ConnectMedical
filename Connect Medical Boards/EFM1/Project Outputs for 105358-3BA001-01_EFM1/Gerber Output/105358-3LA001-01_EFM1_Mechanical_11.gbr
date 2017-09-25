@@ -1,0 +1,10 @@
+G04 Layer_Color=32768*
+%FSLAX45Y45*%
+%MOMM*%
+%TF.FileFunction,Other,Dimensions*%
+%TF.Part,Single*%
+%TFFileComment,The blind Vias under BGA and Other Pads are Via-In-Pad (VIP)*%
+G01*
+G75*
+%TF.MD5,c8a414d8752b274bdad105f5a6c9f42f*%
+M02*

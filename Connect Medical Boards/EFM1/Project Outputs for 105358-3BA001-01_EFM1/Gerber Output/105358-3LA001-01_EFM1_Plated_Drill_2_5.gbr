@@ -1,0 +1,25 @@
+G04 Layer_Color=0*
+%FSLAX45Y45*%
+%MOMM*%
+%TF.FileFunction,Plated,2,5,Blind,Drill*%
+%TF.Part,Single*%
+%TFFileComment,The blind Vias under BGA and Other Pads are Via-In-Pad (VIP)*%
+G01*
+G75*
+%TA.AperFunction,ViaDrill,NotFilled*%
+%ADD152C,0.15000*%
+D152*
+X1379168Y-91370D02*
+D03*
+X1410440Y-134768D02*
+D03*
+X1377272Y159770D02*
+D03*
+X1350166Y52393D02*
+D03*
+X2160452Y-6434D02*
+D03*
+X1160331Y-125063D02*
+D03*
+%TF.MD5,48480378e59eca59878e1f83c6b6d264*%
+M02*

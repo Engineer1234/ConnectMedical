@@ -17,7 +17,7 @@ RevisionNamingSchemeGUID=
 [OutputGroup1]
 Name=105358-3BA001-01_EFM1.OutJob
 Description=
-TargetOutputMedium=PDF
+TargetOutputMedium=PCB_PRINT
 VariantName=[No Variations]
 VariantScope=1
 CurrentConfigurationName=
@@ -44,7 +44,7 @@ OutputName1=Schematic Prints
 OutputCategory1=Documentation
 OutputDocumentPath1=
 OutputVariantName1=[No Variations]
-OutputEnabled1=1
+OutputEnabled1=0
 OutputEnabled1_OutputMedium1=0
 OutputEnabled1_OutputMedium2=1
 OutputEnabled1_OutputMedium3=0
@@ -53,13 +53,13 @@ OutputEnabled1_OutputMedium5=0
 OutputEnabled1_OutputMedium6=0
 OutputEnabled1_OutputMedium7=0
 OutputDefault1=0
-PageOptions1=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=0.96|XCorrection=1.00|YCorrection=1.00|PrintKind=0|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=4200|PaperWidth=2970|Scale=100|PaperSource=7|PrintQuality=600|MediaType=257|DitherType=10|PrintScaleMode=1|PaperKind=A3|PaperIndex=8
+PageOptions1=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=0.96|XCorrection=1.00|YCorrection=1.00|PrintKind=0|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=4200|PaperWidth=2970|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=257|DitherType=10|PrintScaleMode=1|PaperKind=A3|PaperIndex=8
 Configuration1_Name1=OutputConfigurationParameter1
 Configuration1_Item1=Record=SchPrintView|ShowNoERC=True|ShowParamSet=True|ShowProbe=True|ShowBlanket=True|NoERCSymbolsToShow="Thin Cross","Thick Cross","Small Cross",Checkbox,Triangle|ShowNote=True|ShowNoteCollapsed=True|ShowOpenEnds=True|ExpandDesignator=True|ExpandNetLabel=True|ExpandPort=True|ExpandSheetNum=True|ExpandDocNum=True|PrintArea=0|PrintAreaRect.X1=0|PrintAreaRect.Y1=0|PrintAreaRect.X2=0|PrintAreaRect.Y2=0
 OutputType2=PDF3D
 OutputName2=PDF3D
 OutputCategory2=Documentation
-OutputDocumentPath2=
+OutputDocumentPath2=105358-3LA001-01_EFM1.PcbDoc
 OutputVariantName2=
 OutputEnabled2=0
 OutputEnabled2_OutputMedium1=0
@@ -76,9 +76,9 @@ Configuration2_Item1=Record=ExportPDF3DSetting|Version=110|Format=0|Flags=8158|S
 OutputType3=PCB Print
 OutputName3=PCB Prints
 OutputCategory3=Documentation
-OutputDocumentPath3=
+OutputDocumentPath3=105358-3LA001-01_EFM1.PcbDoc
 OutputVariantName3=
-OutputEnabled3=0
+OutputEnabled3=1
 OutputEnabled3_OutputMedium1=0
 OutputEnabled3_OutputMedium2=0
 OutputEnabled3_OutputMedium3=0
@@ -87,9 +87,9 @@ OutputEnabled3_OutputMedium5=0
 OutputEnabled3_OutputMedium6=0
 OutputEnabled3_OutputMedium7=0
 OutputDefault3=0
-PageOptions3=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.82|XCorrection=1.00|YCorrection=1.00|PrintKind=0|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+PageOptions3=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.82|XCorrection=1.00|YCorrection=1.00|PrintKind=0|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A3|PaperIndex=8
 Configuration3_Name1=OutputConfigurationParameter1
-Configuration3_Item1=DesignatorDisplayMode=Physical|PrintArea=SpecificArea|PrintAreaLowerLeftCornerX=8626220|PrintAreaLowerLeftCornerY=6235276|PrintAreaUpperRightCornerX=71869567|PrintAreaUpperRightCornerY=44350039|Record=PcbPrintView
+Configuration3_Item1=DesignatorDisplayMode=Physical|PrintArea=DesignExtent|PrintAreaLowerLeftCornerX=8626220|PrintAreaLowerLeftCornerY=6235276|PrintAreaUpperRightCornerX=71869567|PrintAreaUpperRightCornerY=44350039|Record=PcbPrintView
 Configuration3_Name2=OutputConfigurationParameter2
 Configuration3_Item2=IncludeBottomLayerComponents=True|IncludeMultiLayerComponents=False|IncludeTopLayerComponents=True|IncludeViewports=True|Index=0|Mirror=False|Name=Component Side|PadNumberFontSize=14|Record=PcbPrintOut|ShowHoles=False|ShowPadNets=False|ShowPadNumbers=False|SubstituteFonts=False
 Configuration3_Name3=OutputConfigurationParameter3
@@ -103,39 +103,39 @@ Configuration3_Item6=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full
 Configuration3_Name7=OutputConfigurationParameter7
 Configuration3_Item7=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical16|Polygon=Full|PrintOutIndex=0|Record=PcbPrintLayer
 Configuration3_Name8=OutputConfigurationParameter8
-Configuration3_Item8=IncludeBottomLayerComponents=False|IncludeMultiLayerComponents=False|IncludeTopLayerComponents=False|IncludeViewports=True|Index=1|Mirror=False|Name=Ground Plane (GND) ((Multiple Nets))|PadNumberFontSize=14|Record=PcbPrintOut|ShowHoles=False|ShowPadNets=False|ShowPadNumbers=False|SubstituteFonts=False
+Configuration3_Item8=IncludeBottomLayerComponents=False|IncludeMultiLayerComponents=False|IncludeTopLayerComponents=False|IncludeViewports=True|Index=1|Mirror=False|Name=Inner Layer 1|PadNumberFontSize=14|Record=PcbPrintOut|ShowHoles=False|ShowPadNets=False|ShowPadNumbers=False|SubstituteFonts=False
 Configuration3_Name9=OutputConfigurationParameter9
-Configuration3_Item9=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=InternalPlane1|Polygon=Full|PrintOutIndex=1|Record=PcbPrintLayer
+Configuration3_Item9=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=MidLayer1|Polygon=Full|PrintOutIndex=1|Record=PcbPrintLayer
 Configuration3_Name10=OutputConfigurationParameter10
-Configuration3_Item10=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical2|Polygon=Full|PrintOutIndex=1|Record=PcbPrintLayer
+Configuration3_Item10=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical11|Polygon=Full|PrintOutIndex=1|Record=PcbPrintLayer
 Configuration3_Name11=OutputConfigurationParameter11
-Configuration3_Item11=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical4|Polygon=Full|PrintOutIndex=1|Record=PcbPrintLayer
+Configuration3_Item11=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical16|Polygon=Full|PrintOutIndex=1|Record=PcbPrintLayer
 Configuration3_Name12=OutputConfigurationParameter12
-Configuration3_Item12=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical11|Polygon=Full|PrintOutIndex=1|Record=PcbPrintLayer
+Configuration3_Item12=IncludeBottomLayerComponents=False|IncludeMultiLayerComponents=False|IncludeTopLayerComponents=False|IncludeViewports=True|Index=2|Mirror=False|Name=Ground Plane (GND) ((Multiple Nets))|PadNumberFontSize=14|Record=PcbPrintOut|ShowHoles=False|ShowPadNets=False|ShowPadNumbers=False|SubstituteFonts=False
 Configuration3_Name13=OutputConfigurationParameter13
-Configuration3_Item13=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical16|Polygon=Full|PrintOutIndex=1|Record=PcbPrintLayer
+Configuration3_Item13=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=InternalPlane1|Polygon=Full|PrintOutIndex=2|Record=PcbPrintLayer
 Configuration3_Name14=OutputConfigurationParameter14
-Configuration3_Item14=IncludeBottomLayerComponents=False|IncludeMultiLayerComponents=False|IncludeTopLayerComponents=False|IncludeViewports=True|Index=2|Mirror=False|Name=Inner Layer 1|PadNumberFontSize=14|Record=PcbPrintOut|ShowHoles=False|ShowPadNets=False|ShowPadNumbers=False|SubstituteFonts=False
+Configuration3_Item14=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical2|Polygon=Full|PrintOutIndex=2|Record=PcbPrintLayer
 Configuration3_Name15=OutputConfigurationParameter15
-Configuration3_Item15=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=MidLayer1|Polygon=Full|PrintOutIndex=2|Record=PcbPrintLayer
+Configuration3_Item15=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical4|Polygon=Full|PrintOutIndex=2|Record=PcbPrintLayer
 Configuration3_Name16=OutputConfigurationParameter16
 Configuration3_Item16=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical11|Polygon=Full|PrintOutIndex=2|Record=PcbPrintLayer
 Configuration3_Name17=OutputConfigurationParameter17
 Configuration3_Item17=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical16|Polygon=Full|PrintOutIndex=2|Record=PcbPrintLayer
 Configuration3_Name18=OutputConfigurationParameter18
-Configuration3_Item18=IncludeBottomLayerComponents=False|IncludeMultiLayerComponents=False|IncludeTopLayerComponents=False|IncludeViewports=True|Index=3|Mirror=False|Name=Inner Layer 2|PadNumberFontSize=14|Record=PcbPrintOut|ShowHoles=False|ShowPadNets=False|ShowPadNumbers=False|SubstituteFonts=False
+Configuration3_Item18=IncludeBottomLayerComponents=False|IncludeMultiLayerComponents=False|IncludeTopLayerComponents=False|IncludeViewports=True|Index=3|Mirror=False|Name=Power Plane (VCC) ((Multiple Nets))|PadNumberFontSize=14|Record=PcbPrintOut|ShowHoles=False|ShowPadNets=False|ShowPadNumbers=False|SubstituteFonts=False
 Configuration3_Name19=OutputConfigurationParameter19
-Configuration3_Item19=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=MultiLayer|Polygon=Full|PrintOutIndex=3|Record=PcbPrintLayer
+Configuration3_Item19=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=InternalPlane2|Polygon=Full|PrintOutIndex=3|Record=PcbPrintLayer
 Configuration3_Name20=OutputConfigurationParameter20
-Configuration3_Item20=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=MidLayer2|Polygon=Full|PrintOutIndex=3|Record=PcbPrintLayer
+Configuration3_Item20=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical11|Polygon=Full|PrintOutIndex=3|Record=PcbPrintLayer
 Configuration3_Name21=OutputConfigurationParameter21
-Configuration3_Item21=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical11|Polygon=Full|PrintOutIndex=3|Record=PcbPrintLayer
+Configuration3_Item21=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical16|Polygon=Full|PrintOutIndex=3|Record=PcbPrintLayer
 Configuration3_Name22=OutputConfigurationParameter22
-Configuration3_Item22=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical16|Polygon=Full|PrintOutIndex=3|Record=PcbPrintLayer
+Configuration3_Item22=IncludeBottomLayerComponents=False|IncludeMultiLayerComponents=False|IncludeTopLayerComponents=False|IncludeViewports=True|Index=4|Mirror=False|Name=Inner Layer 2|PadNumberFontSize=14|Record=PcbPrintOut|ShowHoles=False|ShowPadNets=False|ShowPadNumbers=False|SubstituteFonts=False
 Configuration3_Name23=OutputConfigurationParameter23
-Configuration3_Item23=IncludeBottomLayerComponents=False|IncludeMultiLayerComponents=False|IncludeTopLayerComponents=False|IncludeViewports=True|Index=4|Mirror=False|Name=Power Plane (VCC) ((Multiple Nets))|PadNumberFontSize=14|Record=PcbPrintOut|ShowHoles=False|ShowPadNets=False|ShowPadNumbers=False|SubstituteFonts=False
+Configuration3_Item23=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=MultiLayer|Polygon=Full|PrintOutIndex=4|Record=PcbPrintLayer
 Configuration3_Name24=OutputConfigurationParameter24
-Configuration3_Item24=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=InternalPlane2|Polygon=Full|PrintOutIndex=4|Record=PcbPrintLayer
+Configuration3_Item24=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=MidLayer2|Polygon=Full|PrintOutIndex=4|Record=PcbPrintLayer
 Configuration3_Name25=OutputConfigurationParameter25
 Configuration3_Item25=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical11|Polygon=Full|PrintOutIndex=4|Record=PcbPrintLayer
 Configuration3_Name26=OutputConfigurationParameter26
@@ -355,11 +355,11 @@ OutputEnabled7_OutputMedium5=0
 OutputEnabled7_OutputMedium6=0
 OutputEnabled7_OutputMedium7=1
 OutputDefault7=0
-PageOptions7=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+PageOptions7=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A3|PaperIndex=8
 OutputType8=PCB 3D Print
 OutputName8=PCB 3D Print
 OutputCategory8=Documentation
-OutputDocumentPath8=
+OutputDocumentPath8=105358-3LA001-01_EFM1.PcbDoc
 OutputVariantName8=
 OutputEnabled8=0
 OutputEnabled8_OutputMedium1=0
@@ -392,7 +392,7 @@ Configuration9_Name1=OutputConfigurationParameter1
 Configuration9_Item1=Record=Pcb3DPrintView|ResX=150|ResY=150|ViewX=45275591|ViewY=23622047|LookAtX=32627952|LookAtY=21801180|LookAtZ=0|QuatX=0|QuatY=0|QuatZ=0|QuatW=1|Zoom=1.94365215464554E-5|UnitsPercent=True|UnitsDPI=True|LockResAspect=True|ViewConfigType=.config_3d|CustomCamera=False|ViewFromTop=True|ViewConfig=
 
 [PublishSettings]
-OutputFilePath2=C:\Users\KaKa\Documents\Altium\Projects\Connect Medical Boards\EFM1\Project Outputs for 105358-3BA001-01_EFM1\PDF\3494-3SC001-02_Schematic_Project_Name.pdf
+OutputFilePath2=C:\Users\KaKa\Documents\Altium\Projects\Connect Medical Boards\EFM1\Project Outputs for 105358-3BA001-01_EFM1\PDF\105358-3SC001-01_Schematic_EFM1pdf.PDF
 ReleaseManaged2=1
 OutputBasePath2=Project Outputs for 105358-3BA001-01_EFM1
 OutputPathMedia2=[Media Type]
@@ -400,7 +400,7 @@ OutputPathMediaValue2=
 OutputPathOutputer2=[Output Type]
 OutputPathOutputerPrefix2=
 OutputPathOutputerValue2=
-OutputFileName2=105358-3SC001-01_Schematic_EFM1pdf
+OutputFileName2=105358-3SC001-01-B_Schematic_EFM1pdf
 OutputFileNameMulti2=
 UseOutputNameForMulti2=0
 OutputFileNameSpecial2=
@@ -419,7 +419,7 @@ ShowComponentParameters2=1
 GlobalBookmarks2=1
 PDFACompliance2=Disabled
 PDFVersion2=Default
-OutputFilePath3=C:\Users\KaKa\Documents\Altium\Projects\Project Template_KAKA\Project Outputs for XXXX-3BA00X-0X_Project_Name\3494-3BA001-02_NioxVero.PDF
+OutputFilePath3=C:\Users\KaKa\Documents\Altium\Projects\Connect Medical Boards\EFM1\Project Outputs for 105358-3BA001-01_EFM1\XXXX-3BA00X-0X_Project_Name.PDF
 ReleaseManaged3=1
 OutputBasePath3=Project Outputs for 105358-3BA001-01_EFM1
 OutputPathMedia3=
@@ -427,7 +427,7 @@ OutputPathMediaValue3=
 OutputPathOutputer3=[Output Type]
 OutputPathOutputerPrefix3=
 OutputPathOutputerValue3=
-OutputFileName3=XXXX-3BA00X-0X_Project_Name.PDF
+OutputFileName3=105358-3SC001-01_3D_EFM1PDF
 OutputFileNameMulti3=
 UseOutputNameForMulti3=0
 OutputFileNameSpecial3=
@@ -446,7 +446,7 @@ ShowComponentParameters3=1
 GlobalBookmarks3=0
 PDFACompliance3=Disabled
 PDFVersion3=Default
-OutputFilePath4=C:\Users\KaKa\Documents\Altium\Projects\Project Template_KAKA\Project Outputs for XXXX-3BA00X-0X_Project_Name\PDF\3494-3LA001-02_PCB_Project_Name.PDF
+OutputFilePath4=C:\Users\KaKa\Documents\Altium\Projects\Connect Medical Boards\EFM1\Project Outputs for 105358-3BA001-01_EFM1\PDF\105358-3SC001-01_PCB_EFM1.PDF
 ReleaseManaged4=1
 OutputBasePath4=Project Outputs for 105358-3BA001-01_EFM1
 OutputPathMedia4=[Media Type]
@@ -454,7 +454,7 @@ OutputPathMediaValue4=
 OutputPathOutputer4=[Output Type]
 OutputPathOutputerPrefix4=
 OutputPathOutputerValue4=
-OutputFileName4=XXXX-3LA00X-0X_PCB_Project_Name.PDF
+OutputFileName4=105358-3LA001-01_PCB_EFM1.PDF
 OutputFileNameMulti4=
 UseOutputNameForMulti4=0
 OutputFileNameSpecial4=
@@ -473,7 +473,7 @@ ShowComponentParameters4=1
 GlobalBookmarks4=0
 PDFACompliance4=Disabled
 PDFVersion4=Default
-OutputFilePath5=C:\Users\KaKa\Documents\Altium\Projects\Project Template_KAKA\Project Outputs for XXXX-3BA00X-0X_Project_Name\
+OutputFilePath5=C:\Users\KaKa\Documents\Altium\Projects\Connect Medical Boards\EFM1\Project Outputs for 105358-3BA001-01_EFM1\
 ReleaseManaged5=1
 OutputBasePath5=Project Outputs for 105358-3BA001-01_EFM1
 OutputPathMedia5=
@@ -523,7 +523,7 @@ FFmpegPixelFormat6=0
 FFmpegQuality6=80
 WmvVideoCodecName6=Windows Media Video V7
 WmvQuality6=80
-OutputFilePath7=C:\Users\KaKa\Documents\Altium\Projects\Project Template_KAKA\Project Outputs for XXXX-3BA00X-0X_Project_Name\PDF\3494-3SC001-01-B Assembly Drawing.PDF
+OutputFilePath7=C:\Users\KaKa\Documents\Altium\Projects\Connect Medical Boards\EFM1\Project Outputs for 105358-3BA001-01_EFM1\PDF\XXXX-3SC00X-0X-X Assembly Drawing.PDF
 ReleaseManaged7=1
 OutputBasePath7=Project Outputs for 105358-3BA001-01_EFM1
 OutputPathMedia7=[Media Type]
@@ -531,7 +531,7 @@ OutputPathMediaValue7=
 OutputPathOutputer7=[Output Type]
 OutputPathOutputerPrefix7=
 OutputPathOutputerValue7=
-OutputFileName7=XXXX-3SC00X-0X-X Assembly Drawing.PDF
+OutputFileName7=105358-3SC001-01-Assembly Drawing.PDF
 OutputFileNameMulti7=
 UseOutputNameForMulti7=0
 OutputFileNameSpecial7=
@@ -552,13 +552,13 @@ PDFACompliance7=Disabled
 PDFVersion7=Default
 
 [GeneratedFilesSettings]
-RelativeOutputPath2=C:\Users\KaKa\Documents\Altium\Projects\Connect Medical Boards\EFM1\Project Outputs for 105358-3BA001-01_EFM1\PDF\3494-3SC001-02_Schematic_Project_Name.pdf
+RelativeOutputPath2=C:\Users\KaKa\Documents\Altium\Projects\Connect Medical Boards\EFM1\Project Outputs for 105358-3BA001-01_EFM1\PDF\105358-3SC001-01_Schematic_EFM1pdf.PDF
 OpenOutputs2=1
-RelativeOutputPath3=C:\Users\KaKa\Documents\Altium\Projects\Project Template_KAKA\Project Outputs for XXXX-3BA00X-0X_Project_Name\3494-3BA001-02_NioxVero.PDF
+RelativeOutputPath3=C:\Users\KaKa\Documents\Altium\Projects\Connect Medical Boards\EFM1\Project Outputs for 105358-3BA001-01_EFM1\XXXX-3BA00X-0X_Project_Name.PDF
 OpenOutputs3=1
-RelativeOutputPath4=C:\Users\KaKa\Documents\Altium\Projects\Project Template_KAKA\Project Outputs for XXXX-3BA00X-0X_Project_Name\PDF\3494-3LA001-02_PCB_Project_Name.PDF
+RelativeOutputPath4=C:\Users\KaKa\Documents\Altium\Projects\Connect Medical Boards\EFM1\Project Outputs for 105358-3BA001-01_EFM1\PDF\105358-3SC001-01_PCB_EFM1.PDF
 OpenOutputs4=1
-RelativeOutputPath5=C:\Users\KaKa\Documents\Altium\Projects\Project Template_KAKA\Project Outputs for XXXX-3BA00X-0X_Project_Name\
+RelativeOutputPath5=C:\Users\KaKa\Documents\Altium\Projects\Connect Medical Boards\EFM1\Project Outputs for 105358-3BA001-01_EFM1\
 OpenOutputs5=1
 AddToProject5=1
 TimestampFolder5=0
@@ -570,6 +570,6 @@ OpenIPCOutput5=0
 EnableReload5=0
 RelativeOutputPath6=C:\Users\KaKa\Documents\Altium\Projects\Project Template_KAKA\Project Outputs for XXXX-3BA00X-0X_Project_Name\3494-3BA001-02_NioxVero.wmv
 OpenOutputs6=1
-RelativeOutputPath7=C:\Users\KaKa\Documents\Altium\Projects\Project Template_KAKA\Project Outputs for XXXX-3BA00X-0X_Project_Name\PDF\3494-3SC001-01-B Assembly Drawing.PDF
+RelativeOutputPath7=C:\Users\KaKa\Documents\Altium\Projects\Connect Medical Boards\EFM1\Project Outputs for 105358-3BA001-01_EFM1\PDF\XXXX-3SC00X-0X-X Assembly Drawing.PDF
 OpenOutputs7=1
 
