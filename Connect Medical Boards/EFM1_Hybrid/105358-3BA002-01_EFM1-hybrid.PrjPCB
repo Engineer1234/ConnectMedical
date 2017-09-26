@@ -171,7 +171,7 @@ ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=WTCSFODD
+DocumentUniqueId=NLCAVNTW
 
 [Document9]
 DocumentPath=Lib\ConnectMedical.SchLib
@@ -188,11 +188,24 @@ ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=ONAWTYXT
+DocumentUniqueId=KVMUHGIM
 
-[GeneratedDocument1]
-DocumentPath=Project Outputs for 105358-3BA001-01_EFM1\Reports\105358-3SC001-01-A_BlockDiagram.BOM
+[Document10]
+DocumentPath=105358-3SC002-01-A_IR_extra.SchDoc
+AnnotationEnabled=1
+AnnotateStartValue=501
+AnnotationIndexControlEnabled=1
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=5
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
 DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=AOVLQEQY
 
 [DeviceSheetFolder1]
 Path=C:\Users\kaka\Documents\Altium\Projects\Aerocrine\Altium templates 160204\
