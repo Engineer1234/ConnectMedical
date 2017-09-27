@@ -238,11 +238,11 @@ Value=X
 
 [Parameter2]
 Name=Project_Revision
-Value=B
+Value=A
 
 [Parameter3]
 Name=Project_Drawn_By
-Value=Kartik.K, Jesus.S
+Value=Kartik.Karuna
 
 [Parameter4]
 Name=Project_Document_Number
@@ -254,7 +254,7 @@ Value=Innovation Zed
 
 [Parameter6]
 Name=Project_Board
-Value=EFM 1
+Value=EFM 1 -Hybrid
 
 [Parameter7]
 Name=PrjVersionControl_RevNumber
