@@ -233,32 +233,32 @@ Path=C:\Users\kaka\Documents\Altium\Projects\Aerocrine\
 IncludeSubFolders=1
 
 [Parameter1]
-Name=Project_Total_Sheets
-Value=X
+Name=PrjVersionControl_RevNumber
+Value=' A '
 
 [Parameter2]
-Name=Project_Revision
-Value=A
+Name=Project_Board
+Value=EFM 1 -Hybrid
 
 [Parameter3]
-Name=Project_Drawn_By
-Value=Kartik.Karuna
+Name=Project_Customer
+Value=Innovation Zed
 
 [Parameter4]
 Name=Project_Document_Number
 Value=105243-3BA001-01-B
 
 [Parameter5]
-Name=Project_Customer
-Value=Innovation Zed
+Name=Project_Drawn_By
+Value=Kartik.Karuna
 
 [Parameter6]
-Name=Project_Board
-Value=EFM 1 -Hybrid
+Name=Project_Revision
+Value=A
 
 [Parameter7]
-Name=PrjVersionControl_RevNumber
-Value=' A '
+Name=Project_Total_Sheets
+Value=X
 
 [Configuration1]
 Name=Sources
