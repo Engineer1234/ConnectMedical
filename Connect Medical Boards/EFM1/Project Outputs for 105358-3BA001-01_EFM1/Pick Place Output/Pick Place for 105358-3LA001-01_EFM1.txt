@@ -4,9 +4,9 @@ C:\Users\KaKa\Documents\Altium\Projects\Connect Medical Boards\EFM1\Project Outp
 ========================================================================================================================
 File Design Information:
 
-Date:       25-09-17
-Time:       11:38
-Revision:   136
+Date:       28-09-17
+Time:       04:31
+Revision:   143
 Variant:    No variations
 Units used: mm
 
@@ -52,7 +52,7 @@ MOD401     CYBLE-214009-00  BottomLayer CYBLE-014008-00_MINKEEPOUT       21.395m
 L401       BLM21PG331SN1D   TopLayer    0805L_HIGH_DENSITY_-_Hybrid_0402 21.210mm     -0.819mm     270      0805 Ferrite Bead 330Ohm@100MHz            
 L301       10µH             TopLayer    0805L_HIGH_DENSITY               4.845mm      0.469mm      270      FIXED IND 10UH 500MA 300 MOHM              
 J204       120220-0161      TopLayer    PAD_1.0x3.76mm                   25.561mm     0.011mm      270      UNIVERSAL CONTACT 2.5MM SMD                
-D501       KPT-2012P3BT     BottomLayer APT1608F3C                       -3.494mm     -10.846mm    180      0603 INFRARED DIODE                        
+D501       APT1608F3C       BottomLayer APT1608F3C                       -3.494mm     -10.846mm    180      0603 INFRARED DIODE                        
 D403       LXES15AAA1-133   BottomLayer 0402C-GENERIC                    4.636mm      -1.596mm     90       TVS DIODE 15VWM 0402                       
 D402       LXES15AAA1-133   BottomLayer 0402C-GENERIC                    -0.894mm     -2.586mm     180      TVS DIODE 15VWM 0402                       
 D401       LED RG           TopLayer    LED_GRN/RED_DIFF_1208_R/A_SMD    -0.149mm     -10.180mm    180      LED GRN/RED DIFF 1208 R/A SMD              
