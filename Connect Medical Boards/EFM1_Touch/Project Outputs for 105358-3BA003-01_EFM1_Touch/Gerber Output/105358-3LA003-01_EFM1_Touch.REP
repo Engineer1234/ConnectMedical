@@ -1,0 +1,212 @@
+*************************************************************
+FileName = 105358-3LA003-01_EFM1_Touch.GBR
+AutoAperture = True
+*************************************************************
+Generating : Component Side
+      File : 105358-3LA003-01_EFM1_Touch_Copper_Signal_Top.gbr
+
+    Adding Layer      : Component Side
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D10
+    D11
+    D12
+*************************************************************
+
+*************************************************************
+Generating : Bottom Layer
+      File : 105358-3LA003-01_EFM1_Touch_Copper_Signal_Bot.gbr
+
+    Adding Layer      : Bottom Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D10
+    D11
+    D12
+    D13
+*************************************************************
+
+*************************************************************
+Generating : Mechanical 20
+      File : 105358-3LA003-01_EFM1_Touch_Mechanical_20.gbr
+
+    Adding Layer      : Mechanical 20
+
+
+Used DCodes :
+*************************************************************
+
+*************************************************************
+Generating : Mechanical 1
+      File : 105358-3LA003-01_EFM1_Touch_Mechanical_1.gbr
+
+    Adding Layer      : Mechanical 1
+
+
+Used DCodes :
+    D11
+    D14
+*************************************************************
+
+*************************************************************
+Generating : Profile
+      File : 105358-3LA003-01_EFM1_Touch_Profile.gbr
+
+
+Used DCodes :
+    D15
+*************************************************************
+
+*************************************************************
+Generating : Non-plated through-hole drill file
+      File : 105358-3LA003-01_EFM1_Touch_NPTH_Drill.gbr
+
+
+Used DCodes :
+*************************************************************
+
+*************************************************************
+Generating : Plated through-hole drill file
+      File : 105358-3LA003-01_EFM1_Touch_PTH_Drill.gbr
+
+
+Used DCodes :
+    D16
+*************************************************************
+
+*************************************************************
+Generating : Blind or buried via drill file for drill pairs
+      File : 105358-3LA003-01_EFM1_Touch_Plated_Drill_1_2.gbr
+
+
+Used DCodes :
+*************************************************************
+
+*************************************************************
+Generating : Blind or buried via drill file for drill pairs
+      File : 105358-3LA003-01_EFM1_Touch_Plated_Drill_2_2.gbr
+
+
+Used DCodes :
+*************************************************************
+
+*************************************************************
+Generating : Blind or buried via drill file for drill pairs
+      File : 105358-3LA003-01_EFM1_Touch_Plated_Drill_2_2.gbr
+
+
+Used DCodes :
+*************************************************************
+
+*************************************************************
+Generating : Drill Drawing
+      File : 105358-3LA003-01_EFM1_Touch_Drawing_1.gbr
+
+    Adding Drill Pair : Bottom Layer-Component Side
+
+    Adding Layer      : Drill Drawing
+
+
+Used DCodes :
+    D11
+    D18
+*************************************************************
+
+*************************************************************
+Generating : Drill Drawing
+      File : 105358-3LA003-01_EFM1_Touch_Drawing_2.gbr
+
+    Adding Drill Pair : Inner Layer 1-Component Side
+
+    Adding Layer      : Drill Drawing
+
+
+Used DCodes :
+    D11
+*************************************************************
+
+*************************************************************
+Generating : Drill Drawing
+      File : 105358-3LA003-01_EFM1_Touch_Drawing_3.gbr
+
+    Adding Drill Pair : Inner Layer 2-Inner Layer 1
+
+    Adding Layer      : Drill Drawing
+
+
+Used DCodes :
+    D11
+*************************************************************
+
+*************************************************************
+Generating : Drill Drawing
+      File : 105358-3LA003-01_EFM1_Touch_Drawing_4.gbr
+
+    Adding Drill Pair : Bottom Layer-Inner Layer 2
+
+    Adding Layer      : Drill Drawing
+
+
+Used DCodes :
+    D11
+*************************************************************
+
+*************************************************************
+Generating : Drill Guide
+      File : 105358-3LA003-01_EFM1_Touch_Drillmap_1.gbr
+
+    Adding Drill Pair : Bottom Layer-Component Side
+
+    Adding Layer      : Drill Guide
+
+
+Used DCodes :
+    D11
+    D18
+*************************************************************
+
+*************************************************************
+Generating : Drill Guide
+      File : 105358-3LA003-01_EFM1_Touch_Drillmap_2.gbr
+
+    Adding Drill Pair : Inner Layer 1-Component Side
+
+    Adding Layer      : Drill Guide
+
+
+Used DCodes :
+    D11
+*************************************************************
+
+*************************************************************
+Generating : Drill Guide
+      File : 105358-3LA003-01_EFM1_Touch_Drillmap_3.gbr
+
+    Adding Drill Pair : Inner Layer 2-Inner Layer 1
+
+    Adding Layer      : Drill Guide
+
+
+Used DCodes :
+    D11
+*************************************************************
+
+*************************************************************
+Generating : Drill Guide
+      File : 105358-3LA003-01_EFM1_Touch_Drillmap_4.gbr
+
+    Adding Drill Pair : Bottom Layer-Inner Layer 2
+
+    Adding Layer      : Drill Guide
+
+
+Used DCodes :
+    D11
+*************************************************************
+

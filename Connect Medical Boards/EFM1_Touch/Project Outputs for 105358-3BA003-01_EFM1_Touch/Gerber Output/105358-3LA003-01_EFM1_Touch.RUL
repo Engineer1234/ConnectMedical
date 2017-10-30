@@ -1,0 +1,15 @@
+DRC Rules Export File for PCB: C:\Users\KaKa\Documents\Altium\Projects\Connect Medical Boards\EFM1_Touch\105358-3LA003-01_EFM1_Touch.PcbDoc
+RuleKind=ShortCircuit|RuleName=ShortCircuit|Scope=Board|Allowed=0
+RuleKind=Clearance|RuleName=Clearance_TP|Scope=Board|Minimum=5.00
+RuleKind=Clearance|RuleName=Clearance_1|Scope=Board|Minimum=15.75
+RuleKind=Clearance|RuleName=Clearance_2|Scope=Board|Minimum=98.43
+RuleKind=Clearance|RuleName=Clearance_4|Scope=Board|Minimum=5.00
+RuleKind=Clearance|RuleName=TRX_LINE_CLEARENCE|Scope=Board|Minimum=15.75
+RuleKind=Clearance|RuleName=Clearance_FIDU|Scope=Board|Minimum=7.87
+RuleKind=MinimumAnnularRing|RuleName=MinimumAnnularRing_Uvia2|Scope=Board|Minimum=2.91
+RuleKind=MinimumAnnularRing|RuleName=MinimumAnnularRing_Uvia1|Scope=Board|Minimum=2.91
+RuleKind=Width|RuleName=Width|Scope=Board|Minimum=5.00
+RuleKind=SolderMaskExpansion|RuleName=SolderMaskExpansion_1|Scope=Board|Minimum=-20.00
+RuleKind=SolderMaskExpansion|RuleName=SolderMaskExpansion_2|Scope=Board|Minimum=3.94
+RuleKind=MinimumAnnularRing|RuleName=MinimumAnnularRing_1|Scope=Board|Minimum=4.92
+RuleKind=MinimumAnnularRing|RuleName=MinimumAnnularRing_2|Scope=Board|Minimum=7.87
