@@ -185,3 +185,8 @@
 [0922/034335:WARNING:dns_config_service_win.cc(665)] Failed to read DnsConfig.
 [0922/034340:WARNING:dns_config_service_win.cc(665)] Failed to read DnsConfig.
 [0922/034345:WARNING:dns_config_service_win.cc(665)] Failed to read DnsConfig.
+[1201/005043:WARNING:dns_config_service_win.cc(665)] Failed to read DnsConfig.
+[1201/005046:WARNING:dns_config_service_win.cc(665)] Failed to read DnsConfig.
+[1201/134205:WARNING:dns_config_service_win.cc(665)] Failed to read DnsConfig.
+[1201/134256:WARNING:dns_config_service_win.cc(665)] Failed to read DnsConfig.
+[1201/134303:WARNING:dhcp_proxy_script_fetcher_win.cc(345)] Unexpected error retrieving WPAD configuration from DHCP.

@@ -1,0 +1,401 @@
+<html>
+<head>
+<META http-equiv="Content-Type" content="text/html">
+<style type="text/css">
+		h1, h2, h3, h4, h5, h6 {
+			font-family : segoe ui;
+			color : black;
+			background-color : #EDE7D9;
+			padding: 0.3em;
+		}
+
+		h1 {
+			font-size: 1.2em;
+		}		
+
+		h2 {
+			font-size: 1.2em;
+		}
+
+		body {
+			font-family : segoe ui;
+		}
+
+		td, th {
+			padding: 0.5em;
+			text-align : left;
+			width: 10em;
+		}
+		th {
+			background-color : #EEEEEE;
+
+		}
+		th.column1, td.column1 {
+			text-align: left;
+			width : auto;
+		}
+		table {
+			width : 100%;
+			font-size: 0.9em;
+		}
+
+		.DRC_summary_header {
+			padding-bottom : 0.1em;
+			border : 0px solid black;
+			width: 100%;
+			align: left;
+		}
+
+		.DRC_summary_header_col1,
+		.DRC_summary_header_col2, 
+		.DRC_summary_header_col3 {
+			color : black;
+			font-size:100%;
+			padding : 0em;
+			padding-top : 0.2em;
+			padding-bottom 0.2em;
+			border : 0px solid black;
+			vertical-align: top;
+			text-align: left;
+		}
+
+		.DRC_summary_header_col1 {
+			font-weight: bold;
+			width: 8em;
+		}
+
+		.DRC_summary_header_col2 {
+			width: 0.1em;
+		
+		}
+
+		.DRC_summary_header_col3 {
+			width : auto;
+		}
+
+		.header_holder {
+		    Width = 100%;
+		    border = 0px solid green;
+		    padding = 0;
+		}
+
+
+		.front_matter, .front_matter_column1, .front_matter_column2, .front_matter_column3
+		{
+			left : 0;
+			top : 0;
+			padding: 0em;
+			padding-top : 0.1em;
+			border : 0px solid black;
+			width : 100%;
+			vertical-align: top;
+			text-align: left;
+		}
+
+		.front_matter_column1 {
+			width : 8em;
+			font-weight: bold;
+		}
+
+		.front_matter_column2 {
+			width: 0.1em;
+		}
+
+		.front_matter_column3 {
+			width : auto;
+		}
+
+		.total_column1, .total_column {
+			font-weight : bold;
+		}
+		.total_column1 {
+			text-align : left;
+		}
+		.warning, .error {
+			color : red;
+			font-weight : bold;
+		}
+		tr.onmouseout_odd {
+			background-color : #white;
+		}
+		tr.onmouseout_even { 
+			background-color : #FAFAFA;
+		}
+		tr.onmouseover_odd, tr.onmouseover_even { 
+			background-color : #EEEEEE;
+		} 
+		a:link, a:visited, .q a:link,.q a:active,.q {
+			color: #21489e; 
+		}
+		a:link.callback, a:visited.callback { 
+			color: #21489e;
+		}
+		a:link.customize, a:visited.customize {
+			color: #C0C0C0;
+			position: absolute; 
+			right: 10px;
+		}	
+		p.contents_level1 {
+			font-weight : bold;
+			font-size : 110%;
+			margin : 0.5em;
+		}
+		p.contents_level2 {
+			position : relative;
+			left : 20px;
+			margin : 0.5em;
+		}
+	</style><script type="text/javascript">
+		function coordToMils(coord) {
+			var number = coord / 10000;
+			
+			if (number != number.toFixed(3))
+				number = number.toFixed(3);
+
+			return number + 'mil'
+		}
+
+		function coordToMM(coord) {
+			var number = 0.0254 * coord / 10000;
+			
+			if (number != number.toFixed(4))
+				number = number.toFixed(4);
+			
+			return number + 'mm'
+		}
+	
+		function convertCoord(coordNode, units) {
+			for (var i = 0; i < coordNode.childNodes.length; i++) {
+				coordNode.removeChild(coordNode.childNodes[i]);
+			}
+
+			var coord = coordNode.getAttribute('value');
+			if (coord != null) {
+				if (units == 'mm') {
+					textNode = document.createTextNode(coordToMM(coord));
+					coordNode.appendChild(textNode);
+				} else if (units == 'mil') {
+					textNode = document.createTextNode(coordToMils(coord));		
+					coordNode.appendChild(textNode);	
+				}
+			}
+		}
+	
+		function convertUnits(unitNode, units) {
+			for (var i = 0; i < unitNode.childNodes.length; i++) {
+				unitNode.removeChild(unitNode.childNodes[i]);		
+			}
+		
+			textNode = document.createTextNode(units); 
+			unitNode.appendChild(textNode);
+		}
+	
+		function changeUnits(radio_input, units) {
+			if (radio_input.checked) {
+			
+				var elements = document.getElementsByName('coordinate');
+				if (elements) {
+					for (var i = 0; i < elements.length; i++) {
+						convertCoord(elements[i], units);
+					}
+				}
+	
+				var elements = document.getElementsByName('units');
+				if (elements) {
+					for (var i = 0; i < elements.length; i++) {
+						convertUnits(elements[i], units);
+					}
+				}
+			}
+		}
+	</script><title>Design Rule Verification Report</title>
+</head>
+<body onload=""><img ALT="Altium" src="
+			file://C:\Users\Public\Documents\Altium\AD17\Templates\AD_logo.png
+		"><h1>Design Rule Verification Report</h1>
+<table class="header_holder">
+<td class="column1">
+<table class="front_matter">
+<tr class="front_matter">
+<td class="front_matter_column1">Date:</td>
+<td class="front_matter_column2"></td>
+<td class="front_matter_column3">01-12-2017</td>
+</tr>
+<tr class="front_matter">
+<td class="front_matter_column1">Time:</td>
+<td class="front_matter_column2"></td>
+<td class="front_matter_column3">00:26:19</td>
+</tr>
+<tr class="front_matter">
+<td class="front_matter_column1">Elapsed Time:</td>
+<td class="front_matter_column2"></td>
+<td class="front_matter_column3">00:00:03</td>
+</tr>
+<tr class="front_matter">
+<td class="front_matter_column1">Filename:</td>
+<td class="front_matter_column2"></td>
+<td class="front_matter_column3"><a href="file:///C:\Users\KaKa\Documents\Altium\Projects\Connect Medical Boards\EFM2\105358-3LA001-02_EFM2.PcbDoc" class="file"><acronym title="C:\Users\KaKa\Documents\Altium\Projects\Connect Medical Boards\EFM2\105358-3LA001-02_EFM2.PcbDoc">C:\Users\KaKa\Documents\Altium\Projects\Connect Medical Boards\EFM2\105358-3LA001-02_EFM2.PcbDoc</acronym></a></td>
+</tr>
+</table>
+</td>
+<td class="column2">
+<table class="DRC_summary_header">
+<tr>
+<td class="DRC_summary_header_col1">Warnings:</td>
+<td class="DRC_summary_header_col2"></td>
+<td class="DRC_summary_header_col3">0</td></tr>
+<tr>
+<td class="DRC_summary_header_col1">Rule Violations:</td>
+<td class="DRC_summary_header_col2"></td>
+<td class="DRC_summary_header_col3" style="color : red">7</td></tr>
+</table>
+</td>
+</table><a name="IDR4OYWVO1VVFLDOIH33NKAYG24IUDGRBBE32GL1PSU3F2Q53ALKSP"><h2>Summary</h2></a><table>
+<tr>
+<th class="column1">Warnings</th>
+<th class="column2">Count</th>
+</tr>
+<tr>
+<td style="font-weight : bold; text-align : right" class="column1">Total</td>
+<td style="font-weight : bold" class="column2">0</td>
+</tr>
+</table><br><table>
+<tr>
+<th class="column1">Rule Violations</th>
+<th class="column2">Count</th>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDQ3MLE4CYJLEQNM3T2U0IZ2WESBX2OSYR2ISMWCCEF5DIY3DPFR2C">Clearance Constraint (Gap=0.127mm) (All),(All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDFPR5W4FETOXQFYBSTL0255GV2NGMRIG54ZAIXLAUND2IO0RZTOJ">Clearance Constraint (Gap=2.5mm) (InNetClass('Primary')),(InNetClass('Primary') or InNet('GND'))</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDN0TQ2BNU4RJRBARMBRMYQMF3VFLSJ4AL52D5CBKPMXVLJMY1BEG">Clearance Constraint (Gap=0.2mm) (InComponentClass('FIDU')),(All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDB4XJ43OUZNX1JZSIPOF0BD2OOOPPLL35YT10LHOQ1ICOLKJFOKLM">Clearance Constraint (Gap=0.4mm) (InNetClass('RF_50_Ohm')),(All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDRQX2GJA4NT0THOXEOI1X3ZFM2PTM2CV4CZTLKUCG5OJ0DRVECANL">Clearance Constraint (Gap=0.4mm) (OnLayer('Mid-Layer 1') or OnLayer('Multi-Layer')),(OnLayer('Mid-Layer 1'))</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDQYZUM21YXMGMF4NCBAXN421VYMOXCGDKSJYUBWEMX34V1RRWUMWL">Clearance Constraint (Gap=0.127mm) (InComponentClass('TP')),(All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDM55MMKLQ4INQGEQDZ3MCRTWAEIFX0IUX0OP1SREMNWY4WJAIV1KK">Short-Circuit Constraint (Allowed=No) (All),(All)</a></td>
+<td class="column2">1</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDMEOYD0EXSNLAGZICFKQ5JFUWOD52NQUYVJ4QGTOIZGVBB4MGEXCC">Un-Routed Net Constraint ( (All) )</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDB3SHEREKP5EZP1DBE3BCK21RTNHCI43Q4VF5XYMR32OR1LM1Y3LM">Width Constraint (Min=0.127mm) (Max=5mm) (Preferred=0.2mm) (All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#ID50ENAIZSQOY4OE50N5IPHUTHDB3WESTTDCJNXRF1VP5AZJZYG5HI">Power Plane Connect Rule(Direct Connect )(Expansion=0.508mm) (Conductor Width=0.254mm) (Air Gap=0.254mm) (Entries=4) (isVia or HasFootprint('PAD PROGRAMMING'))</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDS3F3OZYZBMJZOGCMOWLXHQI0RD3IMICVU3YORNHXJCLD0I0D0Y2L">Power Plane Connect Rule(Relief Connect )(Expansion=0.508mm) (Conductor Width=0.254mm) (Air Gap=0.254mm) (Entries=4) (All)</a></td>
+<td class="column2">2</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDBCII02D0CNPSNNYKLKB43GYSGO1TOJO4SMAONTLRZGGV3BI1ZQNF">Minimum Annular Ring (Minimum=0.074mm) (InDrillLayerPair('Inner Layer 2 - Solder Side'))</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDKBEYGRIVLKAFGYF0RFDLY40XUEEGQVM3K0UCFAPQYSVDF4I3ACCN">Minimum Annular Ring (Minimum=0.125mm) (isVia)</a></td>
+<td class="column2">4</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDP4HZUHUKUPFR24M1AICSLRITK5KSX5NKBNJITO1BG1GROZR30DJ">Minimum Annular Ring (Minimum=0.2mm) (isPad)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDFY3LDDGZ2M41O11O1JXZSCYNOCS2D2POXLNHUALMDR2SAPCHDUEJ">Minimum Annular Ring (Minimum=0.074mm) (InDrillLayerPair('Component Side - Inner Layer 1'))</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDNEOFTNG5SAIZKPWBYMMMX4T4IRDZNIXJCDZV5G3PJQKHRLLYLZL">Acute Angle Constraint (Minimum=60.000) (All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDOPCPRA3PHXVYO232WKPHKRZJUPEIALWYSJSHPPDWREJVZSFRJZVF">Hole Size Constraint (Min=0.1mm) (Max=3.5mm) (All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDNKRWEMTB50RTK4RP4TRJXGWOYN1NHPVAL1XHJONAWJK20FMGZIJ">Hole To Hole Clearance (Gap=0.127mm) (All),(All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDBWKLLTNCKADUNYUUXEMZ5WZAVBBLBG34TTSTRGP4FU3BVIPNLICF">Minimum Solder Mask Sliver (Gap=0.075mm) (IsPad),(All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDRISST5L1FTEHOQHDVX2NNQ0CDIGKE5X5UP4QRPDNZ1PUWXFKGQSH">Minimum Solder Mask Sliver (Gap=0.06mm) (All),(All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDSISI2A1MW1SRCF5CBOESFUNETPJF205LANFCAIIQZLCC1LM1PO5E">Silk To Solder Mask (Clearance=0mm) (IsPad),(All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#ID00VAFRQIWRZ2CKI2E5PZT5JLVCX24QWMYIGNHXIMSPX3V3QRRQCM">Silk to Silk (Clearance=0mm) (All),(All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#ID2OXY2MVIGRZJMK3QHFLUNYWIWEC0WEV3GOSNHHMXAFIHN1UWMCBK">Net Antennae (Tolerance=0mm) (All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDZCUJ5XFGAIEMGW0P2DOY35HJ2GP3VHRSV1YSLEHSGXT1T0W3ARC">Height Constraint (Min=0mm) (Max=25.4mm) (Prefered=12.7mm) (All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr>
+<td style="font-weight : bold; text-align : right" class="column1">Total</td>
+<td style="font-weight : bold" class="column2">7</td>
+</tr>
+</table><br><a name="IDM55MMKLQ4INQGEQDZ3MCRTWAEIFX0IUX0OP1SREMNWY4WJAIV1KK"><table>
+<tr>
+<th style="text-align : left" colspan="1" class="rule">Short-Circuit Constraint (Allowed=No) (All),(All)</th>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\KaKa\Documents\Altium\Projects\Connect Medical Boards\EFM2\105358-3LA001-02_EFM2.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=5689.92mil|Location2.X=5710.839mil|Location1.Y=7576.601mil|Location2.Y=7597.52mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\KaKa\Documents\Altium\Projects\Connect Medical Boards\EFM2\105358-3LA001-02_EFM2.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=5689.92mil|Location2.X=5710.839mil|Location1.Y=7576.601mil|Location2.Y=7597.52mil|Absolute=True">Short-Circuit Constraint: Between Pad MOD401-18(20.392mm,0.512mm) on Solder Side And Pad MOD401-18(20.392mm,0.118mm) on Solder Side Location : [X = 144.79mm][Y = 192.711mm]</acronym></a><br></td>
+</tr>
+</table></a><hr color="#EEEEEE"><a href="#top" style="font-size: 0.9em">Back to top</a><br><br><a name="IDS3F3OZYZBMJZOGCMOWLXHQI0RD3IMICVU3YORNHXJCLD0I0D0Y2L"><table>
+<tr>
+<th style="text-align : left" colspan="1" class="rule">Power Plane Connect Rule(Relief Connect )(Expansion=0.508mm) (Conductor Width=0.254mm) (Air Gap=0.254mm) (Entries=4) (All)</th>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\KaKa\Documents\Altium\Projects\Connect Medical Boards\EFM2\105358-3LA001-02_EFM2.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4996.132mil|Location2.X=5079.754mil|Location1.Y=7242.274mil|Location2.Y=7377.077mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\KaKa\Documents\Altium\Projects\Connect Medical Boards\EFM2\105358-3LA001-02_EFM2.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4996.132mil|Location2.X=5079.754mil|Location1.Y=7242.274mil|Location2.Y=7377.077mil|Absolute=True">Starved Thermal on Ground Plane (GND): Pad J201-SH(3.566mm,-6.636mm) on Multi-Layer. Blocked 2 out of 4 entries.</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\KaKa\Documents\Altium\Projects\Connect Medical Boards\EFM2\105358-3LA001-02_EFM2.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=5385.108mil|Location2.X=5468.73mil|Location1.Y=7242.274mil|Location2.Y=7377.077mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\KaKa\Documents\Altium\Projects\Connect Medical Boards\EFM2\105358-3LA001-02_EFM2.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=5385.108mil|Location2.X=5468.73mil|Location1.Y=7242.274mil|Location2.Y=7377.077mil|Absolute=True">Starved Thermal on Ground Plane (GND): Pad J201-SH(13.446mm,-6.636mm) on Multi-Layer. Blocked 3 out of 4 entries.</acronym></a><br></td>
+</tr>
+</table></a><hr color="#EEEEEE"><a href="#top" style="font-size: 0.9em">Back to top</a><br><br><a name="IDKBEYGRIVLKAFGYF0RFDLY40XUEEGQVM3K0UCFAPQYSVDF4I3ACCN"><table>
+<tr>
+<th style="text-align : left" colspan="1" class="rule">Minimum Annular Ring (Minimum=0.125mm) (isVia)</th>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\KaKa\Documents\Altium\Projects\Connect Medical Boards\EFM2\105358-3LA001-02_EFM2.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=5299.582mil|Location2.X=5305.753mil|Location1.Y=7438.302mil|Location2.Y=7444.474mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\KaKa\Documents\Altium\Projects\Connect Medical Boards\EFM2\105358-3LA001-02_EFM2.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=5299.582mil|Location2.X=5305.753mil|Location1.Y=7438.302mil|Location2.Y=7444.474mil|Absolute=True">Minimum Annular Ring: (0.105mm &lt; 0.125mm) Via (10.29mm,-3.393mm) from Component Side to Solder Side (Annular Ring=0.105mm) On (Top Layer)</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\KaKa\Documents\Altium\Projects\Connect Medical Boards\EFM2\105358-3LA001-02_EFM2.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=5316.629mil|Location2.X=5322.8mil|Location1.Y=7438.302mil|Location2.Y=7444.474mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\KaKa\Documents\Altium\Projects\Connect Medical Boards\EFM2\105358-3LA001-02_EFM2.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=5316.629mil|Location2.X=5322.8mil|Location1.Y=7438.302mil|Location2.Y=7444.474mil|Absolute=True">Minimum Annular Ring: (0.105mm &lt; 0.125mm) Via (10.723mm,-3.393mm) from Component Side to Solder Side (Annular Ring=0.105mm) On (Top Layer)</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\KaKa\Documents\Altium\Projects\Connect Medical Boards\EFM2\105358-3LA001-02_EFM2.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=5157.377mil|Location2.X=5163.548mil|Location1.Y=7486.649mil|Location2.Y=7492.82mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\KaKa\Documents\Altium\Projects\Connect Medical Boards\EFM2\105358-3LA001-02_EFM2.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=5157.377mil|Location2.X=5163.548mil|Location1.Y=7486.649mil|Location2.Y=7492.82mil|Absolute=True">Minimum Annular Ring: (0.105mm &lt; 0.125mm) Via (6.678mm,-2.165mm) from Component Side to Solder Side (Annular Ring=0.105mm) On (Top Layer)</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\KaKa\Documents\Altium\Projects\Connect Medical Boards\EFM2\105358-3LA001-02_EFM2.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=5181.59mil|Location2.X=5187.761mil|Location1.Y=7486.649mil|Location2.Y=7492.82mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\KaKa\Documents\Altium\Projects\Connect Medical Boards\EFM2\105358-3LA001-02_EFM2.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=5181.59mil|Location2.X=5187.761mil|Location1.Y=7486.649mil|Location2.Y=7492.82mil|Absolute=True">Minimum Annular Ring: (0.105mm &lt; 0.125mm) Via (7.293mm,-2.165mm) from Component Side to Solder Side (Annular Ring=0.105mm) On (Top Layer)</acronym></a><br></td>
+</tr>
+</table></a><hr color="#EEEEEE"><a href="#top" style="font-size: 0.9em">Back to top</a><br><br></body>
+</html>
