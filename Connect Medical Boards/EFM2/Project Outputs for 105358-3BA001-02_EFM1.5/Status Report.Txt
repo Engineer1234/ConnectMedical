@@ -1,0 +1,11 @@
+Output: Generates pick and place files
+Type  : Pick Place
+From  : Variant [[No Variations]] of Project [105358-3BA001-02_EFM1.5.PrjPCB]
+   Generated File[Pick Place for 105358-3LA001-02_EFM1.5.txt]
+   Generated File[Pick Place for 105358-3LA001-02_EFM1.5.csv]
+
+
+Files Generated   : 2
+Documents Printed : 0
+
+Finished Output Generation At 10:34:02 On 04-12-2017

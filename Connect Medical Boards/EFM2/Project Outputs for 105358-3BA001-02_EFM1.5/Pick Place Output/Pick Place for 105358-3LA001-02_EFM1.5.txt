@@ -1,0 +1,77 @@
+Altium Designer Pick and Place Locations
+C:\Users\KaKa\Documents\Altium\Projects\Connect Medical Boards\EFM2\Project Outputs for 105358-3BA001-02_EFM1.5\Pick Place Output\Pick Place for 105358-3LA001-02_EFM1.5.txt
+
+========================================================================================================================
+File Design Information:
+
+Date:       04-12-17
+Time:       10:33
+Revision:   168
+Variant:    No variations
+Units used: mm
+
+Designator Comment          Layer       Footprint                        Center-X(mm) Center-Y(mm) Rotation Description                                
+R503       1K               TopLayer    0402R-GENERIC                    -3.284mm     0.678mm      180      RES SMD 1kOHM 1% 1/16W 0402                
+J205       120220-0161      TopLayer    PAD_1.0x3.76mm                   17.995mm     1.262mm      90       UNIVERSAL CONTACT 2.5MM SMD                
+C405       4.7µF            TopLayer    0402C_HIGH_DENSITY               20.164mm     -5.581mm     180      4.7µF ±10% 6.3V X5R Ceramic Capacitor 0402 
+R412       390K             TopLayer    0402R-GENERIC                    20.164mm     -4.760mm     360      RES SMD 390kOHM 1% 1/16W 0402              
+U401       M24256-DFCS6TP/K TopLayer    UFDFPN8-M24256-DFMC6TG           22.540mm     -4.560mm     90       IC EEPROM 256KBIT 400KHZ 8UFDFPN           
+C301       1µF-10V          TopLayer    0402C_HIGH_DENSITY               3.106mm      0.464mm      180      1µF ±10% 10V X5R Ceramic Capacitor 0402    
+C302       1µF-10V          TopLayer    0402C_HIGH_DENSITY               4.837mm      -1.313mm     180      1µF ±10% 10V X5R Ceramic Capacitor 0402    
+C304       10µF-16V         BottomLayer 0603C_HIGH_DENSITY               6.153mm      1.417mm      180      16µF ±10% 16V X5R Ceramic Capacitor 0603   
+C305       1µF-10V          TopLayer    0402C_HIGH_DENSITY               6.056mm      -0.913mm     90       1µF ±10% 10V X5R Ceramic Capacitor 0402    
+C307       1µF-10V          BottomLayer 0402C_HIGH_DENSITY               8.706mm      1.514mm      180      1µF ±10% 10V X5R Ceramic Capacitor 0402    
+C308       4.7µF            TopLayer    0402C_HIGH_DENSITY               12.736mm     0.814mm      270      4.7µF ±10% 6.3V X5R Ceramic Capacitor 0402 
+C401       0.1µF-10V        BottomLayer 0402C_HIGH_DENSITY               0.556mm      -2.926mm     270      0.1µF ±10% 10V X5R Ceramic Capacitor 0402  
+C402       2.2nF            BottomLayer 0402C_HIGH_DENSITY               22.100mm     1.239mm      360      2.2nF ±10% 50V X5R Ceramic Capacitor 0402  
+C403       22µF             BottomLayer 0603C-GENERIC                    1.546mm      -3.324mm     90       22µF ±20% 10V Ceramic Capacitor X5R 0603   
+C404       4.7µF            TopLayer    0402C_HIGH_DENSITY               20.164mm     -6.439mm     360      4.7µF ±10% 6.3V X5R Ceramic Capacitor 0402 
+C406       1µF-10V          TopLayer    0402C_HIGH_DENSITY               20.164mm     -3.674mm     180      1µF ±10% 10V X5R Ceramic Capacitor 0402    
+C501       1.2nF-10V        TopLayer    0402C_HIGH_DENSITY               -3.302mm     -0.222mm     360      1.2nF ±10% 10V U2J Ceramic Capacitor 0402  
+D201       LXES15AAA1-133   BottomLayer 0402C-GENERIC                    10.907mm     -2.836mm     180      TVS DIODE 15VWM 0402                       
+D401       LED OG           TopLayer    KPHBM-2012CGKSEKC                -0.550mm     -10.405mm    270      LED GRN/ORNG                               
+D402       LXES15AAA1-133   BottomLayer 0402C-GENERIC                    -0.894mm     -2.586mm     180      TVS DIODE 15VWM 0402                       
+D403       LXES15AAA1-133   BottomLayer 0402C-GENERIC                    4.636mm      -1.596mm     90       TVS DIODE 15VWM 0402                       
+D501       APT1608F3C       BottomLayer APT1608F3C                       -2.700mm     -10.700mm    180      0603 INFRARED DIODE                        
+J401       5034801400       TopLayer    5034801400                       17.415mm     -5.350mm     180      Connector molex to OLED Display            
+J204       120220-0161      TopLayer    PAD_1.0x3.76mm                   25.561mm     0.011mm      270      UNIVERSAL CONTACT 2.5MM SMD                
+L301       10µH             TopLayer    0805L_HIGH_DENSITY               4.845mm      0.469mm      270      FIXED IND 10UH 500MA 300 MOHM              
+L401       BLM21PG331SN1D   TopLayer    0805L_HIGH_DENSITY_-_Hybrid_0402 21.210mm     -0.819mm     270      0805 Ferrite Bead 330Ohm@100MHz            
+MOD401     CYBLE-214009-00  BottomLayer CYBLE-014008-00_MINKEEPOUT       21.395mm     -2.574mm     180      BLE PSoC Module 4.1                        
+Q401       CSD23382F4       BottomLayer CSD23382F4_-DFN65P100X35-3L      2.438mm      -1.531mm     270      MOSFET P-CH 12V 22A 3PICOSTAR              
+Q402       CSD13380F3T      BottomLayer CSD13380F3-DFN40P69X35-3L        1.309mm      -1.551mm     360      12V N-CHANNEL FEMTOFET MOSFET              
+Q403       CSD23382F4       TopLayer    CSD23382F4_-DFN65P100X35-3L      20.795mm     -2.618mm     360      MOSFET P-CH 12V 22A 3PICOSTAR              
+Q501       KPT-2012P3BT     BottomLayer APT2012P3BT                      -2.820mm     0.500mm      180      0805 PHOTOTRANSISTOR                       
+Q502       CSD13380F3T      TopLayer    CSD13380F3-DFN40P69X35-3L        -3.444mm     -9.542mm     180      12V N-CHANNEL FEMTOFET MOSFET              
+R301       820K             TopLayer    0402R-GENERIC                    1.356mm      -1.686mm     90       RES SMD 820kOHM 1% 1/16W 0402              
+R302       820K             TopLayer    0402R-GENERIC                    2.256mm      -1.686mm     90       RES SMD 820kOHM 1% 1/16W 0402              
+R303       82K              TopLayer    0402R-GENERIC                    1.806mm      -0.386mm     180      RES SMD 82kOHM 1% 1/16W 0402               
+R304       82K              TopLayer    0402R-GENERIC                    23.696mm     -1.898mm     270      RES SMD 82kOHM 1% 1/16W 0402               
+R305       820K             TopLayer    0402R-GENERIC                    14.570mm     0.865mm      180      RES SMD 820kOHM 1% 1/16W 0402              
+R306       200K             TopLayer    0402R-GENERIC                    25.705mm     -1.898mm     90       RES SMD 200kOHM 1% 1/16W 0402              
+R307       150K             TopLayer    0402R-GENERIC                    24.701mm     -1.898mm     270      RES SMD 150kOHM 5% 1/16W 0402              
+R308       10K              TopLayer    0402R-GENERIC                    5.646mm      -2.106mm     180      RES SMD 10kOHM 1% 1/16W 0402               
+R309       5.6K             BottomLayer 0402R-GENERIC                    11.276mm     0.164mm      180      RES SMD 5.6kOHM 5% 1/16W 0402              
+R310       41.2K            BottomLayer 0402R-GENERIC                    11.716mm     1.204mm      180      RES SMD 41.2kOHM 1% 1/16W 0402             
+R402       33               BottomLayer 0402R-GENERIC                    -0.548mm     -9.709mm     90       RES SMD  33 OHM 1% 1/16W 0402              
+R401       33               BottomLayer 0402R-GENERIC                    0.475mm      -9.701mm     90       RES SMD  33 OHM 1% 1/16W 0402              
+R403       10K              BottomLayer 0402R-GENERIC                    26.125mm     1.289mm      180      RES SMD 10kOHM 1% 1/16W 0402               
+R404       10K              BottomLayer 0402R-GENERIC                    27.650mm     0.074mm      270      RES SMD 10kOHM 1% 1/16W 0402               
+R405       Do Not Place     BottomLayer 0402R-GENERIC                    14.570mm     -0.187mm     360      Do Not Place                               
+R406       41.2K            BottomLayer 0402R-GENERIC                    0.556mm      -4.450mm     90       RES SMD 41.2kOHM 1% 1/16W 0402             
+R407       Do Not Place     TopLayer    0402R-GENERIC                    14.570mm     -0.187mm     360      Do Not Place                               
+R408       390K             TopLayer    0402R-GENERIC                    -1.255mm     -2.006mm     180      RES SMD 390kOHM 1% 1/16W 0402              
+R409       820K             TopLayer    0402R-GENERIC                    -1.255mm     -2.880mm     180      RES SMD 820kOHM 1% 1/16W 0402              
+R410       82K              BottomLayer 0402R-GENERIC                    2.469mm      -3.022mm     90       RES SMD 82kOHM 1% 1/16W 0402               
+R411       10K              TopLayer    0402R-GENERIC                    19.667mm     -2.120mm     90       RES SMD 10kOHM 1% 1/16W 0402               
+R501       0                TopLayer    0402R-GENERIC                    -1.858mm     0.228mm      90       RES SMD 0.0OHM JUMPER 1/16W 0402           
+R502       100              TopLayer    0402R-GENERIC                    -3.718mm     -10.479mm    360      RES SMD 100OHM 1% 1/16W 0402               
+R504       10K              TopLayer    0402R-GENERIC                    -2.398mm     -9.842mm     90       RES SMD 10kOHM 1% 1/16W 0402               
+SW401      KXT311LHS        BottomLayer KXT311LHS_B                      -0.946mm     -5.096mm     90       SPST Tactile Switch                        
+SW402      KXT311LHS        BottomLayer KXT311LHS_B                      3.006mm      0.264mm      0        SPST Tactile Switch                        
+U301       TPS61046YFFR     TopLayer    TPS61046YFFR                     3.306mm      -0.636mm     360      Boost converter 28V                        
+U302       STBC03           BottomLayer STBC03                           8.506mm      -0.236mm     90       Li-Ion linear battery charger              
+C306       DNP              TopLayer    0603C-GENERIC                    19.096mm     0.010mm      360                                                 
+J202       0781710002       TopLayer    PAD_0781710002                   9.439mm      -0.696mm     90       1.20MM WTB HEADER VERT 2POS                
+C303       DNP              BottomLayer 0402C-GENERIC                    3.849mm      -3.149mm     90       DNP                                        
+J201       USB3155          BottomLayer USB3155                          8.506mm      -4.846mm     90       CONN RCPT USB-mini B 2.0 5POS SLD          
