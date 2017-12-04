@@ -3,9 +3,11 @@ FileName = 105358-3LA001-01_EFM1.GBR
 AutoAperture = True
 *************************************************************
 Generating : Component Side
-      File : 105358-3LA001-01_EFM1_Copper_Signal_Top.gbr
+      File : 105358-3LA001-01_EFM1.GTL
 
     Adding Layer      : Component Side
+
+    Adding Layer      : BRD_Outline
 
     Adding Layer      : Multi-Layer
 
@@ -48,128 +50,28 @@ Used DCodes :
     D44
     D45
     D46
-    D47
-    D48
-*************************************************************
-
-*************************************************************
-Generating : Inner Layer 1
-      File : 105358-3LA001-01_EFM1_Copper_Signal_1.gbr
-
-    Adding Layer      : Inner Layer 1
-
-    Adding Layer      : Multi-Layer
-
-
-Used DCodes :
-    D34
-    D37
-    D38
-    D39
-    D41
-    D42
-    D43
-    D44
-    D45
-    D46
-    D47
-    D48
-*************************************************************
-
-*************************************************************
-Generating : Ground Plane (GND)
-      File : 105358-3LA001-01_EFM1_Copper_Plane_1.gbr
-
-    Adding Layer      : Ground Plane (GND)
-
-    Adding Layer      : Multi-Layer
-
-
-Used DCodes :
-    D38
-    D39
-    D49
-    D50
-    D51
-    D52
-    D53
-    D54
-    D55
-    D56
-    D57
-    D58
-    D59
-    D60
-*************************************************************
-
-*************************************************************
-Generating : Power Plane (VCC)
-      File : 105358-3LA001-01_EFM1_Copper_Plane_2.gbr
-
-    Adding Layer      : Power Plane (VCC)
-
-    Adding Layer      : Multi-Layer
-
-
-Used DCodes :
-    D38
-    D39
-    D49
-    D56
-    D57
-    D58
-    D59
-    D60
-    D61
-    D62
-    D63
-    D64
-    D65
-    D66
-*************************************************************
-
-*************************************************************
-Generating : Inner Layer 2
-      File : 105358-3LA001-01_EFM1_Copper_Signal_2.gbr
-
-    Adding Layer      : Inner Layer 2
-
-    Adding Layer      : Multi-Layer
-
-
-Used DCodes :
-    D34
-    D36
-    D37
-    D38
-    D39
-    D41
-    D42
-    D43
-    D44
-    D45
-    D46
-    D47
-    D48
 *************************************************************
 
 *************************************************************
 Generating : Solder Side
-      File : 105358-3LA001-01_EFM1_Copper_Signal_Bot.gbr
+      File : 105358-3LA001-01_EFM1.GBL
 
     Adding Layer      : Solder Side
+
+    Adding Layer      : BRD_Outline
 
     Adding Layer      : Multi-Layer
 
 
 Used DCodes :
-    D16
-    D18
-    D28
-    D29
-    D31
-    D32
-    D33
+    D10
+    D11
+    D12
+    D14
+    D15
+    D19
+    D25
+    D27
     D34
     D35
     D36
@@ -185,7 +87,84 @@ Used DCodes :
     D46
     D47
     D48
+    D49
+    D50
+    D51
+    D52
+    D53
+    D54
+    D55
+    D56
+    D57
+    D58
+    D59
+    D60
+    D61
+    D62
+    D63
+    D64
+    D65
+*************************************************************
+
+*************************************************************
+Generating : Top Paste
+      File : 105358-3LA001-01_EFM1.GTP
+
+    Adding Layer      : Top Paste
+
+    Adding Layer      : BRD_Outline
+
+    Adding Layer      : Component Side
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D10
+    D11
+    D12
+    D13
+    D14
+    D15
+    D16
+    D17
+    D18
+    D19
+    D22
+    D23
+    D24
+    D26
+    D28
+    D29
+    D30
+    D31
+    D32
+    D33
+    D37
+    D39
+    D66
     D67
+*************************************************************
+
+*************************************************************
+Generating : Top Solder
+      File : 105358-3LA001-01_EFM1.GTS
+
+    Adding Layer      : Top Solder
+
+    Adding Layer      : BRD_Outline
+
+    Adding Layer      : Component Side
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D19
+    D27
+    D37
+    D39
+    D44
     D68
     D69
     D70
@@ -205,65 +184,23 @@ Used DCodes :
     D84
     D85
     D86
-*************************************************************
-
-*************************************************************
-Generating : Top Paste
-      File : 105358-3LA001-01_EFM1_Paste_Top.gbr
-
-    Adding Layer      : Top Paste
-
-    Adding Layer      : Component Side
-
-    Adding Layer      : Multi-Layer
-
-
-Used DCodes :
-    D10
-    D11
-    D12
-    D13
-    D14
-    D15
-    D17
-    D19
-    D20
-    D21
-    D24
-    D25
-    D26
-    D27
-    D28
-    D29
-    D30
-    D31
-    D32
-    D33
-    D39
     D87
     D88
-*************************************************************
-
-*************************************************************
-Generating : Bottom Overlay
-      File : 105358-3LA001-01_EFM1_Legend_Bot.gbr
-
-    Adding Layer      : Bottom Overlay
-
-
-Used DCodes :
-    D38
-    D39
     D89
     D90
     D91
+    D92
+    D93
+    D94
 *************************************************************
 
 *************************************************************
-Generating : Bottom Paste
-      File : 105358-3LA001-01_EFM1_Paste_Bot.gbr
+Generating : Bottom Solder
+      File : 105358-3LA001-01_EFM1.GBS
 
-    Adding Layer      : Bottom Paste
+    Adding Layer      : Bottom Solder
+
+    Adding Layer      : BRD_Outline
 
     Adding Layer      : Solder Side
 
@@ -271,51 +208,22 @@ Generating : Bottom Paste
 
 
 Used DCodes :
-    D28
-    D29
-    D31
-    D32
-    D33
+    D25
+    D27
+    D37
     D39
-    D67
-    D68
+    D44
     D69
+    D70
+    D71
+    D72
     D73
-    D74
-    D75
-    D76
-    D77
-    D78
-    D80
-    D81
-    D82
-    D83
     D84
-    D85
-    D86
     D92
     D93
     D94
     D95
     D96
-*************************************************************
-
-*************************************************************
-Generating : Bottom Solder
-      File : 105358-3LA001-01_EFM1_Soldermask_Bot.gbr
-
-    Adding Layer      : Bottom Solder
-
-    Adding Layer      : Solder Side
-
-    Adding Layer      : Multi-Layer
-
-
-Used DCodes :
-    D16
-    D39
-    D42
-    D48
     D97
     D98
     D99
@@ -334,292 +242,246 @@ Used DCodes :
     D112
     D113
     D114
-    D115
-    D116
-    D117
-    D118
-    D119
-    D120
-    D121
-    D122
-    D123
-    D124
-    D125
-    D126
 *************************************************************
 
 *************************************************************
-Generating : Top Solder
-      File : 105358-3LA001-01_EFM1_Soldermask_Top.gbr
+Generating : Bottom Paste
+      File : 105358-3LA001-01_EFM1.GBP
 
-    Adding Layer      : Top Solder
+    Adding Layer      : Bottom Paste
 
-    Adding Layer      : Component Side
+    Adding Layer      : BRD_Outline
+
+    Adding Layer      : Solder Side
 
     Adding Layer      : Multi-Layer
 
 
 Used DCodes :
-    D16
+    D10
+    D11
+    D12
+    D14
+    D15
+    D37
     D39
-    D42
+    D47
     D48
-    D79
-    D105
+    D49
+    D50
+    D51
+    D52
+    D53
+    D54
+    D55
+    D57
+    D58
+    D59
+    D60
+    D61
+    D62
+    D65
+    D115
     D116
     D117
     D118
     D119
-    D120
-    D124
-    D125
-    D126
-    D127
-    D128
-    D129
-    D130
-    D131
-    D132
-    D133
-    D134
-    D135
-    D136
-    D137
-    D138
-    D139
-    D140
-    D141
-    D142
-    D143
-    D144
 *************************************************************
 
 *************************************************************
-Generating : Top Overlay
-      File : 105358-3LA001-01_EFM1_Legend_Top.gbr
+Generating : Bottom Overlay
+      File : 105358-3LA001-01_EFM1.GBO
 
-    Adding Layer      : Top Overlay
-
-
-Used DCodes :
-    D38
-    D39
-    D90
-    D145
-    D146
-*************************************************************
-
-*************************************************************
-Generating : Mechanical 20
-      File : 105358-3LA001-01_EFM1_Mechanical_20.gbr
-
-    Adding Layer      : Mechanical 20
-
-
-Used DCodes :
-*************************************************************
-
-*************************************************************
-Generating : BRD_Outline
-      File : 105358-3LA001-01_EFM1_Mechanical_16.gbr
+    Adding Layer      : Bottom Overlay
 
     Adding Layer      : BRD_Outline
 
 
 Used DCodes :
+    D34
+    D35
+    D37
+    D38
     D39
-    D145
+    D120
 *************************************************************
 
 *************************************************************
-Generating : Dimensions
-      File : 105358-3LA001-01_EFM1_Mechanical_11.gbr
+Generating : Keep-Out Layer
+      File : 105358-3LA001-01_EFM1.GKO
 
-    Adding Layer      : Dimensions
+    Adding Layer      : Keep-Out Layer
+
+    Adding Layer      : BRD_Outline
 
 
 Used DCodes :
+    D37
+    D39
 *************************************************************
 
 *************************************************************
 Generating : Mechanical 1
-      File : 105358-3LA001-01_EFM1_Mechanical_1.gbr
+      File : 105358-3LA001-01_EFM1.GM1
 
     Adding Layer      : Mechanical 1
 
+    Adding Layer      : BRD_Outline
+
 
 Used DCodes :
+    D37
     D39
-    D145
 *************************************************************
 
 *************************************************************
-Generating : Profile
-      File : 105358-3LA001-01_EFM1_Profile.gbr
+Generating : BRD_Outline
+      File : 105358-3LA001-01_EFM1.GM16
+
+    Adding Layer      : BRD_Outline
+
+    Adding Layer      : BRD_Outline
 
 
 Used DCodes :
-    D147
-*************************************************************
-
-*************************************************************
-Generating : Non-plated through-hole drill file
-      File : 105358-3LA001-01_EFM1_NPTH_Drill.gbr
-
-
-Used DCodes :
-*************************************************************
-
-*************************************************************
-Generating : Plated through-hole drill file
-      File : 105358-3LA001-01_EFM1_PTH_Drill.gbr
-
-
-Used DCodes :
-    D148
-    D149
-    D150
-    D151
-    D152
-*************************************************************
-
-*************************************************************
-Generating : Blind or buried via drill file for drill pairs
-      File : 105358-3LA001-01_EFM1_Plated_Drill_1_2.gbr
-
-
-Used DCodes :
-    D153
-*************************************************************
-
-*************************************************************
-Generating : Blind or buried via drill file for drill pairs
-      File : 105358-3LA001-01_EFM1_Plated_Drill_2_5.gbr
-
-
-Used DCodes :
-    D152
-*************************************************************
-
-*************************************************************
-Generating : Blind or buried via drill file for drill pairs
-      File : 105358-3LA001-01_EFM1_Plated_Drill_5_6.gbr
-
-
-Used DCodes :
-    D153
+    D37
+    D39
 *************************************************************
 
 *************************************************************
 Generating : Drill Drawing
-      File : 105358-3LA001-01_EFM1_Drawing_1.gbr
+      File : 105358-3LA001-01_EFM1.GD1
 
-    Adding Drill Pair : Solder Side-Component Side
+    Adding Layer      : BRD_Outline
+
+    Adding Drill Pair : Component Side-Solder Side
 
     Adding Layer      : Drill Drawing
 
 
 Used DCodes :
+    D37
     D39
-    D155
-    D156
+    D121
+    D122
 *************************************************************
 
 *************************************************************
 Generating : Drill Drawing
-      File : 105358-3LA001-01_EFM1_Drawing_2.gbr
+      File : 105358-3LA001-01_EFM1.GD2
 
-    Adding Drill Pair : Inner Layer 1-Component Side
+    Adding Layer      : BRD_Outline
+
+    Adding Drill Pair : Component Side-Inner Layer 1
 
     Adding Layer      : Drill Drawing
 
 
 Used DCodes :
+    D37
     D39
-    D155
+    D121
 *************************************************************
 
 *************************************************************
 Generating : Drill Drawing
-      File : 105358-3LA001-01_EFM1_Drawing_3.gbr
+      File : 105358-3LA001-01_EFM1.GD3
 
-    Adding Drill Pair : Inner Layer 2-Inner Layer 1
+    Adding Layer      : BRD_Outline
+
+    Adding Drill Pair : Inner Layer 1-Inner Layer 2
 
     Adding Layer      : Drill Drawing
 
 
 Used DCodes :
+    D37
     D39
-    D155
+    D121
 *************************************************************
 
 *************************************************************
 Generating : Drill Drawing
-      File : 105358-3LA001-01_EFM1_Drawing_4.gbr
+      File : 105358-3LA001-01_EFM1.GD4
 
-    Adding Drill Pair : Solder Side-Inner Layer 2
+    Adding Layer      : BRD_Outline
+
+    Adding Drill Pair : Inner Layer 2-Solder Side
 
     Adding Layer      : Drill Drawing
 
 
 Used DCodes :
+    D37
     D39
-    D155
+    D121
 *************************************************************
 
 *************************************************************
 Generating : Drill Guide
-      File : 105358-3LA001-01_EFM1_Drillmap_1.gbr
+      File : 105358-3LA001-01_EFM1.GG1
 
-    Adding Drill Pair : Solder Side-Component Side
+    Adding Layer      : BRD_Outline
+
+    Adding Drill Pair : Component Side-Solder Side
 
     Adding Layer      : Drill Guide
 
 
 Used DCodes :
+    D37
     D39
-    D155
+    D121
 *************************************************************
 
 *************************************************************
 Generating : Drill Guide
-      File : 105358-3LA001-01_EFM1_Drillmap_2.gbr
+      File : 105358-3LA001-01_EFM1.GG2
 
-    Adding Drill Pair : Inner Layer 1-Component Side
+    Adding Layer      : BRD_Outline
+
+    Adding Drill Pair : Component Side-Inner Layer 1
 
     Adding Layer      : Drill Guide
 
 
 Used DCodes :
+    D37
     D39
-    D155
+    D121
 *************************************************************
 
 *************************************************************
 Generating : Drill Guide
-      File : 105358-3LA001-01_EFM1_Drillmap_3.gbr
+      File : 105358-3LA001-01_EFM1.GG3
 
-    Adding Drill Pair : Inner Layer 2-Inner Layer 1
+    Adding Layer      : BRD_Outline
+
+    Adding Drill Pair : Inner Layer 1-Inner Layer 2
 
     Adding Layer      : Drill Guide
 
 
 Used DCodes :
+    D37
     D39
-    D155
+    D121
 *************************************************************
 
 *************************************************************
 Generating : Drill Guide
-      File : 105358-3LA001-01_EFM1_Drillmap_4.gbr
+      File : 105358-3LA001-01_EFM1.GG4
 
-    Adding Drill Pair : Solder Side-Inner Layer 2
+    Adding Layer      : BRD_Outline
+
+    Adding Drill Pair : Inner Layer 2-Solder Side
 
     Adding Layer      : Drill Guide
 
 
 Used DCodes :
+    D37
     D39
-    D155
+    D121
 *************************************************************
 
