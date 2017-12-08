@@ -74,11 +74,11 @@ DocumentUniqueId=ONAWTYXT
 [Document3]
 DocumentPath=105358-3SC001-03_BlockDiagram.SchDoc
 AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
+AnnotateStartValue=201
+AnnotationIndexControlEnabled=1
 AnnotateSuffix=
 AnnotateScope=All
-AnnotateOrder=-1
+AnnotateOrder=1
 DoLibraryUpdate=1
 DoDatabaseUpdate=1
 ClassGenCCAutoEnabled=1
@@ -91,11 +91,11 @@ DocumentUniqueId=MEIGVECI
 [Document4]
 DocumentPath=105358-3SC001-03_Cover.SchDoc
 AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
+AnnotateStartValue=101
+AnnotationIndexControlEnabled=1
 AnnotateSuffix=
 AnnotateScope=All
-AnnotateOrder=-1
+AnnotateOrder=0
 DoLibraryUpdate=1
 DoDatabaseUpdate=1
 ClassGenCCAutoEnabled=1
@@ -106,13 +106,30 @@ GenerateClassCluster=0
 DocumentUniqueId=IRIXRPXL
 
 [Document5]
-DocumentPath=105358-3SC001-03_CPU_BRD.SchDoc
+DocumentPath=105358-3SC001-03_PWR_MGMT.SchDoc
 AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
+AnnotateStartValue=301
+AnnotationIndexControlEnabled=1
 AnnotateSuffix=
 AnnotateScope=All
-AnnotateOrder=-1
+AnnotateOrder=2
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=VDCNVIPR
+
+[Document6]
+DocumentPath=105358-3SC001-03_CPU_BRD.SchDoc
+AnnotationEnabled=1
+AnnotateStartValue=401
+AnnotationIndexControlEnabled=1
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=3
 DoLibraryUpdate=1
 DoDatabaseUpdate=1
 ClassGenCCAutoEnabled=1
@@ -122,14 +139,14 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=NGXEWJUQ
 
-[Document6]
+[Document7]
 DocumentPath=105358-3SC001-03_IO_BRD.SchDoc
 AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
+AnnotateStartValue=501
+AnnotationIndexControlEnabled=1
 AnnotateSuffix=
 AnnotateScope=All
-AnnotateOrder=-1
+AnnotateOrder=4
 DoLibraryUpdate=1
 DoDatabaseUpdate=1
 ClassGenCCAutoEnabled=1
@@ -138,23 +155,6 @@ ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=IWOSDXXW
-
-[Document7]
-DocumentPath=105358-3SC001-03_PWR_MGMT.SchDoc
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=VDCNVIPR
 
 [Document8]
 DocumentPath=105358-3BA001-03_FP1.OutJob
@@ -191,7 +191,7 @@ GenerateClassCluster=0
 DocumentUniqueId=
 
 [Document10]
-DocumentPath=105358-3LA001-03_FP1.PcbDoc
+DocumentPath=CAMtastic_LightGuide_Test20171205-15_21.Cam
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -207,6 +207,119 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
+[Document11]
+DocumentPath=105358-3LA001-03_FP1.PcbDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=UAMUBCUW
+
+[GeneratedDocument1]
+DocumentPath=Project Outputs for 105358-3BA001-03_FP1\Gerber Output\105358-3LA001-03_FP1.EXTREP
+DItemRevisionGUID=
+
+[GeneratedDocument2]
+DocumentPath=Project Outputs for 105358-3BA001-03_FP1\Gerber Output\105358-3LA001-03_FP1.REP
+DItemRevisionGUID=
+
+[GeneratedDocument3]
+DocumentPath=Project Outputs for 105358-3BA001-03_FP1\Gerber Output\105358-3LA001-03_FP1.RUL
+DItemRevisionGUID=
+
+[GeneratedDocument4]
+DocumentPath=Project Outputs for 105358-3BA001-03_FP1\Gerber Output\105358-3LA001-03_FP1_Copper_Signal_Bot.gbr
+DItemRevisionGUID=
+
+[GeneratedDocument5]
+DocumentPath=Project Outputs for 105358-3BA001-03_FP1\Gerber Output\105358-3LA001-03_FP1_Copper_Signal_Top.gbr
+DItemRevisionGUID=
+
+[GeneratedDocument6]
+DocumentPath=Project Outputs for 105358-3BA001-03_FP1\Gerber Output\105358-3LA001-03_FP1_Drawing_1.gbr
+DItemRevisionGUID=
+
+[GeneratedDocument7]
+DocumentPath=Project Outputs for 105358-3BA001-03_FP1\Gerber Output\105358-3LA001-03_FP1_Drillmap_1.gbr
+DItemRevisionGUID=
+
+[GeneratedDocument8]
+DocumentPath=Project Outputs for 105358-3BA001-03_FP1\Gerber Output\105358-3LA001-03_FP1_MECH.EXTREP
+DItemRevisionGUID=
+
+[GeneratedDocument9]
+DocumentPath=Project Outputs for 105358-3BA001-03_FP1\Gerber Output\105358-3LA001-03_FP1_MECH.REP
+DItemRevisionGUID=
+
+[GeneratedDocument10]
+DocumentPath=Project Outputs for 105358-3BA001-03_FP1\Gerber Output\105358-3LA001-03_FP1_MECH.RUL
+DItemRevisionGUID=
+
+[GeneratedDocument11]
+DocumentPath=Project Outputs for 105358-3BA001-03_FP1\Gerber Output\105358-3LA001-03_FP1_MECH_Copper_Signal_Bot.gbr
+DItemRevisionGUID=
+
+[GeneratedDocument12]
+DocumentPath=Project Outputs for 105358-3BA001-03_FP1\Gerber Output\105358-3LA001-03_FP1_MECH_Copper_Signal_Top.gbr
+DItemRevisionGUID=
+
+[GeneratedDocument13]
+DocumentPath=Project Outputs for 105358-3BA001-03_FP1\Gerber Output\105358-3LA001-03_FP1_MECH_Drawing_1.gbr
+DItemRevisionGUID=
+
+[GeneratedDocument14]
+DocumentPath=Project Outputs for 105358-3BA001-03_FP1\Gerber Output\105358-3LA001-03_FP1_MECH_Drillmap_1.gbr
+DItemRevisionGUID=
+
+[GeneratedDocument15]
+DocumentPath=Project Outputs for 105358-3BA001-03_FP1\Gerber Output\105358-3LA001-03_FP1_MECH_Mechanical_1.gbr
+DItemRevisionGUID=
+
+[GeneratedDocument16]
+DocumentPath=Project Outputs for 105358-3BA001-03_FP1\Gerber Output\105358-3LA001-03_FP1_MECH_Mechanical_16.gbr
+DItemRevisionGUID=
+
+[GeneratedDocument17]
+DocumentPath=Project Outputs for 105358-3BA001-03_FP1\Gerber Output\105358-3LA001-03_FP1_MECH_Mechanical_20.gbr
+DItemRevisionGUID=
+
+[GeneratedDocument18]
+DocumentPath=Project Outputs for 105358-3BA001-03_FP1\Gerber Output\105358-3LA001-03_FP1_MECH_NPTH_Drill.gbr
+DItemRevisionGUID=
+
+[GeneratedDocument19]
+DocumentPath=Project Outputs for 105358-3BA001-03_FP1\Gerber Output\105358-3LA001-03_FP1_MECH_PTH_Drill.gbr
+DItemRevisionGUID=
+
+[GeneratedDocument20]
+DocumentPath=Project Outputs for 105358-3BA001-03_FP1\Gerber Output\105358-3LA001-03_FP1_Mechanical_1.gbr
+DItemRevisionGUID=
+
+[GeneratedDocument21]
+DocumentPath=Project Outputs for 105358-3BA001-03_FP1\Gerber Output\105358-3LA001-03_FP1_Mechanical_16.gbr
+DItemRevisionGUID=
+
+[GeneratedDocument22]
+DocumentPath=Project Outputs for 105358-3BA001-03_FP1\Gerber Output\105358-3LA001-03_FP1_Mechanical_20.gbr
+DItemRevisionGUID=
+
+[GeneratedDocument23]
+DocumentPath=Project Outputs for 105358-3BA001-03_FP1\Gerber Output\105358-3LA001-03_FP1_NPTH_Drill.gbr
+DItemRevisionGUID=
+
+[GeneratedDocument24]
+DocumentPath=Project Outputs for 105358-3BA001-03_FP1\Gerber Output\105358-3LA001-03_FP1_PTH_Drill.gbr
+DItemRevisionGUID=
+
 [DeviceSheetFolder1]
 Path=C:\Users\kaka\Documents\Altium\Projects\Aerocrine\Altium templates 160204\
 IncludeSubFolders=1
@@ -216,32 +329,32 @@ Path=C:\Users\kaka\Documents\Altium\Projects\Aerocrine\
 IncludeSubFolders=1
 
 [Parameter1]
-Name=Project_Total_Sheets
-Value=X
+Name=PrjVersionControl_RevNumber
+Value=' A '
 
 [Parameter2]
-Name=Project_Revision
-Value=A
+Name=Project_Board
+Value=FP 1
 
 [Parameter3]
-Name=Project_Drawn_By
-Value=Kartik Karuna
+Name=Project_Customer
+Value=Innovation Zed
 
 [Parameter4]
 Name=Project_Document_Number
 Value=105358-3BA001-03
 
 [Parameter5]
-Name=Project_Customer
-Value=Innovation Zed
+Name=Project_Drawn_By
+Value=Kartik Karuna
 
 [Parameter6]
-Name=Project_Board
-Value=FP 1
+Name=Project_Revision
+Value=A
 
 [Parameter7]
-Name=PrjVersionControl_RevNumber
-Value=' A '
+Name=Project_Total_Sheets
+Value=X
 
 [Configuration1]
 Name=Sources
@@ -762,7 +875,7 @@ OutputDocumentPath10=
 OutputVariantName10=
 OutputDefault10=0
 Configuration10_Name1=OutputConfigurationParameter1
-Configuration10_Item1=FileComment=The blind Vias under BGA and Other Pads are Via-In-Pad (VIP)|FileSubject=Autodetect|GenerateDRCRulesFile=True|GerberUnit=Metric|MinusApertureTolerance=39|NumberOfDecimals=4|OptimizeChangeLocationCommands=True|PlotBackDrillingPairs=True|PlotBlindViasPair0_Backdrill=False|PlotBlindViasPair0_HighLayer=Top Layer|PlotBlindViasPair0_LowLayer=Mid Layer 1|PlotBlindViasPair1_Backdrill=False|PlotBlindViasPair1_HighLayer=Mid Layer 1|PlotBlindViasPair1_LowLayer=Mid Layer 2|PlotBlindViasPair2_Backdrill=False|PlotBlindViasPair2_HighLayer=Mid Layer 2|PlotBlindViasPair2_LowLayer=Bottom Layer|PlotBlindViasPairs=False|PlotBoardProfile=True|PlotDrillDrawingPair0_Backdrill=False|PlotDrillDrawingPair0_HighLayer=Top Layer|PlotDrillDrawingPair0_LowLayer=Bottom Layer|PlotDrillDrawingPair1_Backdrill=False|PlotDrillDrawingPair1_HighLayer=Top Layer|PlotDrillDrawingPair1_LowLayer=Mid Layer 1|PlotDrillDrawingPair2_Backdrill=False|PlotDrillDrawingPair2_HighLayer=Mid Layer 1|PlotDrillDrawingPair2_LowLayer=Mid Layer 2|PlotDrillDrawingPair3_Backdrill=False|PlotDrillDrawingPair3_HighLayer=Mid Layer 2|PlotDrillDrawingPair3_LowLayer=Bottom Layer|PlotDrillDrawingPairs=False|PlotDrillGuidePair0_Backdrill=False|PlotDrillGuidePair0_HighLayer=Top Layer|PlotDrillGuidePair0_LowLayer=Bottom Layer|PlotDrillGuidePair1_Backdrill=False|PlotDrillGuidePair1_HighLayer=Top Layer|PlotDrillGuidePair1_LowLayer=Mid Layer 1|PlotDrillGuidePair2_Backdrill=False|PlotDrillGuidePair2_HighLayer=Mid Layer 1|PlotDrillGuidePair2_LowLayer=Mid Layer 2|PlotDrillGuidePair3_Backdrill=False|PlotDrillGuidePair3_HighLayer=Mid Layer 2|PlotDrillGuidePair3_LowLayer=Bottom Layer|PlotDrillGuidePairs=False|PlotNPTHPair0_Backdrill=False|PlotNPTHPair0_HighLayer=Top Layer|PlotNPTHPair0_LowLayer=Bottom Layer|PlotNPTHPairs=False|PlotPTHPair0_Backdrill=False|PlotPTHPair0_HighLayer=Top Layer|PlotPTHPair0_LowLayer=Bottom Layer|PlotPTHPairs=False|PlotX2.Set=SerializeLayerHash.Version~2,ClassName~TLayerToBoolean,16908308~1,16908304~1,16842754~1,16973832~1,16777217~1,16777218~1,16973833~1,16777219~1,16842751~1,16973835~1,16908299~1,16842753~1,16973834~1,16908289~1|PlusApertureTolerance=39|Record=GerberX2View|Sorted=False
+Configuration10_Item1=FileComment= |FileSubject=Autodetect|GenerateDRCRulesFile=True|GerberUnit=Metric|MinusApertureTolerance=39|NumberOfDecimals=4|OptimizeChangeLocationCommands=True|PlotBackDrillingPairs=True|PlotBlindViasPairs=False|PlotBoardProfile=False|PlotDrillDrawingPair0_Backdrill=False|PlotDrillDrawingPair0_HighLayer=Top Layer|PlotDrillDrawingPair0_LowLayer=Bottom Layer|PlotDrillDrawingPairs=False|PlotDrillGuidePair0_Backdrill=False|PlotDrillGuidePair0_HighLayer=Top Layer|PlotDrillGuidePair0_LowLayer=Bottom Layer|PlotDrillGuidePairs=False|PlotNPTHPair0_Backdrill=False|PlotNPTHPair0_HighLayer=Top Layer|PlotNPTHPair0_LowLayer=Bottom Layer|PlotNPTHPairs=False|PlotPTHPair0_Backdrill=False|PlotPTHPair0_HighLayer=Top Layer|PlotPTHPair0_LowLayer=Bottom Layer|PlotPTHPairs=False|PlotX2.Set=SerializeLayerHash.Version~2,ClassName~TLayerToBoolean,16908308~1,16908304~1,16777217~1,16842751~1,16908289~1|PlusApertureTolerance=39|Record=GerberX2View|Sorted=False
 OutputType11=IPC2581
 OutputName11=IPC-2581 Files
 OutputDocumentPath11=
