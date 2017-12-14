@@ -225,99 +225,51 @@ GenerateClassCluster=0
 DocumentUniqueId=UAMUBCUW
 
 [GeneratedDocument1]
-DocumentPath=Project Outputs for 105358-3BA001-03_FP1\Gerber Output\105358-3LA001-03_FP1.EXTREP
-DItemRevisionGUID=
-
-[GeneratedDocument2]
-DocumentPath=Project Outputs for 105358-3BA001-03_FP1\Gerber Output\105358-3LA001-03_FP1.REP
-DItemRevisionGUID=
-
-[GeneratedDocument3]
-DocumentPath=Project Outputs for 105358-3BA001-03_FP1\Gerber Output\105358-3LA001-03_FP1.RUL
-DItemRevisionGUID=
-
-[GeneratedDocument4]
-DocumentPath=Project Outputs for 105358-3BA001-03_FP1\Gerber Output\105358-3LA001-03_FP1_Copper_Signal_Bot.gbr
-DItemRevisionGUID=
-
-[GeneratedDocument5]
-DocumentPath=Project Outputs for 105358-3BA001-03_FP1\Gerber Output\105358-3LA001-03_FP1_Copper_Signal_Top.gbr
-DItemRevisionGUID=
-
-[GeneratedDocument6]
-DocumentPath=Project Outputs for 105358-3BA001-03_FP1\Gerber Output\105358-3LA001-03_FP1_Drawing_1.gbr
-DItemRevisionGUID=
-
-[GeneratedDocument7]
-DocumentPath=Project Outputs for 105358-3BA001-03_FP1\Gerber Output\105358-3LA001-03_FP1_Drillmap_1.gbr
-DItemRevisionGUID=
-
-[GeneratedDocument8]
 DocumentPath=Project Outputs for 105358-3BA001-03_FP1\Gerber Output\105358-3LA001-03_FP1_MECH.EXTREP
 DItemRevisionGUID=
 
-[GeneratedDocument9]
+[GeneratedDocument2]
 DocumentPath=Project Outputs for 105358-3BA001-03_FP1\Gerber Output\105358-3LA001-03_FP1_MECH.REP
 DItemRevisionGUID=
 
-[GeneratedDocument10]
+[GeneratedDocument3]
 DocumentPath=Project Outputs for 105358-3BA001-03_FP1\Gerber Output\105358-3LA001-03_FP1_MECH.RUL
 DItemRevisionGUID=
 
-[GeneratedDocument11]
+[GeneratedDocument4]
 DocumentPath=Project Outputs for 105358-3BA001-03_FP1\Gerber Output\105358-3LA001-03_FP1_MECH_Copper_Signal_Bot.gbr
 DItemRevisionGUID=
 
-[GeneratedDocument12]
+[GeneratedDocument5]
 DocumentPath=Project Outputs for 105358-3BA001-03_FP1\Gerber Output\105358-3LA001-03_FP1_MECH_Copper_Signal_Top.gbr
 DItemRevisionGUID=
 
-[GeneratedDocument13]
+[GeneratedDocument6]
 DocumentPath=Project Outputs for 105358-3BA001-03_FP1\Gerber Output\105358-3LA001-03_FP1_MECH_Drawing_1.gbr
 DItemRevisionGUID=
 
-[GeneratedDocument14]
+[GeneratedDocument7]
 DocumentPath=Project Outputs for 105358-3BA001-03_FP1\Gerber Output\105358-3LA001-03_FP1_MECH_Drillmap_1.gbr
 DItemRevisionGUID=
 
-[GeneratedDocument15]
+[GeneratedDocument8]
 DocumentPath=Project Outputs for 105358-3BA001-03_FP1\Gerber Output\105358-3LA001-03_FP1_MECH_Mechanical_1.gbr
 DItemRevisionGUID=
 
-[GeneratedDocument16]
+[GeneratedDocument9]
 DocumentPath=Project Outputs for 105358-3BA001-03_FP1\Gerber Output\105358-3LA001-03_FP1_MECH_Mechanical_16.gbr
 DItemRevisionGUID=
 
-[GeneratedDocument17]
+[GeneratedDocument10]
 DocumentPath=Project Outputs for 105358-3BA001-03_FP1\Gerber Output\105358-3LA001-03_FP1_MECH_Mechanical_20.gbr
 DItemRevisionGUID=
 
-[GeneratedDocument18]
+[GeneratedDocument11]
 DocumentPath=Project Outputs for 105358-3BA001-03_FP1\Gerber Output\105358-3LA001-03_FP1_MECH_NPTH_Drill.gbr
 DItemRevisionGUID=
 
-[GeneratedDocument19]
+[GeneratedDocument12]
 DocumentPath=Project Outputs for 105358-3BA001-03_FP1\Gerber Output\105358-3LA001-03_FP1_MECH_PTH_Drill.gbr
-DItemRevisionGUID=
-
-[GeneratedDocument20]
-DocumentPath=Project Outputs for 105358-3BA001-03_FP1\Gerber Output\105358-3LA001-03_FP1_Mechanical_1.gbr
-DItemRevisionGUID=
-
-[GeneratedDocument21]
-DocumentPath=Project Outputs for 105358-3BA001-03_FP1\Gerber Output\105358-3LA001-03_FP1_Mechanical_16.gbr
-DItemRevisionGUID=
-
-[GeneratedDocument22]
-DocumentPath=Project Outputs for 105358-3BA001-03_FP1\Gerber Output\105358-3LA001-03_FP1_Mechanical_20.gbr
-DItemRevisionGUID=
-
-[GeneratedDocument23]
-DocumentPath=Project Outputs for 105358-3BA001-03_FP1\Gerber Output\105358-3LA001-03_FP1_NPTH_Drill.gbr
-DItemRevisionGUID=
-
-[GeneratedDocument24]
-DocumentPath=Project Outputs for 105358-3BA001-03_FP1\Gerber Output\105358-3LA001-03_FP1_PTH_Drill.gbr
 DItemRevisionGUID=
 
 [DeviceSheetFolder1]
