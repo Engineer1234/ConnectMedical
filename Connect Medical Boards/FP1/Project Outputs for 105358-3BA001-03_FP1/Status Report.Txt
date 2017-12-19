@@ -1,0 +1,21 @@
+Output: Gerber X2 Files
+Type  : GerberX2
+From  : Project [105358-3BA001-03_FP1.PrjPCB]
+   Generated File[105358-3LA001-03_FP1_MECH_Copper_Signal_Top.gbr]
+   Generated File[105358-3LA001-03_FP1_MECH_Copper_Signal_Bot.gbr]
+   Generated File[105358-3LA001-03_FP1_MECH_Mechanical_20.gbr]
+   Generated File[105358-3LA001-03_FP1_MECH_Mechanical_16.gbr]
+   Generated File[105358-3LA001-03_FP1_MECH_Mechanical_1.gbr]
+   Generated File[105358-3LA001-03_FP1_MECH_NPTH_Drill.gbr]
+   Generated File[105358-3LA001-03_FP1_MECH_PTH_Drill.gbr]
+   Generated File[105358-3LA001-03_FP1_MECH_Drawing_1.gbr]
+   Generated File[105358-3LA001-03_FP1_MECH_Drillmap_1.gbr]
+   Generated File[105358-3LA001-03_FP1_MECH.RUL]
+   Generated File[105358-3LA001-03_FP1_MECH.EXTREP]
+   Generated File[105358-3LA001-03_FP1_MECH.REP]
+
+
+Files Generated   : 12
+Documents Printed : 0
+
+Finished Output Generation At 15:21:04 On 05-12-2017
