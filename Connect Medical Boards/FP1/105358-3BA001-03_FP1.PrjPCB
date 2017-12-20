@@ -28,7 +28,7 @@ DItemRevisionGUID=
 ReportSuppressedErrorsInMessages=0
 FSMCodingStyle=eFMSDropDownList_OneProcess
 FSMEncodingStyle=eFMSDropDownList_OneHot
-OutputPath=
+OutputPath=Project Outputs for 105358-3BA001-03_FP1
 LogFolderPath=
 ManagedProjectGUID=
 LinkedManagedProjectGUID=
@@ -225,66 +225,54 @@ GenerateClassCluster=0
 DocumentUniqueId=UAMUBCUW
 
 [GeneratedDocument1]
-DocumentPath=Project Outputs for 105358-3BA001-03_FP1\105358-3BA001-03_FP1.xls
-DItemRevisionGUID=
-
-[GeneratedDocument2]
-DocumentPath=Project Outputs for 105358-3BA001-03_FP1\105358-3CL001-03_FP1.xls
-DItemRevisionGUID=
-
-[GeneratedDocument3]
-DocumentPath=Project Outputs for 105358-3BA001-03_FP1\105358-3CL001-04_FP1.xls
-DItemRevisionGUID=
-
-[GeneratedDocument4]
 DocumentPath=Project Outputs for 105358-3BA001-03_FP1\105358-3CL005-01_FP1.xls
 DItemRevisionGUID=
 
-[GeneratedDocument5]
+[GeneratedDocument2]
 DocumentPath=Project Outputs for 105358-3BA001-03_FP1\Gerber Output\105358-3LA001-03_FP1_MECH.EXTREP
 DItemRevisionGUID=
 
-[GeneratedDocument6]
+[GeneratedDocument3]
 DocumentPath=Project Outputs for 105358-3BA001-03_FP1\Gerber Output\105358-3LA001-03_FP1_MECH.REP
 DItemRevisionGUID=
 
-[GeneratedDocument7]
+[GeneratedDocument4]
 DocumentPath=Project Outputs for 105358-3BA001-03_FP1\Gerber Output\105358-3LA001-03_FP1_MECH.RUL
 DItemRevisionGUID=
 
-[GeneratedDocument8]
+[GeneratedDocument5]
 DocumentPath=Project Outputs for 105358-3BA001-03_FP1\Gerber Output\105358-3LA001-03_FP1_MECH_Copper_Signal_Bot.gbr
 DItemRevisionGUID=
 
-[GeneratedDocument9]
+[GeneratedDocument6]
 DocumentPath=Project Outputs for 105358-3BA001-03_FP1\Gerber Output\105358-3LA001-03_FP1_MECH_Copper_Signal_Top.gbr
 DItemRevisionGUID=
 
-[GeneratedDocument10]
+[GeneratedDocument7]
 DocumentPath=Project Outputs for 105358-3BA001-03_FP1\Gerber Output\105358-3LA001-03_FP1_MECH_Drawing_1.gbr
 DItemRevisionGUID=
 
-[GeneratedDocument11]
+[GeneratedDocument8]
 DocumentPath=Project Outputs for 105358-3BA001-03_FP1\Gerber Output\105358-3LA001-03_FP1_MECH_Drillmap_1.gbr
 DItemRevisionGUID=
 
-[GeneratedDocument12]
+[GeneratedDocument9]
 DocumentPath=Project Outputs for 105358-3BA001-03_FP1\Gerber Output\105358-3LA001-03_FP1_MECH_Mechanical_1.gbr
 DItemRevisionGUID=
 
-[GeneratedDocument13]
+[GeneratedDocument10]
 DocumentPath=Project Outputs for 105358-3BA001-03_FP1\Gerber Output\105358-3LA001-03_FP1_MECH_Mechanical_16.gbr
 DItemRevisionGUID=
 
-[GeneratedDocument14]
+[GeneratedDocument11]
 DocumentPath=Project Outputs for 105358-3BA001-03_FP1\Gerber Output\105358-3LA001-03_FP1_MECH_Mechanical_20.gbr
 DItemRevisionGUID=
 
-[GeneratedDocument15]
+[GeneratedDocument12]
 DocumentPath=Project Outputs for 105358-3BA001-03_FP1\Gerber Output\105358-3LA001-03_FP1_MECH_NPTH_Drill.gbr
 DItemRevisionGUID=
 
-[GeneratedDocument16]
+[GeneratedDocument13]
 DocumentPath=Project Outputs for 105358-3BA001-03_FP1\Gerber Output\105358-3LA001-03_FP1_MECH_PTH_Drill.gbr
 DItemRevisionGUID=
 
@@ -297,36 +285,36 @@ Path=C:\Users\kaka\Documents\Altium\Projects\Aerocrine\
 IncludeSubFolders=1
 
 [Parameter1]
+Name=PrjVersionControl_RevNumber
+Value=' A '
+
+[Parameter2]
 Name=ProductionQuantity
 Value=15
 
-[Parameter2]
-Name=Project_Total_Sheets
-Value=X
-
 [Parameter3]
-Name=Project_Revision
-Value=A
+Name=Project_Board
+Value=FP 1
 
 [Parameter4]
-Name=Project_Drawn_By
-Value=Kartik Karuna
+Name=Project_Customer
+Value=Innovation Zed
 
 [Parameter5]
 Name=Project_Document_Number
 Value=105358-3BA001-03
 
 [Parameter6]
-Name=Project_Customer
-Value=Innovation Zed
+Name=Project_Drawn_By
+Value=Kartik Karuna
 
 [Parameter7]
-Name=Project_Board
-Value=FP 1
+Name=Project_Revision
+Value=A
 
 [Parameter8]
-Name=PrjVersionControl_RevNumber
-Value=' A '
+Name=Project_Total_Sheets
+Value=X
 
 [Configuration1]
 Name=Sources
@@ -395,7 +383,7 @@ SCH_HasExpandLogicalToPhysicalSheets=-1
 SaveSettingsToOutJob=-1
 
 [Generic_EDE]
-OutputDir=
+OutputDir=Project Outputs for 105358-3BA001-03_FP1
 
 [OutputGroup1]
 Name=Netlist Outputs
@@ -868,59 +856,59 @@ Name=Report Outputs
 Description=
 TargetPrinter=\\amundsen.hotswap.se\KONICA MINOLTA C364SeriesPCL
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
-OutputType1=BOM_PartType
-OutputName1=Bill of Materials
+OutputType1=Script
+OutputName1=Script Output
 OutputDocumentPath1=
 OutputVariantName1=[No Variations]
 OutputDefault1=0
-PageOptions1=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-4|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter
-Configuration1_Name1=ColumnNameFormat
-Configuration1_Item1=CaptionAsName
-Configuration1_Name2=Filter
-Configuration1_Item2=545046300E5446696C74657257726170706572000D46696C7465722E416374697665090F46696C7465722E43726974657269610A04000000000000000000
-Configuration1_Name3=General
-Configuration1_Item3=OpenExported=True|AddToProject=True|ForceFit=False|NotFitted=False|Database=False|DatabasePriority=False|IncludePCBData=False|IncludeVaultData=False|IncludeAlternatives=False|ShowExportOptions=True|TemplateFilename=C:\Users\KaKa\Documents\Altium\Projects\Aerocrine\BOM\Altium-Bom-Template-master\Altium-Bom-Template-master\Altium BOM Template v197_MOD_Macro_price.xlt|BatchMode=5|FormWidth=1686|FormHeight=826|SupplierProdQty=5|SupplierAutoQty=False|SupplierUseCachedPricing=False|SupplierCurrency=SEK
-Configuration1_Name4=GroupOrder
-Configuration1_Item4=Comment=True|Footprint=True
-Configuration1_Name5=PCBDocument
-Configuration1_Item5=FileName=105358-3LA001-03_FP1.PcbDoc
-Configuration1_Name6=PCBDocument2
-Configuration1_Item6=FileName=[PCB Document 1]
-Configuration1_Name7=SortOrder
-Configuration1_Item7=Designator=Up
-Configuration1_Name8=VisibleOrder
-Configuration1_Item8=Designator=207|Description=531|Comment=267|Manufacturer=321|Manufacturer Part Number=237|Digi-Key Part Number=218|PackageReference=217|Quantity=100|GENERIC_OK=100
-OutputType2=ComponentCrossReference
-OutputName2=Component Cross Reference Report
+OutputType2=SimpleBOM
+OutputName2=Simple BOM
 OutputDocumentPath2=
 OutputVariantName2=[No Variations]
 OutputDefault2=0
-OutputType3=ReportHierarchy
-OutputName3=Report Project Hierarchy
+Configuration2_Name1=OutputConfigurationParameter1
+Configuration2_Item1=Record=SimpleBOMView|SimpleBOMMode=0
+OutputType3=SinglePinNetReporter
+OutputName3=Report Single Pin Nets
 OutputDocumentPath3=
 OutputVariantName3=[No Variations]
 OutputDefault3=0
 Configuration3_Name1=OutputConfigurationParameter1
-Configuration3_Item1=Record=ReportHierarchyView|ReportHierarchyMode=0
-OutputType4=Script
-OutputName4=Script Output
+Configuration3_Item1=NetlistVersion=0|Record=SinglePinNetsView
+OutputType4=BOM_PartType
+OutputName4=Bill of Materials
 OutputDocumentPath4=
 OutputVariantName4=[No Variations]
 OutputDefault4=0
-OutputType5=SimpleBOM
-OutputName5=Simple BOM
+PageOptions4=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-4|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter
+Configuration4_Name1=ColumnNameFormat
+Configuration4_Item1=CaptionAsName
+Configuration4_Name2=Filter
+Configuration4_Item2=545046300E5446696C74657257726170706572000D46696C7465722E416374697665090F46696C7465722E43726974657269610A04000000000000000000
+Configuration4_Name3=General
+Configuration4_Item3=OpenExported=True|AddToProject=True|ForceFit=False|NotFitted=False|Database=False|DatabasePriority=False|IncludePCBData=False|IncludeVaultData=False|IncludeAlternatives=False|ShowExportOptions=True|TemplateFilename=C:\Users\KaKa\Documents\Altium\Projects\Aerocrine\BOM\Altium-Bom-Template-master\Altium-Bom-Template-master\Altium BOM Template v197_MOD_Macro_price.xlt|BatchMode=5|FormWidth=1686|FormHeight=826|SupplierProdQty=5|SupplierAutoQty=False|SupplierUseCachedPricing=False|SupplierCurrency=SEK
+Configuration4_Name4=GroupOrder
+Configuration4_Item4=Comment=True|Footprint=True
+Configuration4_Name5=PCBDocument
+Configuration4_Item5=FileName=105358-3LA001-03_FP1.PcbDoc
+Configuration4_Name6=PCBDocument2
+Configuration4_Item6=FileName=[PCB Document 1]
+Configuration4_Name7=SortOrder
+Configuration4_Item7=Designator=Up
+Configuration4_Name8=VisibleOrder
+Configuration4_Item8=Designator=207|Description=531|Comment=267|Manufacturer=321|Manufacturer Part Number=237|Digi-Key Part Number=218|PackageReference=217|Quantity=100|GENERIC_OK=100
+OutputType5=ComponentCrossReference
+OutputName5=Component Cross Reference Report
 OutputDocumentPath5=
 OutputVariantName5=[No Variations]
 OutputDefault5=0
-Configuration5_Name1=OutputConfigurationParameter1
-Configuration5_Item1=Record=SimpleBOMView|SimpleBOMMode=0
-OutputType6=SinglePinNetReporter
-OutputName6=Report Single Pin Nets
+OutputType6=ReportHierarchy
+OutputName6=Report Project Hierarchy
 OutputDocumentPath6=
 OutputVariantName6=[No Variations]
 OutputDefault6=0
 Configuration6_Name1=OutputConfigurationParameter1
-Configuration6_Item1=NetlistVersion=0|Record=SinglePinNetsView
+Configuration6_Item1=Record=ReportHierarchyView|ReportHierarchyMode=0
 
 [OutputGroup7]
 Name=Other Outputs
@@ -1191,6 +1179,46 @@ OutputName9=Specctra Design PCB
 OutputDocumentPath9=
 OutputVariantName9=
 OutputDefault9=0
+OutputType10=Ansoft Neutral
+OutputName10=Ansoft Neutral (AutoPCB)
+OutputDocumentPath10=
+OutputVariantName10=
+OutputDefault10=0
+OutputType11=HyperLynx
+OutputName11=HyperLynx (AutoPCB)
+OutputDocumentPath11=
+OutputVariantName11=
+OutputDefault11=0
+OutputType12=Orcad SDT Schematic
+OutputName12=Orcad SDT Schematic (AutoSCH)
+OutputDocumentPath12=
+OutputVariantName12=
+OutputDefault12=0
+OutputType13=Orcad v7 Capture Design
+OutputName13=Orcad v7 Capture Design (AutoSCH)
+OutputDocumentPath13=
+OutputVariantName13=
+OutputDefault13=0
+OutputType14=P-CAD ASCII
+OutputName14=P-CAD ASCII (AutoPCB)
+OutputDocumentPath14=
+OutputVariantName14=
+OutputDefault14=0
+OutputType15=P-CAD V16 Schematic Design
+OutputName15=P-CAD V16 Schematic Design (AutoSCH)
+OutputDocumentPath15=
+OutputVariantName15=
+OutputDefault15=0
+OutputType16=Protel PCB 2.8 ASCII
+OutputName16=Protel PCB 2.8 ASCII (AutoPCB)
+OutputDocumentPath16=
+OutputVariantName16=
+OutputDefault16=0
+OutputType17=SiSoft
+OutputName17=SiSoft (AutoPCB)
+OutputDocumentPath17=
+OutputVariantName17=
+OutputDefault17=0
 
 [OutputGroup10]
 Name=PostProcess Outputs
