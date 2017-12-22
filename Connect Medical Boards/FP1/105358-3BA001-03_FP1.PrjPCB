@@ -276,6 +276,10 @@ DItemRevisionGUID=
 DocumentPath=Project Outputs for 105358-3BA001-03_FP1\Gerber Output\105358-3LA001-03_FP1_MECH_PTH_Drill.gbr
 DItemRevisionGUID=
 
+[GeneratedDocument14]
+DocumentPath=Project Outputs for 105358-3BA001-03_FP1\Design Rule Check - 105358-3LA001-03_FP1.html
+DItemRevisionGUID=
+
 [DeviceSheetFolder1]
 Path=C:\Users\kaka\Documents\Altium\Projects\Aerocrine\Altium templates 160204\
 IncludeSubFolders=1
