@@ -28,8 +28,8 @@ DItemRevisionGUID=
 ReportSuppressedErrorsInMessages=0
 FSMCodingStyle=eFMSDropDownList_OneProcess
 FSMEncodingStyle=eFMSDropDownList_OneHot
-OutputPath=Project Outputs for 105358-3BA003-02_EFP1_Touch
-LogFolderPath=Project Logs for 105358-3BA003-02_EFP1_Touch
+OutputPath=
+LogFolderPath=
 ManagedProjectGUID=
 LinkedManagedProjectGUID=
 IncludeDesignInRelease=0
@@ -246,32 +246,32 @@ Path=C:\Users\kaka\Documents\Altium\Projects\Aerocrine\
 IncludeSubFolders=1
 
 [Parameter1]
-Name=Project_Total_Sheets
-Value=X
+Name=PrjVersionControl_RevNumber
+Value=' A '
 
 [Parameter2]
-Name=Project_Revision
-Value=A
+Name=Project_Board
+Value=EFP1-Touch Pcb
 
 [Parameter3]
-Name=Project_Drawn_By
-Value=Kartik Karuna
+Name=Project_Customer
+Value=Innovation Zed
 
 [Parameter4]
 Name=Project_Document_Number
 Value=105358-3BA003-01-A
 
 [Parameter5]
-Name=Project_Customer
-Value=Innovation Zed
+Name=Project_Drawn_By
+Value=Kartik Karuna
 
 [Parameter6]
-Name=Project_Board
-Value=EFP1-Touch Pcb
+Name=Project_Revision
+Value=A
 
 [Parameter7]
-Name=PrjVersionControl_RevNumber
-Value=' A '
+Name=Project_Total_Sheets
+Value=X
 
 [Configuration1]
 Name=Sources
@@ -340,7 +340,7 @@ SCH_HasExpandLogicalToPhysicalSheets=-1
 SaveSettingsToOutJob=-1
 
 [Generic_EDE]
-OutputDir=Project Outputs for 105358-3BA003-02_EFP1_Touch
+OutputDir=
 
 [OutputGroup1]
 Name=Netlist Outputs
@@ -1134,6 +1134,46 @@ OutputName9=Specctra Design PCB
 OutputDocumentPath9=
 OutputVariantName9=
 OutputDefault9=0
+OutputType10=Ansoft Neutral
+OutputName10=Ansoft Neutral (AutoPCB)
+OutputDocumentPath10=
+OutputVariantName10=
+OutputDefault10=0
+OutputType11=HyperLynx
+OutputName11=HyperLynx (AutoPCB)
+OutputDocumentPath11=
+OutputVariantName11=
+OutputDefault11=0
+OutputType12=Orcad SDT Schematic
+OutputName12=Orcad SDT Schematic (AutoSCH)
+OutputDocumentPath12=
+OutputVariantName12=
+OutputDefault12=0
+OutputType13=Orcad v7 Capture Design
+OutputName13=Orcad v7 Capture Design (AutoSCH)
+OutputDocumentPath13=
+OutputVariantName13=
+OutputDefault13=0
+OutputType14=P-CAD ASCII
+OutputName14=P-CAD ASCII (AutoPCB)
+OutputDocumentPath14=
+OutputVariantName14=
+OutputDefault14=0
+OutputType15=P-CAD V16 Schematic Design
+OutputName15=P-CAD V16 Schematic Design (AutoSCH)
+OutputDocumentPath15=
+OutputVariantName15=
+OutputDefault15=0
+OutputType16=Protel PCB 2.8 ASCII
+OutputName16=Protel PCB 2.8 ASCII (AutoPCB)
+OutputDocumentPath16=
+OutputVariantName16=
+OutputDefault16=0
+OutputType17=SiSoft
+OutputName17=SiSoft (AutoPCB)
+OutputDocumentPath17=
+OutputVariantName17=
+OutputDefault17=0
 
 [OutputGroup10]
 Name=PostProcess Outputs
