@@ -1,0 +1,30 @@
+Output: Gerber X2 Files
+Type  : GerberX2
+From  : Project [105358-3BA003-02_EFP1_Touch.PrjPCB]
+   Generated File[105358-3LA003-02_EFP1_Touch_Copper_Signal_Top.gbr]
+   Generated File[105358-3LA003-02_EFP1_Touch_Copper_Signal_Bot.gbr]
+   Generated File[105358-3LA003-02_EFP1_Touch_Mechanical_20.gbr]
+   Generated File[105358-3LA003-02_EFP1_Touch_Mechanical_1.gbr]
+   Generated File[105358-3LA003-02_EFP1_Touch_Profile.gbr]
+   Generated File[105358-3LA003-02_EFP1_Touch_NPTH_Drill.gbr]
+   Generated File[105358-3LA003-02_EFP1_Touch_PTH_Drill.gbr]
+   Generated File[105358-3LA003-02_EFP1_Touch_Plated_Drill_1_2.gbr]
+   Generated File[105358-3LA003-02_EFP1_Touch_Plated_Drill_2_2.gbr]
+   Generated File[105358-3LA003-02_EFP1_Touch_Plated_Drill_2_2.gbr]
+   Generated File[105358-3LA003-02_EFP1_Touch_Drawing_1.gbr]
+   Generated File[105358-3LA003-02_EFP1_Touch_Drawing_2.gbr]
+   Generated File[105358-3LA003-02_EFP1_Touch_Drawing_3.gbr]
+   Generated File[105358-3LA003-02_EFP1_Touch_Drawing_4.gbr]
+   Generated File[105358-3LA003-02_EFP1_Touch_Drillmap_1.gbr]
+   Generated File[105358-3LA003-02_EFP1_Touch_Drillmap_2.gbr]
+   Generated File[105358-3LA003-02_EFP1_Touch_Drillmap_3.gbr]
+   Generated File[105358-3LA003-02_EFP1_Touch_Drillmap_4.gbr]
+   Generated File[105358-3LA003-02_EFP1_Touch.RUL]
+   Generated File[105358-3LA003-02_EFP1_Touch.EXTREP]
+   Generated File[105358-3LA003-02_EFP1_Touch.REP]
+
+
+Files Generated   : 21
+Documents Printed : 0
+
+Finished Output Generation At 16:50:21 On 22-12-2017
