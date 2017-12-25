@@ -28,7 +28,7 @@ DItemRevisionGUID=
 ReportSuppressedErrorsInMessages=0
 FSMCodingStyle=eFMSDropDownList_OneProcess
 FSMEncodingStyle=eFMSDropDownList_OneHot
-OutputPath=Project Outputs for 105358-3BA001-03_FP1
+OutputPath=
 LogFolderPath=
 ManagedProjectGUID=
 LinkedManagedProjectGUID=
@@ -229,54 +229,6 @@ DocumentPath=Project Outputs for 105358-3BA001-03_FP1\105358-3CL005-01_FP1.xls
 DItemRevisionGUID=
 
 [GeneratedDocument2]
-DocumentPath=Project Outputs for 105358-3BA001-03_FP1\Gerber Output\105358-3LA001-03_FP1_MECH.EXTREP
-DItemRevisionGUID=
-
-[GeneratedDocument3]
-DocumentPath=Project Outputs for 105358-3BA001-03_FP1\Gerber Output\105358-3LA001-03_FP1_MECH.REP
-DItemRevisionGUID=
-
-[GeneratedDocument4]
-DocumentPath=Project Outputs for 105358-3BA001-03_FP1\Gerber Output\105358-3LA001-03_FP1_MECH.RUL
-DItemRevisionGUID=
-
-[GeneratedDocument5]
-DocumentPath=Project Outputs for 105358-3BA001-03_FP1\Gerber Output\105358-3LA001-03_FP1_MECH_Copper_Signal_Bot.gbr
-DItemRevisionGUID=
-
-[GeneratedDocument6]
-DocumentPath=Project Outputs for 105358-3BA001-03_FP1\Gerber Output\105358-3LA001-03_FP1_MECH_Copper_Signal_Top.gbr
-DItemRevisionGUID=
-
-[GeneratedDocument7]
-DocumentPath=Project Outputs for 105358-3BA001-03_FP1\Gerber Output\105358-3LA001-03_FP1_MECH_Drawing_1.gbr
-DItemRevisionGUID=
-
-[GeneratedDocument8]
-DocumentPath=Project Outputs for 105358-3BA001-03_FP1\Gerber Output\105358-3LA001-03_FP1_MECH_Drillmap_1.gbr
-DItemRevisionGUID=
-
-[GeneratedDocument9]
-DocumentPath=Project Outputs for 105358-3BA001-03_FP1\Gerber Output\105358-3LA001-03_FP1_MECH_Mechanical_1.gbr
-DItemRevisionGUID=
-
-[GeneratedDocument10]
-DocumentPath=Project Outputs for 105358-3BA001-03_FP1\Gerber Output\105358-3LA001-03_FP1_MECH_Mechanical_16.gbr
-DItemRevisionGUID=
-
-[GeneratedDocument11]
-DocumentPath=Project Outputs for 105358-3BA001-03_FP1\Gerber Output\105358-3LA001-03_FP1_MECH_Mechanical_20.gbr
-DItemRevisionGUID=
-
-[GeneratedDocument12]
-DocumentPath=Project Outputs for 105358-3BA001-03_FP1\Gerber Output\105358-3LA001-03_FP1_MECH_NPTH_Drill.gbr
-DItemRevisionGUID=
-
-[GeneratedDocument13]
-DocumentPath=Project Outputs for 105358-3BA001-03_FP1\Gerber Output\105358-3LA001-03_FP1_MECH_PTH_Drill.gbr
-DItemRevisionGUID=
-
-[GeneratedDocument14]
 DocumentPath=Project Outputs for 105358-3BA001-03_FP1\Design Rule Check - 105358-3LA001-03_FP1.html
 DItemRevisionGUID=
 
@@ -387,7 +339,7 @@ SCH_HasExpandLogicalToPhysicalSheets=-1
 SaveSettingsToOutJob=-1
 
 [Generic_EDE]
-OutputDir=Project Outputs for 105358-3BA001-03_FP1
+OutputDir=
 
 [OutputGroup1]
 Name=Netlist Outputs
@@ -1183,46 +1135,6 @@ OutputName9=Specctra Design PCB
 OutputDocumentPath9=
 OutputVariantName9=
 OutputDefault9=0
-OutputType10=Ansoft Neutral
-OutputName10=Ansoft Neutral (AutoPCB)
-OutputDocumentPath10=
-OutputVariantName10=
-OutputDefault10=0
-OutputType11=HyperLynx
-OutputName11=HyperLynx (AutoPCB)
-OutputDocumentPath11=
-OutputVariantName11=
-OutputDefault11=0
-OutputType12=Orcad SDT Schematic
-OutputName12=Orcad SDT Schematic (AutoSCH)
-OutputDocumentPath12=
-OutputVariantName12=
-OutputDefault12=0
-OutputType13=Orcad v7 Capture Design
-OutputName13=Orcad v7 Capture Design (AutoSCH)
-OutputDocumentPath13=
-OutputVariantName13=
-OutputDefault13=0
-OutputType14=P-CAD ASCII
-OutputName14=P-CAD ASCII (AutoPCB)
-OutputDocumentPath14=
-OutputVariantName14=
-OutputDefault14=0
-OutputType15=P-CAD V16 Schematic Design
-OutputName15=P-CAD V16 Schematic Design (AutoSCH)
-OutputDocumentPath15=
-OutputVariantName15=
-OutputDefault15=0
-OutputType16=Protel PCB 2.8 ASCII
-OutputName16=Protel PCB 2.8 ASCII (AutoPCB)
-OutputDocumentPath16=
-OutputVariantName16=
-OutputDefault16=0
-OutputType17=SiSoft
-OutputName17=SiSoft (AutoPCB)
-OutputDocumentPath17=
-OutputVariantName17=
-OutputDefault17=0
 
 [OutputGroup10]
 Name=PostProcess Outputs
