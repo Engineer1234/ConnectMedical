@@ -190,3 +190,19 @@
 [1201/134205:WARNING:dns_config_service_win.cc(665)] Failed to read DnsConfig.
 [1201/134256:WARNING:dns_config_service_win.cc(665)] Failed to read DnsConfig.
 [1201/134303:WARNING:dhcp_proxy_script_fetcher_win.cc(345)] Unexpected error retrieving WPAD configuration from DHCP.
+[0118/080158:WARNING:dns_config_service_win.cc(665)] Failed to read DnsConfig.
+[0118/144652:WARNING:dns_config_service_win.cc(665)] Failed to read DnsConfig.
+[0118/144655:WARNING:dns_config_service_win.cc(665)] Failed to read DnsConfig.
+[0118/144655:WARNING:dns_config_service_win.cc(665)] Failed to read DnsConfig.
+[0122/084623:WARNING:dns_config_service_win.cc(665)] Failed to read DnsConfig.
+[0122/084625:WARNING:dns_config_service_win.cc(665)] Failed to read DnsConfig.
+[0122/101207:WARNING:dns_config_service_win.cc(665)] Failed to read DnsConfig.
+[0122/101209:WARNING:dns_config_service_win.cc(665)] Failed to read DnsConfig.
+[0122/101209:WARNING:dns_config_service_win.cc(665)] Failed to read DnsConfig.
+[0122/101210:WARNING:dns_config_service_win.cc(665)] Failed to read DnsConfig.
+[0122/101210:WARNING:dns_config_service_win.cc(665)] Failed to read DnsConfig.
+[0122/101212:WARNING:dns_config_service_win.cc(665)] Failed to read DnsConfig.
+[0122/101213:WARNING:dns_config_service_win.cc(665)] Failed to read DnsConfig.
+[0122/101214:WARNING:dns_config_service_win.cc(665)] Failed to read DnsConfig.
+[0122/101214:WARNING:dns_config_service_win.cc(665)] Failed to read DnsConfig.
+[0122/101215:WARNING:dns_config_service_win.cc(665)] Failed to read DnsConfig.
