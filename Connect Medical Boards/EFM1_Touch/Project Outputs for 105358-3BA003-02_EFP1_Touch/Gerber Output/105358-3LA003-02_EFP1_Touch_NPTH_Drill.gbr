@@ -1,9 +1,0 @@
-G04 Layer_Color=0*
-%FSLAX43Y43*%
-%MOMM*%
-%TF.FileFunction,NonPlated,1,2,NPTH,Drill*%
-%TF.Part,Single*%
-G01*
-G75*
-%TF.MD5,ff9403abde3a56e6b3f046d2c1585579*%
-M02*
