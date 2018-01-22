@@ -28,7 +28,7 @@ DItemRevisionGUID=
 ReportSuppressedErrorsInMessages=0
 FSMCodingStyle=eFMSDropDownList_OneProcess
 FSMEncodingStyle=eFMSDropDownList_OneHot
-OutputPath=Project Outputs for 105358-3BA001-03_FP1
+OutputPath=
 LogFolderPath=
 ManagedProjectGUID=
 LinkedManagedProjectGUID=
@@ -363,36 +363,36 @@ Path=C:\Users\kaka\Documents\Altium\Projects\Aerocrine\
 IncludeSubFolders=1
 
 [Parameter1]
-Name=PrjVersionControl_RevNumber
-Value=' B '
+Name=Project_Total_Sheets
+Value=X
 
 [Parameter2]
-Name=ProductionQuantity
-Value=15
+Name=Project_Revision
+Value=C
 
 [Parameter3]
-Name=Project_Board
-Value=EFP1
-
-[Parameter4]
-Name=Project_Customer
-Value=Innovation Zed
-
-[Parameter5]
-Name=Project_Document_Number
-Value=105358-3BA001-03
-
-[Parameter6]
 Name=Project_Drawn_By
 Value=Kartik Karuna
 
+[Parameter4]
+Name=Project_Document_Number
+Value=105358-3BA001-03
+
+[Parameter5]
+Name=Project_Customer
+Value=Innovation Zed
+
+[Parameter6]
+Name=Project_Board
+Value=EFP1
+
 [Parameter7]
-Name=Project_Revision
-Value=B
+Name=ProductionQuantity
+Value=15
 
 [Parameter8]
-Name=Project_Total_Sheets
-Value=X
+Name=PrjVersionControl_RevNumber
+Value=' C '
 
 [Configuration1]
 Name=Sources
@@ -461,7 +461,7 @@ SCH_HasExpandLogicalToPhysicalSheets=-1
 SaveSettingsToOutJob=-1
 
 [Generic_EDE]
-OutputDir=Project Outputs for 105358-3BA001-03_FP1
+OutputDir=
 
 [OutputGroup1]
 Name=Netlist Outputs
