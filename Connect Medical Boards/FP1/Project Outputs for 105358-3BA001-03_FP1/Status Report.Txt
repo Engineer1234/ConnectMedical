@@ -1,9 +1,10 @@
-Output: Bill of Materials
-Type  : BOM
-From  : Variant [[No Variations]] of Project [105358-3BA001-03_FP1.PrjPCB]
+Output: Test Point Report
+Type  : Test Points
+From  : Project [105358-3BA001-03_FP1.PrjPCB]
+   Generated File[Fabrication Testpoint Report for 105358-3LA001-03_FP1.csv]
 
 
-Files Generated   : 0
+Files Generated   : 1
 Documents Printed : 0
 
-Finished Output Generation At 17:36:54 On 23-01-2018
+Finished Output Generation At 21:28:10 On 23-01-2018
