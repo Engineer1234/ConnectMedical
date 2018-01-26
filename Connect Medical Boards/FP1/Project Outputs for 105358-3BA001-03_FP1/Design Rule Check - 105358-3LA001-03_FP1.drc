@@ -1,15 +1,15 @@
 Protel Design System Design Rule Check
 PCB File : C:\Users\KaKa\Documents\Altium\Projects\Connect Medical Boards\FP1\105358-3LA001-03_FP1.PcbDoc
-Date     : 23-01-2018
-Time     : 20:06:20
+Date     : 26-01-2018
+Time     : 06:21:42
 
 Processing Rule : Clearance Constraint (Gap=0.127mm) (All),(All)
-   Violation between Clearance Constraint: (0.1mm < 0.127mm) Between Pad Q502-G(-2.925mm,-9.717mm) on Component Side And Pad Q502-D(-3.325mm,-9.542mm) on Component Side 
-   Violation between Clearance Constraint: (0.1mm < 0.127mm) Between Pad Q502-S(-2.925mm,-9.367mm) on Component Side And Pad Q502-D(-3.325mm,-9.542mm) on Component Side 
-   Violation between Clearance Constraint: (0.1mm < 0.127mm) Between Pad Q502-G(-2.925mm,-9.717mm) on Component Side And Pad Q502-S(-2.925mm,-9.367mm) on Component Side 
-   Violation between Clearance Constraint: (0.1mm < 0.127mm) Between Pad Q402-D(0.735mm,-1.67mm) on Solder Side And Pad Q402-G(0.335mm,-1.845mm) on Solder Side 
-   Violation between Clearance Constraint: (0.1mm < 0.127mm) Between Pad Q402-S(0.335mm,-1.495mm) on Solder Side And Pad Q402-G(0.335mm,-1.845mm) on Solder Side 
-   Violation between Clearance Constraint: (0.1mm < 0.127mm) Between Pad Q402-D(0.735mm,-1.67mm) on Solder Side And Pad Q402-S(0.335mm,-1.495mm) on Solder Side 
+   Violation between Clearance Constraint: (0.1mm < 0.127mm) Between Pad Q502-D(-3.325mm,-9.542mm) on Component Side And Pad Q502-G(-2.925mm,-9.717mm) on Component Side 
+   Violation between Clearance Constraint: (0.1mm < 0.127mm) Between Pad Q502-S(-2.925mm,-9.367mm) on Component Side And Pad Q502-G(-2.925mm,-9.717mm) on Component Side 
+   Violation between Clearance Constraint: (0.1mm < 0.127mm) Between Pad Q502-D(-3.325mm,-9.542mm) on Component Side And Pad Q502-S(-2.925mm,-9.367mm) on Component Side 
+   Violation between Clearance Constraint: (0.1mm < 0.127mm) Between Pad Q402-G(0.335mm,-1.845mm) on Solder Side And Pad Q402-D(0.735mm,-1.67mm) on Solder Side 
+   Violation between Clearance Constraint: (0.1mm < 0.127mm) Between Pad Q402-S(0.335mm,-1.495mm) on Solder Side And Pad Q402-D(0.735mm,-1.67mm) on Solder Side 
+   Violation between Clearance Constraint: (0.1mm < 0.127mm) Between Pad Q402-G(0.335mm,-1.845mm) on Solder Side And Pad Q402-S(0.335mm,-1.495mm) on Solder Side 
 Rule Violations :6
 
 Processing Rule : Clearance Constraint (Gap=2.5mm) (InNetClass('Primary')),(InNetClass('Primary') or InNet('GND'))
@@ -43,16 +43,16 @@ Processing Rule : Power Plane Connect Rule(Relief Connect )(Expansion=0.508mm) (
    Violation between Starved Thermal on Ground Plane (GND): Pad J201-SH(13.446mm,-6.636mm) on Multi-Layer. Blocked 3 out of 4 entries.
 Rule Violations :1
 
-Processing Rule : Minimum Annular Ring (Minimum=0.125mm) (isVia)
+Processing Rule : Minimum Annular Ring (Minimum=0.074mm) (InDrillLayerPair('Inner Layer 2 - Solder Side'))
 Rule Violations :0
 
-Processing Rule : Minimum Annular Ring (Minimum=0.074mm) (InDrillLayerPair('Component Side - Inner Layer 1'))
+Processing Rule : Minimum Annular Ring (Minimum=0.125mm) (isVia)
 Rule Violations :0
 
 Processing Rule : Minimum Annular Ring (Minimum=0.2mm) (isPad)
 Rule Violations :0
 
-Processing Rule : Minimum Annular Ring (Minimum=0.074mm) (InDrillLayerPair('Inner Layer 2 - Solder Side'))
+Processing Rule : Minimum Annular Ring (Minimum=0.074mm) (InDrillLayerPair('Component Side - Inner Layer 1'))
 Rule Violations :0
 
 Processing Rule : Acute Angle Constraint (Minimum=60.000) (All)
@@ -68,7 +68,8 @@ Processing Rule : Minimum Solder Mask Sliver (Gap=0.075mm) (IsPad),(All)
 Rule Violations :0
 
 Processing Rule : Minimum Solder Mask Sliver (Gap=0.06mm) (All),(All)
-Rule Violations :0
+   Violation between Minimum Solder Mask Sliver Constraint: (0.033mm < 0.06mm) Between Via (0.35mm,-1.03mm) from Component Side to Solder Side And Pad Free-1(0mm,0mm) on Multi-Layer [Bottom Solder] Mask Sliver [0.033mm]
+Rule Violations :1
 
 Processing Rule : Silk To Solder Mask (Clearance=0mm) (IsPad),(All)
 Rule Violations :0
@@ -83,5 +84,5 @@ Processing Rule : Height Constraint (Min=0mm) (Max=25.4mm) (Prefered=12.7mm) (Al
 Rule Violations :0
 
 
-Violations Detected : 7
-Time Elapsed        : 00:00:04
+Violations Detected : 8
+Time Elapsed        : 00:00:02
