@@ -32,30 +32,12 @@ OutputPath=
 LogFolderPath=
 ManagedProjectGUID=
 LinkedManagedProjectGUID=
-IncludeDesignInRelease=0
 
 [Preferences]
 PrefsVaultGUID=
 PrefsRevisionGUID=
 
 [Document1]
-DocumentPath=105358-3SC003-02-A_Cover-Touch.SchDoc
-AnnotationEnabled=1
-AnnotateStartValue=101
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=IRIXRPXL
-
-[Document2]
 DocumentPath=Lib\PcbLib_EFM1_Touch.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -72,7 +54,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=WTCSFODD
 
-[Document3]
+[Document2]
 DocumentPath=Lib\Schlib_EFM1_Touch.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -89,8 +71,25 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=PUKPBPGW
 
+[Document3]
+DocumentPath=105358-3SC003-03_Cover-Touch.SchDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=IRIXRPXL
+
 [Document4]
-DocumentPath=105358-3LA003-02_EFP1_Touch.PcbDoc
+DocumentPath=105358-3LA003-03_EFP1_Touch-Flex.PcbDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -107,23 +106,6 @@ GenerateClassCluster=0
 DocumentUniqueId=UAMUBCUW
 
 [Document5]
-DocumentPath=CAMtastic171030_2045.Cam
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=
-
-[Document6]
 DocumentPath=105358-3BA001-02_EFP1_touch.OutJob
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -140,8 +122,8 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document7]
-DocumentPath=105358-3CD003-02_EFP1_Touch.PCBDwf
+[Document6]
+DocumentPath=105358-3CD003-03_EFP1_Touch.PCBDwf
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -157,7 +139,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document8]
+[Document7]
 DocumentPath=CAMtastic_EFP1_touch171222_16_52.Cam
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -174,7 +156,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document9]
+[Document8]
 DocumentPath=CAMtastic180119-08_37.Cam
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -191,8 +173,59 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document10]
+[Document9]
 DocumentPath=CAMtastic_NCDrill180119.Cam
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=
+
+[Document10]
+DocumentPath=CAMtastic_FLEXtouch180209-15_13.Cam
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=
+
+[Document11]
+DocumentPath=CAMtastic-NCDrill_EFP1_touch171222_16_52.Cam
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=
+
+[Document12]
+DocumentPath=CAMtastic171030_2045.Cam
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -289,111 +322,35 @@ DocumentPath=Project Outputs for 105358-3BA003-01_EFM1_Touch\Gerber Output\10535
 DItemRevisionGUID=
 
 [GeneratedDocument21]
-DocumentPath=Project Outputs for 105358-3BA003-02_EFP1_Touch\NC Drill Output\105358-3LA003-02_EFP1_Touch-Plated.TXT
+DocumentPath=Project Outputs for 105358-3BA003-03_EFP1_Touch-Flex\Gerber Output\105358-3LA003-03_EFP1_Touch-Flex.EXTREP
 DItemRevisionGUID=
 
 [GeneratedDocument22]
-DocumentPath=Project Outputs for 105358-3BA003-02_EFP1_Touch\NC Drill Output\105358-3LA003-02_EFP1_Touch.DRR
+DocumentPath=Project Outputs for 105358-3BA003-03_EFP1_Touch-Flex\Gerber Output\105358-3LA003-03_EFP1_Touch-Flex.GBL
 DItemRevisionGUID=
 
 [GeneratedDocument23]
-DocumentPath=Project Outputs for 105358-3BA003-02_EFP1_Touch\Gerber Output\105358-3LA003-02_EFP1_Touch.EXTREP
+DocumentPath=Project Outputs for 105358-3BA003-03_EFP1_Touch-Flex\Gerber Output\105358-3LA003-03_EFP1_Touch-Flex.GBO
 DItemRevisionGUID=
 
 [GeneratedDocument24]
-DocumentPath=Project Outputs for 105358-3BA003-02_EFP1_Touch\Gerber Output\105358-3LA003-02_EFP1_Touch.GBL
+DocumentPath=Project Outputs for 105358-3BA003-03_EFP1_Touch-Flex\Gerber Output\105358-3LA003-03_EFP1_Touch-Flex.GD1
 DItemRevisionGUID=
 
 [GeneratedDocument25]
-DocumentPath=Project Outputs for 105358-3BA003-02_EFP1_Touch\Gerber Output\105358-3LA003-02_EFP1_Touch.GD1
+DocumentPath=Project Outputs for 105358-3BA003-03_EFP1_Touch-Flex\Gerber Output\105358-3LA003-03_EFP1_Touch-Flex.GG1
 DItemRevisionGUID=
 
 [GeneratedDocument26]
-DocumentPath=Project Outputs for 105358-3BA003-02_EFP1_Touch\Gerber Output\105358-3LA003-02_EFP1_Touch.GG1
+DocumentPath=Project Outputs for 105358-3BA003-03_EFP1_Touch-Flex\Gerber Output\105358-3LA003-03_EFP1_Touch-Flex.GTL
 DItemRevisionGUID=
 
 [GeneratedDocument27]
-DocumentPath=Project Outputs for 105358-3BA003-02_EFP1_Touch\Gerber Output\105358-3LA003-02_EFP1_Touch.GTL
+DocumentPath=Project Outputs for 105358-3BA003-03_EFP1_Touch-Flex\Gerber Output\105358-3LA003-03_EFP1_Touch-Flex.REP
 DItemRevisionGUID=
 
 [GeneratedDocument28]
-DocumentPath=Project Outputs for 105358-3BA003-02_EFP1_Touch\NC Drill Output\105358-3LA003-02_EFP1_Touch.LDP
-DItemRevisionGUID=
-
-[GeneratedDocument29]
-DocumentPath=Project Outputs for 105358-3BA003-02_EFP1_Touch\Gerber Output\105358-3LA003-02_EFP1_Touch.REP
-DItemRevisionGUID=
-
-[GeneratedDocument30]
-DocumentPath=Project Outputs for 105358-3BA003-02_EFP1_Touch\Gerber Output\105358-3LA003-02_EFP1_Touch.RUL
-DItemRevisionGUID=
-
-[GeneratedDocument31]
-DocumentPath=Project Outputs for 105358-3BA003-02_EFP1_Touch\Gerber Output\105358-3LA003-02_EFP1_Touch_Copper_Signal_Bot.gbr
-DItemRevisionGUID=
-
-[GeneratedDocument32]
-DocumentPath=Project Outputs for 105358-3BA003-02_EFP1_Touch\Gerber Output\105358-3LA003-02_EFP1_Touch_Copper_Signal_Top.gbr
-DItemRevisionGUID=
-
-[GeneratedDocument33]
-DocumentPath=Project Outputs for 105358-3BA003-02_EFP1_Touch\Gerber Output\105358-3LA003-02_EFP1_Touch_Drawing_1.gbr
-DItemRevisionGUID=
-
-[GeneratedDocument34]
-DocumentPath=Project Outputs for 105358-3BA003-02_EFP1_Touch\Gerber Output\105358-3LA003-02_EFP1_Touch_Drawing_2.gbr
-DItemRevisionGUID=
-
-[GeneratedDocument35]
-DocumentPath=Project Outputs for 105358-3BA003-02_EFP1_Touch\Gerber Output\105358-3LA003-02_EFP1_Touch_Drawing_3.gbr
-DItemRevisionGUID=
-
-[GeneratedDocument36]
-DocumentPath=Project Outputs for 105358-3BA003-02_EFP1_Touch\Gerber Output\105358-3LA003-02_EFP1_Touch_Drawing_4.gbr
-DItemRevisionGUID=
-
-[GeneratedDocument37]
-DocumentPath=Project Outputs for 105358-3BA003-02_EFP1_Touch\Gerber Output\105358-3LA003-02_EFP1_Touch_Drillmap_1.gbr
-DItemRevisionGUID=
-
-[GeneratedDocument38]
-DocumentPath=Project Outputs for 105358-3BA003-02_EFP1_Touch\Gerber Output\105358-3LA003-02_EFP1_Touch_Drillmap_2.gbr
-DItemRevisionGUID=
-
-[GeneratedDocument39]
-DocumentPath=Project Outputs for 105358-3BA003-02_EFP1_Touch\Gerber Output\105358-3LA003-02_EFP1_Touch_Drillmap_3.gbr
-DItemRevisionGUID=
-
-[GeneratedDocument40]
-DocumentPath=Project Outputs for 105358-3BA003-02_EFP1_Touch\Gerber Output\105358-3LA003-02_EFP1_Touch_Drillmap_4.gbr
-DItemRevisionGUID=
-
-[GeneratedDocument41]
-DocumentPath=Project Outputs for 105358-3BA003-02_EFP1_Touch\Gerber Output\105358-3LA003-02_EFP1_Touch_Mechanical_1.gbr
-DItemRevisionGUID=
-
-[GeneratedDocument42]
-DocumentPath=Project Outputs for 105358-3BA003-02_EFP1_Touch\Gerber Output\105358-3LA003-02_EFP1_Touch_Mechanical_20.gbr
-DItemRevisionGUID=
-
-[GeneratedDocument43]
-DocumentPath=Project Outputs for 105358-3BA003-02_EFP1_Touch\Gerber Output\105358-3LA003-02_EFP1_Touch_NPTH_Drill.gbr
-DItemRevisionGUID=
-
-[GeneratedDocument44]
-DocumentPath=Project Outputs for 105358-3BA003-02_EFP1_Touch\Gerber Output\105358-3LA003-02_EFP1_Touch_Plated_Drill_1_2.gbr
-DItemRevisionGUID=
-
-[GeneratedDocument45]
-DocumentPath=Project Outputs for 105358-3BA003-02_EFP1_Touch\Gerber Output\105358-3LA003-02_EFP1_Touch_Plated_Drill_2_2.gbr
-DItemRevisionGUID=
-
-[GeneratedDocument46]
-DocumentPath=Project Outputs for 105358-3BA003-02_EFP1_Touch\Gerber Output\105358-3LA003-02_EFP1_Touch_Profile.gbr
-DItemRevisionGUID=
-
-[GeneratedDocument47]
-DocumentPath=Project Outputs for 105358-3BA003-02_EFP1_Touch\Gerber Output\105358-3LA003-02_EFP1_Touch_PTH_Drill.gbr
+DocumentPath=Project Outputs for 105358-3BA003-03_EFP1_Touch-Flex\Gerber Output\105358-3LA003-03_EFP1_Touch-Flex.RUL
 DItemRevisionGUID=
 
 [DeviceSheetFolder1]
@@ -963,7 +920,7 @@ OutputDocumentPath12=
 OutputVariantName12=[No Variations]
 OutputDefault12=0
 Configuration12_Name1=OutputConfigurationParameter1
-Configuration12_Item1=AddToAllLayerClasses.Set= |AddToAllPlots.Set=SerializeLayerHash.Version~2,ClassName~TLayerToBoolean,16908289~1|CentrePlots=False|DrillDrawingSymbol=GraphicsSymbol|DrillDrawingSymbolSize=200000|EmbeddedApertures=True|FilmBorderSize=10000000|FilmXSize=200000000|FilmYSize=160000000|FlashAllFills=False|FlashPadShapes=True|G54OnApertureChange=False|GenerateDRCRulesFile=True|GenerateDRCRulesFile=True|GenerateReliefShapes=True|GerberUnit=Metric|GerberUnit=Metric|IncludeUnconnectedMidLayerPads=False|LayerClassesMirror.Set= |LayerClassesPlot.Set= |LeadingAndTrailingZeroesMode=KeepLeadingAndTrailingZeroes|MaxApertureSize=2500000|MinusApertureTolerance=39|MinusApertureTolerance=39|Mirror.Set=SerializeLayerHash.Version~2,ClassName~TLayerToBoolean|MirrorDrillDrawingPlots=False|MirrorDrillGuidePlots=False|NoRegularPolygons=False|NumberOfDecimals=4|NumberOfDecimals=4|OptimizeChangeLocationCommands=True|OptimizeChangeLocationCommands=True|OriginPosition=Absolute|Panelize=False|Plot.Set=SerializeLayerHash.Version~2,ClassName~TLayerToBoolean,16777217~1,16842751~1|PlotPositivePlaneLayers=False|PlotUsedDrillDrawingLayerPairs=True|PlotUsedDrillGuideLayerPairs=True|PlusApertureTolerance=39|PlusApertureTolerance=39|Record=GerberView|SoftwareArcs=False|Sorted=False|Sorted=False
+Configuration12_Item1=AddToAllLayerClasses.Set= |AddToAllPlots.Set=SerializeLayerHash.Version~2,ClassName~TLayerToBoolean,16908289~1|CentrePlots=False|DrillDrawingSymbol=GraphicsSymbol|DrillDrawingSymbolSize=200000|EmbeddedApertures=True|FilmBorderSize=10000000|FilmXSize=200000000|FilmYSize=160000000|FlashAllFills=False|FlashPadShapes=True|G54OnApertureChange=False|GenerateDRCRulesFile=True|GenerateDRCRulesFile=True|GenerateReliefShapes=True|GerberUnit=Metric|GerberUnit=Metric|IncludeUnconnectedMidLayerPads=False|LayerClassesMirror.Set= |LayerClassesPlot.Set= |LeadingAndTrailingZeroesMode=KeepLeadingAndTrailingZeroes|MaxApertureSize=2500000|MinusApertureTolerance=39|MinusApertureTolerance=39|Mirror.Set=SerializeLayerHash.Version~2,ClassName~TLayerToBoolean|MirrorDrillDrawingPlots=False|MirrorDrillGuidePlots=False|NoRegularPolygons=False|NumberOfDecimals=4|NumberOfDecimals=4|OptimizeChangeLocationCommands=True|OptimizeChangeLocationCommands=True|OriginPosition=Absolute|Panelize=False|Plot.Set=SerializeLayerHash.Version~2,ClassName~TLayerToBoolean,16777217~1,16842751~1,16973831~1|PlotPositivePlaneLayers=False|PlotUsedDrillDrawingLayerPairs=True|PlotUsedDrillGuideLayerPairs=True|PlusApertureTolerance=39|PlusApertureTolerance=39|Record=GerberView|SoftwareArcs=False|Sorted=False|Sorted=False
 
 [OutputGroup6]
 Name=Report Outputs
@@ -1562,7 +1519,6 @@ Type110=1
 Type111=1
 Type112=1
 Type113=1
-MultiChannelAlternate=2
 
 [ERC Connection Matrix]
 L1=NNNNNNNNNNNWNNNWW
@@ -2404,7 +2360,7 @@ ComparisonOptions1=Kind=Net Class|MinPercent=75|MinMatch=3|ShowMatch=-1|Confirm=
 ComparisonOptions2=Kind=Component Class|MinPercent=75|MinMatch=3|ShowMatch=-1|Confirm=-1|UseName=-1|InclAllRules=0
 ComparisonOptions3=Kind=Rule|MinPercent=75|MinMatch=3|ShowMatch=-1|Confirm=-1|UseName=-1|InclAllRules=0
 ComparisonOptions4=Kind=Differential Pair|MinPercent=50|MinMatch=1|ShowMatch=0|Confirm=0|UseName=0|InclAllRules=0
-ComparisonOptions5=Kind=Structure Class|MinPercent=75|MinMatch=3|ShowMatch=-1|Confirm=-1|UseName=-1|InclAllRules=0
+ComparisonOptions5=Kind=Code Memory|MinPercent=75|MinMatch=3|ShowMatch=-1|Confirm=-1|UseName=-1|InclAllRules=0
 
 [SmartPDF]
 PageOptions=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-4|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter

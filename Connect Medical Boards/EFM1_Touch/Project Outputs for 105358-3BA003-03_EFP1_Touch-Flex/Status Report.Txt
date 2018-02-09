@@ -1,0 +1,12 @@
+Output: NC Drill Files
+Type  : NC Drill
+From  : Project [105358-3BA003-03_EFP1_Touch-Flex.PrjPCB]
+   Generated File[105358-3LA003-03_EFP1_Touch-Flex-Plated.TXT]
+   Generated File[105358-3LA003-03_EFP1_Touch-Flex.LDP]
+   Generated File[105358-3LA003-03_EFP1_Touch-Flex.DRR]
+
+
+Files Generated   : 3
+Documents Printed : 0
+
+Finished Output Generation At 15:15:37 On 2018-02-09
