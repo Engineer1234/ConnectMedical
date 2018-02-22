@@ -32,6 +32,7 @@ OutputPath=
 LogFolderPath=
 ManagedProjectGUID=
 LinkedManagedProjectGUID=
+IncludeDesignInRelease=0
 
 [Preferences]
 PrefsVaultGUID=
@@ -241,6 +242,40 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
+[Document13]
+DocumentPath=CAMtastic_FLEXtouch180212-15_13.Cam
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=
+
+[Document14]
+DocumentPath=CAMtastic_FLEXtouch180213-15_45.Cam
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=
+
 [GeneratedDocument1]
 DocumentPath=Project Outputs for 105358-3BA003-01_EFM1_Touch\Gerber Output\105358-3LA003-01_EFM1_Touch.EXTREP
 DItemRevisionGUID=
@@ -351,6 +386,98 @@ DItemRevisionGUID=
 
 [GeneratedDocument28]
 DocumentPath=Project Outputs for 105358-3BA003-03_EFP1_Touch-Flex\Gerber Output\105358-3LA003-03_EFP1_Touch-Flex.RUL
+DItemRevisionGUID=
+
+[GeneratedDocument29]
+DocumentPath=Project Outputs for 105358-3BA003-03_EFP1_Touch-Flex\Gerber Output\105358-3LA003-03_EFP1_Touch-Flex_Copper_Signal_Bot.gbr
+DItemRevisionGUID=
+
+[GeneratedDocument30]
+DocumentPath=Project Outputs for 105358-3BA003-03_EFP1_Touch-Flex\Gerber Output\105358-3LA003-03_EFP1_Touch-Flex_Copper_Signal_Top.gbr
+DItemRevisionGUID=
+
+[GeneratedDocument31]
+DocumentPath=Project Outputs for 105358-3BA003-03_EFP1_Touch-Flex\Gerber Output\105358-3LA003-03_EFP1_Touch-Flex_Drawing_1.gbr
+DItemRevisionGUID=
+
+[GeneratedDocument32]
+DocumentPath=Project Outputs for 105358-3BA003-03_EFP1_Touch-Flex\Gerber Output\105358-3LA003-03_EFP1_Touch-Flex_Drawing_2.gbr
+DItemRevisionGUID=
+
+[GeneratedDocument33]
+DocumentPath=Project Outputs for 105358-3BA003-03_EFP1_Touch-Flex\Gerber Output\105358-3LA003-03_EFP1_Touch-Flex_Drawing_3.gbr
+DItemRevisionGUID=
+
+[GeneratedDocument34]
+DocumentPath=Project Outputs for 105358-3BA003-03_EFP1_Touch-Flex\Gerber Output\105358-3LA003-03_EFP1_Touch-Flex_Drawing_4.gbr
+DItemRevisionGUID=
+
+[GeneratedDocument35]
+DocumentPath=Project Outputs for 105358-3BA003-03_EFP1_Touch-Flex\Gerber Output\105358-3LA003-03_EFP1_Touch-Flex_Drillmap_1.gbr
+DItemRevisionGUID=
+
+[GeneratedDocument36]
+DocumentPath=Project Outputs for 105358-3BA003-03_EFP1_Touch-Flex\Gerber Output\105358-3LA003-03_EFP1_Touch-Flex_Drillmap_2.gbr
+DItemRevisionGUID=
+
+[GeneratedDocument37]
+DocumentPath=Project Outputs for 105358-3BA003-03_EFP1_Touch-Flex\Gerber Output\105358-3LA003-03_EFP1_Touch-Flex_Drillmap_3.gbr
+DItemRevisionGUID=
+
+[GeneratedDocument38]
+DocumentPath=Project Outputs for 105358-3BA003-03_EFP1_Touch-Flex\Gerber Output\105358-3LA003-03_EFP1_Touch-Flex_Drillmap_4.gbr
+DItemRevisionGUID=
+
+[GeneratedDocument39]
+DocumentPath=Project Outputs for 105358-3BA003-03_EFP1_Touch-Flex\Gerber Output\105358-3LA003-03_EFP1_Touch-Flex_Legend_Bot.gbr
+DItemRevisionGUID=
+
+[GeneratedDocument40]
+DocumentPath=Project Outputs for 105358-3BA003-03_EFP1_Touch-Flex\Gerber Output\105358-3LA003-03_EFP1_Touch-Flex_Legend_Top.gbr
+DItemRevisionGUID=
+
+[GeneratedDocument41]
+DocumentPath=Project Outputs for 105358-3BA003-03_EFP1_Touch-Flex\Gerber Output\105358-3LA003-03_EFP1_Touch-Flex_Mechanical_1.gbr
+DItemRevisionGUID=
+
+[GeneratedDocument42]
+DocumentPath=Project Outputs for 105358-3BA003-03_EFP1_Touch-Flex\Gerber Output\105358-3LA003-03_EFP1_Touch-Flex_Mechanical_20.gbr
+DItemRevisionGUID=
+
+[GeneratedDocument43]
+DocumentPath=Project Outputs for 105358-3BA003-03_EFP1_Touch-Flex\Gerber Output\105358-3LA003-03_EFP1_Touch-Flex_NPTH_Drill.gbr
+DItemRevisionGUID=
+
+[GeneratedDocument44]
+DocumentPath=Project Outputs for 105358-3BA003-03_EFP1_Touch-Flex\Gerber Output\105358-3LA003-03_EFP1_Touch-Flex_Paste_Bot.gbr
+DItemRevisionGUID=
+
+[GeneratedDocument45]
+DocumentPath=Project Outputs for 105358-3BA003-03_EFP1_Touch-Flex\Gerber Output\105358-3LA003-03_EFP1_Touch-Flex_Paste_Top.gbr
+DItemRevisionGUID=
+
+[GeneratedDocument46]
+DocumentPath=Project Outputs for 105358-3BA003-03_EFP1_Touch-Flex\Gerber Output\105358-3LA003-03_EFP1_Touch-Flex_Plated_Drill_1_2.gbr
+DItemRevisionGUID=
+
+[GeneratedDocument47]
+DocumentPath=Project Outputs for 105358-3BA003-03_EFP1_Touch-Flex\Gerber Output\105358-3LA003-03_EFP1_Touch-Flex_Plated_Drill_2_2.gbr
+DItemRevisionGUID=
+
+[GeneratedDocument48]
+DocumentPath=Project Outputs for 105358-3BA003-03_EFP1_Touch-Flex\Gerber Output\105358-3LA003-03_EFP1_Touch-Flex_Profile.gbr
+DItemRevisionGUID=
+
+[GeneratedDocument49]
+DocumentPath=Project Outputs for 105358-3BA003-03_EFP1_Touch-Flex\Gerber Output\105358-3LA003-03_EFP1_Touch-Flex_PTH_Drill.gbr
+DItemRevisionGUID=
+
+[GeneratedDocument50]
+DocumentPath=Project Outputs for 105358-3BA003-03_EFP1_Touch-Flex\Gerber Output\105358-3LA003-03_EFP1_Touch-Flex_Soldermask_Bot.gbr
+DItemRevisionGUID=
+
+[GeneratedDocument51]
+DocumentPath=Project Outputs for 105358-3BA003-03_EFP1_Touch-Flex\Gerber Output\105358-3LA003-03_EFP1_Touch-Flex_Soldermask_Top.gbr
 DItemRevisionGUID=
 
 [DeviceSheetFolder1]
@@ -874,7 +1001,7 @@ OutputDocumentPath5=
 OutputVariantName5=
 OutputDefault5=0
 Configuration5_Name1=OutputConfigurationParameter1
-Configuration5_Item1=FileComment= |FileSubject=Autodetect|GenerateDRCRulesFile=True|GerberUnit=Metric|MinusApertureTolerance=39|NumberOfDecimals=3|OptimizeChangeLocationCommands=True|PlotBackDrillingPairs=True|PlotBlindViasPair0_Backdrill=False|PlotBlindViasPair0_HighLayer=Top Layer|PlotBlindViasPair0_LowLayer=Mid Layer 1|PlotBlindViasPair1_Backdrill=False|PlotBlindViasPair1_HighLayer=Mid Layer 1|PlotBlindViasPair1_LowLayer=Mid Layer 2|PlotBlindViasPair2_Backdrill=False|PlotBlindViasPair2_HighLayer=Mid Layer 2|PlotBlindViasPair2_LowLayer=Bottom Layer|PlotBlindViasPairs=False|PlotBoardProfile=True|PlotDrillDrawingPair0_Backdrill=False|PlotDrillDrawingPair0_HighLayer=Top Layer|PlotDrillDrawingPair0_LowLayer=Bottom Layer|PlotDrillDrawingPair1_Backdrill=False|PlotDrillDrawingPair1_HighLayer=Top Layer|PlotDrillDrawingPair1_LowLayer=Mid Layer 1|PlotDrillDrawingPair2_Backdrill=False|PlotDrillDrawingPair2_HighLayer=Mid Layer 1|PlotDrillDrawingPair2_LowLayer=Mid Layer 2|PlotDrillDrawingPair3_Backdrill=False|PlotDrillDrawingPair3_HighLayer=Mid Layer 2|PlotDrillDrawingPair3_LowLayer=Bottom Layer|PlotDrillDrawingPairs=False|PlotDrillGuidePair0_Backdrill=False|PlotDrillGuidePair0_HighLayer=Top Layer|PlotDrillGuidePair0_LowLayer=Bottom Layer|PlotDrillGuidePair1_Backdrill=False|PlotDrillGuidePair1_HighLayer=Top Layer|PlotDrillGuidePair1_LowLayer=Mid Layer 1|PlotDrillGuidePair2_Backdrill=False|PlotDrillGuidePair2_HighLayer=Mid Layer 1|PlotDrillGuidePair2_LowLayer=Mid Layer 2|PlotDrillGuidePair3_Backdrill=False|PlotDrillGuidePair3_HighLayer=Mid Layer 2|PlotDrillGuidePair3_LowLayer=Bottom Layer|PlotDrillGuidePairs=False|PlotNPTHPair0_Backdrill=False|PlotNPTHPair0_HighLayer=Top Layer|PlotNPTHPair0_LowLayer=Bottom Layer|PlotNPTHPairs=False|PlotPTHPair0_Backdrill=False|PlotPTHPair0_HighLayer=Top Layer|PlotPTHPair0_LowLayer=Bottom Layer|PlotPTHPairs=False|PlotX2.Set=SerializeLayerHash.Version~2,ClassName~TLayerToBoolean,16908308~1,16842754~1,16777217~1,16777218~1,16777219~1,16842751~1,16842753~1,16908289~1|PlusApertureTolerance=39|Record=GerberX2View|Sorted=True
+Configuration5_Item1=FileComment= |FileSubject=Autodetect|GenerateDRCRulesFile=True|GerberUnit=Metric|MinusApertureTolerance=39|NumberOfDecimals=3|OptimizeChangeLocationCommands=True|PlotBackDrillingPairs=True|PlotBlindViasPair0_Backdrill=False|PlotBlindViasPair0_HighLayer=Top Layer|PlotBlindViasPair0_LowLayer=Mid Layer 1|PlotBlindViasPair1_Backdrill=False|PlotBlindViasPair1_HighLayer=Mid Layer 1|PlotBlindViasPair1_LowLayer=Mid Layer 2|PlotBlindViasPair2_Backdrill=False|PlotBlindViasPair2_HighLayer=Mid Layer 2|PlotBlindViasPair2_LowLayer=Bottom Layer|PlotBlindViasPairs=False|PlotBoardProfile=True|PlotDrillDrawingPair0_Backdrill=False|PlotDrillDrawingPair0_HighLayer=Top Layer|PlotDrillDrawingPair0_LowLayer=Bottom Layer|PlotDrillDrawingPair1_Backdrill=False|PlotDrillDrawingPair1_HighLayer=Top Layer|PlotDrillDrawingPair1_LowLayer=Mid Layer 1|PlotDrillDrawingPair2_Backdrill=False|PlotDrillDrawingPair2_HighLayer=Mid Layer 1|PlotDrillDrawingPair2_LowLayer=Mid Layer 2|PlotDrillDrawingPair3_Backdrill=False|PlotDrillDrawingPair3_HighLayer=Mid Layer 2|PlotDrillDrawingPair3_LowLayer=Bottom Layer|PlotDrillDrawingPairs=False|PlotDrillGuidePair0_Backdrill=False|PlotDrillGuidePair0_HighLayer=Top Layer|PlotDrillGuidePair0_LowLayer=Bottom Layer|PlotDrillGuidePair1_Backdrill=False|PlotDrillGuidePair1_HighLayer=Top Layer|PlotDrillGuidePair1_LowLayer=Mid Layer 1|PlotDrillGuidePair2_Backdrill=False|PlotDrillGuidePair2_HighLayer=Mid Layer 1|PlotDrillGuidePair2_LowLayer=Mid Layer 2|PlotDrillGuidePair3_Backdrill=False|PlotDrillGuidePair3_HighLayer=Mid Layer 2|PlotDrillGuidePair3_LowLayer=Bottom Layer|PlotDrillGuidePairs=False|PlotNPTHPair0_Backdrill=False|PlotNPTHPair0_HighLayer=Top Layer|PlotNPTHPair0_LowLayer=Bottom Layer|PlotNPTHPairs=False|PlotPTHPair0_Backdrill=False|PlotPTHPair0_HighLayer=Top Layer|PlotPTHPair0_LowLayer=Bottom Layer|PlotPTHPairs=False|PlotX2.Set=SerializeLayerHash.Version~2,ClassName~TLayerToBoolean,16908308~1,16842754~1,16777217~1,16777218~1,16777219~1,16842751~1,16842753~1,16908289~1,16973831~1,16973832~1,16973833~1,16973834~1,16973830~1,16973835~1|PlusApertureTolerance=39|Record=GerberX2View|Sorted=True
 OutputType6=Board Stack Report
 OutputName6=Report Board Stack
 OutputDocumentPath6=
@@ -1519,6 +1646,7 @@ Type110=1
 Type111=1
 Type112=1
 Type113=1
+MultiChannelAlternate=2
 
 [ERC Connection Matrix]
 L1=NNNNNNNNNNNWNNNWW
@@ -2360,7 +2488,7 @@ ComparisonOptions1=Kind=Net Class|MinPercent=75|MinMatch=3|ShowMatch=-1|Confirm=
 ComparisonOptions2=Kind=Component Class|MinPercent=75|MinMatch=3|ShowMatch=-1|Confirm=-1|UseName=-1|InclAllRules=0
 ComparisonOptions3=Kind=Rule|MinPercent=75|MinMatch=3|ShowMatch=-1|Confirm=-1|UseName=-1|InclAllRules=0
 ComparisonOptions4=Kind=Differential Pair|MinPercent=50|MinMatch=1|ShowMatch=0|Confirm=0|UseName=0|InclAllRules=0
-ComparisonOptions5=Kind=Code Memory|MinPercent=75|MinMatch=3|ShowMatch=-1|Confirm=-1|UseName=-1|InclAllRules=0
+ComparisonOptions5=Kind=Structure Class|MinPercent=75|MinMatch=3|ShowMatch=-1|Confirm=-1|UseName=-1|InclAllRules=0
 
 [SmartPDF]
 PageOptions=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-4|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter

@@ -1,12 +1,36 @@
-Output: NC Drill Files
-Type  : NC Drill
+Output: Gerber X2 Files
+Type  : GerberX2
 From  : Project [105358-3BA003-03_EFP1_Touch-Flex.PrjPCB]
-   Generated File[105358-3LA003-03_EFP1_Touch-Flex-Plated.TXT]
-   Generated File[105358-3LA003-03_EFP1_Touch-Flex.LDP]
-   Generated File[105358-3LA003-03_EFP1_Touch-Flex.DRR]
+   Generated File[105358-3LA003-03_EFP1_Touch-Flex_Copper_Signal_Top.gbr]
+   Generated File[105358-3LA003-03_EFP1_Touch-Flex_Copper_Signal_Bot.gbr]
+   Generated File[105358-3LA003-03_EFP1_Touch-Flex_Legend_Bot.gbr]
+   Generated File[105358-3LA003-03_EFP1_Touch-Flex_Paste_Top.gbr]
+   Generated File[105358-3LA003-03_EFP1_Touch-Flex_Paste_Bot.gbr]
+   Generated File[105358-3LA003-03_EFP1_Touch-Flex_Soldermask_Top.gbr]
+   Generated File[105358-3LA003-03_EFP1_Touch-Flex_Legend_Top.gbr]
+   Generated File[105358-3LA003-03_EFP1_Touch-Flex_Soldermask_Bot.gbr]
+   Generated File[105358-3LA003-03_EFP1_Touch-Flex_Mechanical_20.gbr]
+   Generated File[105358-3LA003-03_EFP1_Touch-Flex_Mechanical_1.gbr]
+   Generated File[105358-3LA003-03_EFP1_Touch-Flex_Profile.gbr]
+   Generated File[105358-3LA003-03_EFP1_Touch-Flex_NPTH_Drill.gbr]
+   Generated File[105358-3LA003-03_EFP1_Touch-Flex_PTH_Drill.gbr]
+   Generated File[105358-3LA003-03_EFP1_Touch-Flex_Plated_Drill_1_2.gbr]
+   Generated File[105358-3LA003-03_EFP1_Touch-Flex_Plated_Drill_2_2.gbr]
+   Generated File[105358-3LA003-03_EFP1_Touch-Flex_Plated_Drill_2_2.gbr]
+   Generated File[105358-3LA003-03_EFP1_Touch-Flex_Drawing_1.gbr]
+   Generated File[105358-3LA003-03_EFP1_Touch-Flex_Drawing_2.gbr]
+   Generated File[105358-3LA003-03_EFP1_Touch-Flex_Drawing_3.gbr]
+   Generated File[105358-3LA003-03_EFP1_Touch-Flex_Drawing_4.gbr]
+   Generated File[105358-3LA003-03_EFP1_Touch-Flex_Drillmap_1.gbr]
+   Generated File[105358-3LA003-03_EFP1_Touch-Flex_Drillmap_2.gbr]
+   Generated File[105358-3LA003-03_EFP1_Touch-Flex_Drillmap_3.gbr]
+   Generated File[105358-3LA003-03_EFP1_Touch-Flex_Drillmap_4.gbr]
+   Generated File[105358-3LA003-03_EFP1_Touch-Flex.RUL]
+   Generated File[105358-3LA003-03_EFP1_Touch-Flex.EXTREP]
+   Generated File[105358-3LA003-03_EFP1_Touch-Flex.REP]
 
 
-Files Generated   : 3
+Files Generated   : 27
 Documents Printed : 0
 
-Finished Output Generation At 15:15:37 On 2018-02-09
+Finished Output Generation At 15:44:56 On 2018-02-13
