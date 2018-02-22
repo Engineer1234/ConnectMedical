@@ -1,9 +1,11 @@
-Output: Bill of Materials
-Type  : BOM
+Output: Generates pick and place files
+Type  : Pick Place
 From  : Variant [[No Variations]] of Project [105358-3BA001-03_FP1.PrjPCB]
+   Generated File[Pick Place for 105358-3LA001-03_FP1.txt]
+   Generated File[Pick Place for 105358-3LA001-03_FP1.csv]
 
 
-Files Generated   : 0
+Files Generated   : 2
 Documents Printed : 0
 
-Finished Output Generation At 06:47:42 On 26-01-2018
+Finished Output Generation At 14:56:42 On 2018-02-22
