@@ -28,7 +28,7 @@ DItemRevisionGUID=
 ReportSuppressedErrorsInMessages=0
 FSMCodingStyle=eFMSDropDownList_OneProcess
 FSMEncodingStyle=eFMSDropDownList_OneHot
-OutputPath=
+OutputPath=Project Outputs for 105358-3BA001-03_FP1
 LogFolderPath=
 ManagedProjectGUID=
 LinkedManagedProjectGUID=
@@ -546,7 +546,7 @@ SCH_HasExpandLogicalToPhysicalSheets=-1
 SaveSettingsToOutJob=-1
 
 [Generic_EDE]
-OutputDir=
+OutputDir=Project Outputs for 105358-3BA001-03_FP1
 
 [OutputGroup1]
 Name=Netlist Outputs
