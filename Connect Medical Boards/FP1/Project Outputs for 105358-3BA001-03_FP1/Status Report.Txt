@@ -1,11 +1,19 @@
-Output: Generates pick and place files
-Type  : Pick Place
-From  : Variant [[No Variations]] of Project [105358-3BA001-03_FP1.PrjPCB]
-   Generated File[Pick Place for 105358-3LA001-03_FP1.txt]
-   Generated File[Pick Place for 105358-3LA001-03_FP1.csv]
+Output: NC Drill Files
+Type  : NC Drill
+From  : Project [105358-3BA001-03_FP1.PrjPCB]
+   Generated File[105358-3LA001-03_FP1-RoundHoles-Plated.TXT]
+   Generated File[105358-3LA001-03_FP1-RoundHoles-NonPlated.TXT]
+   Generated File[105358-3LA001-03_FP1-SlotHoles-Plated.TXT]
+   Generated File[105358-3LA001-03_FP1.DRL]
+   Generated File[105358-3LA001-03_FP1-RoundHoles-Plated.TX1]
+   Generated File[105358-3LA001-03_FP1.DR1]
+   Generated File[105358-3LA001-03_FP1-RoundHoles-Plated.TX2]
+   Generated File[105358-3LA001-03_FP1.DR2]
+   Generated File[105358-3LA001-03_FP1.LDP]
+   Generated File[105358-3LA001-03_FP1.DRR]
 
 
-Files Generated   : 2
+Files Generated   : 10
 Documents Printed : 0
 
-Finished Output Generation At 14:56:42 On 2018-02-22
+Finished Output Generation At 13:11:21 On 2018-03-08
